@@ -1,33 +1,89 @@
-# 入门路线
+# 安装与使用
 
-[返回资源导航](../README.md)
+[返回首页](../README.md) · [API 参数说明](../skills/image25/references/api.md)
 
-## 第一步：选一个小目标
+## 安装
 
-例如“做一张无文字的文章封面”。先明确主体、用途和画面比例，把精确文字排版留到后续步骤。
+Python 3.10+ 环境中：
+```sh
+uv tool install git+https://github.com/Fangx-AI/awesome-image2.5
+image25 --help
+```
 
-## 第二步：选择运行方式
+也可以克隆项目后执行 `python -m pip install .`。本仓库没有声称已经发布到 PyPI，因此不要使用不带 GitHub 地址的 `pip install image25-cli`。
 
-- 想用可视化创作界面：阅读 [InvokeAI](https://github.com/invoke-ai/InvokeAI) 的安装和使用说明。
-- 想搭建节点工作流：安装 [ComfyUI](https://github.com/Comfy-Org/ComfyUI)，从 [官方示例](https://github.com/comfyanonymous/ComfyUI_examples) 入手。
-- 熟悉 Python：按 [Diffusers](https://github.com/huggingface/diffusers) 文档选择所需模型的 pipeline。
+## 配置 API Key
 
-安装前核对操作系统、内存、显存、模型大小与许可证。不同模型的需求差异很大，本合集不提供统一的最低显存承诺。没有合适硬件时，可以查阅所选模型官方文档是否提供托管体验入口。
+通过本机密钥管理工具或终端设置 `OPENAI_API_KEY`。不在聊天、Issue 或提交中粘贴真实密钥。
 
-## 第三步：生成和比较
+PowerShell：
+```powershell
+$env:OPENAI_API_KEY = '<your-key>'
+```
 
-选用一个 [提示词模板](prompts.md)，先生成基准图。下一轮只修改构图、色彩或光线中的一项，并记录参数。若工具支持固定种子，可用于减少部分随机差异，但不保证跨设备或版本复现。
+Bash / zsh：
+```sh
+export OPENAI_API_KEY='<your-key>'
+```
 
-## 第四步：解决具体问题
+示例值需要在自己的终端替换。CLI 只读取进程环境，不读取 .env 或家目录文件；官方端点固定为 https://api.openai.com/v1。真实请求按账户规则计费。
 
-| 问题 | 可尝试的办法 |
+## 提示词文件
+
+把完整提示词保存为 UTF-8 的 `prompt.txt`，避免复杂引号：
+```sh
+image25 --prompt-file prompt.txt --model flare --size 1536x1024 --dry-run
+image25 --prompt-file prompt.txt --model flare --size 1536x1024 -o generated/poster.png
+```
+
+## 多图合成
+
+输入顺序对应提示词中的 image 1、image 2：
+```sh
+image25 --prompt-file composite.txt --model sunburst -i scene.png -i object.png -o generated/composite.png
+```
+
+## 蒙版编辑
+
+蒙版为带 alpha 通道的 PNG，尺寸与第一张参考图相同。透明区域表示要编辑的区域。
+```sh
+image25 --prompt-file edit.txt --model sunburst -i original.png --mask mask.png -o generated/edit.png
+```
+
+## 透明输出和格式
+
+```sh
+image25 -p "A small ceramic fox, isolated" --background transparent --format webp -o generated/fox.webp
+```
+
+JPEG 不支持透明背景；输出文件后缀必须匹配格式。
+
+## 参数
+
+| 参数 | 用法 |
 | :--- | :--- |
-| 构图偏离预期 | 明确主体位置、视角与留白，减少冲突指令 |
-| 文字错误 | 缩短文字并逐字核对，或使用设计工具排版 |
-| 姿态和布局难控制 | 研究与所用基础模型匹配的 ControlNet 工作流 |
-| 希望借鉴参考图 | 研究支持参考图的模型或匹配的 IP-Adapter |
-| 分辨率不足 | 研究放大工具，并检查是否引入虚构细节 |
+| `-p / --prompt` | 文本提示词，与 --prompt-file 二选一 |
+| `--prompt-file` | UTF-8 文件 |
+| `--model` | flare、sunburst 或相应完整模型名；默认 flare |
+| `-i / --image` | 可重复，提供本地参考图片后自动走编辑接口 |
+| `--mask` | 第一张参考图对应的 PNG 蒙版 |
+| `--size` | 默认 1024x1024；支持 auto 或有效 WIDTHxHEIGHT |
+| `--quality` | auto、low、medium、high、xhigh、max |
+| `--background` | auto、opaque、transparent |
+| `--format` | png、jpeg、webp；默认 png |
+| `-o / --output` | 默认 generated/image.png；不覆盖已有文件 |
+| `--dry-run` | 校验并打印请求，不联网、不计费 |
 
-## 第五步：保存可复用结果
+## 输出与常见问题
 
-保存提示词、模型版本、参数和工作流文件。发布案例时，说明输入素材来源以及后处理过程。提交到本项目的图片应具备分享权限，案例说明应区分实际输出和预期目标。
+输出图旁会保存 `文件名.png.json`，包含提示词、请求模型、参数和 request ID。分享时检查是否包含私人提示词或文件名称。
+
+- 找不到命令：确认 uv 工具目录已加入 PATH，或在克隆目录中使用 `uv run image25`。
+- 缺少密钥：先用 --dry-run 验证，再在当前终端配置 OPENAI_API_KEY。
+- 输出已存在：改用新文件名。
+- 400：检查参数、尺寸和图像格式。
+- 401 / 403：检查密钥与模型访问权限。
+- 429：检查账户限额与速率限制。
+- 超时：服务端可能已处理请求；CLI 不会自动重试，先确认情况再决定是否再生成。
+
+本地模拟测试不证明真实账户访问已开通。

@@ -1,0 +1,1 @@
+Edit image 1: replace the main headline with the exact Chinese text “慢下来，看见生活”. Match the original headline's placement, perspective, color and visual weight. Preserve all other text, objects, colors, background texture and image dimensions. Do not add additional characters or redesign the layout.

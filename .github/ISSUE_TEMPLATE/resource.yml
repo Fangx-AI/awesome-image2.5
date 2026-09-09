@@ -1,37 +1,33 @@
-name: 推荐资源
-description: 推荐一个 AI 图像生成模型、工具或学习资源
-title: "[资源] "
+name: 提交提示词或案例
+description: 分享一个 Image 2.5 提示词或生成结果
+title: "[Gallery] "
 body:
   - type: input
-    id: name
+    id: title
     attributes:
-      label: 资源名称
-    validations:
-      required: true
-  - type: input
-    id: url
-    attributes:
-      label: 官方链接
-      placeholder: https://github.com/owner/repo
-    validations:
-      required: true
-  - type: dropdown
-    id: category
-    attributes:
-      label: 建议分类
-      options:
-        - 生成模型
-        - 创作界面
-        - 开发与训练
-        - 参考图与结构控制
-        - 修复与放大
-        - 学习与工作流
+      label: 案例标题与分类
     validations:
       required: true
   - type: textarea
-    id: value
+    id: prompt
     attributes:
-      label: 用途与收录理由
-      description: 请说明适用场景、核验日期、是否实际使用，以及你与项目的关联。
+      label: 完整提示词
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: 验证状态
+      options:
+        - prompt-only（尚未出图验证）
+        - host-model-unknown（宿主未披露模型）
+        - api-verified（有指定模型的调用记录）
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 模型、参数、结果与来源
+      description: 附模型名、日期、尺寸、质量、输入来源和可分享的输出；不要提交密钥。
     validations:
       required: true

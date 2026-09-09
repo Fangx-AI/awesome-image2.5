@@ -1,103 +1,157 @@
+<div align="center">
+
 # Awesome Image 2.5
 
-**从第一张图，到可复用的创作工作流。**
+### 把灵感变成图像，把好图变成可复用的 Skill。
 
-精选 AI 图像生成模型、创作工具、控制技术与学习资源，附带可修改的中文提示词模板。面向创作者、设计师和开发者。
+**GPT Image 2.5 提示词画廊 · Agent Skills · 生图 / 改图 CLI**
 
-[资源导航](#资源导航) · [提示词模板](docs/prompts.md) · [入门路线](docs/getting-started.md) · [贡献资源](CONTRIBUTING.md)
+[English](README.en.md) · [浏览画廊](skills/image25/references/gallery.md) · [快速开始](docs/getting-started.md) · [参与贡献](CONTRIBUTING.md)
 
-> `Image 2.5` 是本合集的项目名称，不指代某个模型版本，也不表示与模型厂商存在官方关联。
+![Image 2.5 创意概念封面](assets/cover.png)
 
-## 从这里开始
+**12 个原创配方 · 2 个 Skills · Flare / Sunburst 双模型 · 中文优先**
 
-| 你想做什么 | 先看这里 | 下一步 |
+</div>
+
+## 三种打开方式
+
+| 你想怎么用 | 入口 |
+| :--- | :--- |
+| 找到提示词，复制就用 | [分类提示词画廊](skills/image25/references/gallery.md) |
+| 让 Agent 帮你构思、生图、改图 | [Image 2.5 Skill](skills/image25/SKILL.md) |
+| 给一张图，提炼可复用提示词 | [Reverse Prompt Skill](skills/image25-reverse-prompt/SKILL.md) |
+| 用命令行连接官方 API | [CLI 安装与使用](docs/getting-started.md) |
+
+## 提示词画廊
+
+从商业摄影到中文海报，从界面设计到参考图编辑。点击分类查看完整提示词，并下载独立文本文件。
+
+| 摄影与空间 | 设计与插画 | 参考图编辑 |
 | :--- | :--- | :--- |
-| 使用可视化界面创作 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | 阅读安装要求，再尝试文生图与画布编辑 |
-| 搭建可以复用的工作流 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 从官方示例开始，记录模型与节点版本 |
-| 研究文字渲染和图像编辑 | [Qwen-Image](https://github.com/QwenLM/Qwen-Image) | 查看相应模型版本的示例与硬件要求 |
-| 用 Python 编写生成流程 | [Diffusers](https://github.com/huggingface/diffusers) | 运行所选模型对应的官方 pipeline 示例 |
-| 通过参考图控制生成 | [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) | 检查基础模型与适配器是否匹配 |
-| 微调自己的视觉风格 | [AI Toolkit](https://github.com/ostris/ai-toolkit) | 先确认目标模型支持情况，准备有使用权的数据 |
+| [透明收音机 · 产品摄影](skills/image25/references/prompts/product-radio.txt) | [植物小店 · 等距插画](skills/image25/references/prompts/botanical-shop.txt) | [宠物围巾 · 保持身份](skills/image25/references/prompts/pet-costume.txt) |
+| [沙漠圆门 · 建筑空间](skills/image25/references/prompts/desert-portal.txt) | [城市微光 · 中文海报](skills/image25/references/prompts/chinese-poster.txt) | [中文标题 · 文字替换](skills/image25/references/prompts/text-localize.txt) |
+| [柠檬意面 · 美食摄影](skills/image25/references/prompts/food-editorial.txt) | [阅读应用 · 界面概念](skills/image25/references/prompts/app-mockup.txt) | [多图参考 · 物件合成](skills/image25/references/prompts/reference-composite.txt) |
+| [专注时刻 · 文章封面](skills/image25/references/prompts/editorial-cover.txt) | [植物探险家 · 角色设定](skills/image25/references/prompts/character-sheet.txt) | [MOSS · 品牌提案](skills/image25/references/prompts/brand-board.txt) |
 
-## 资源导航
+> **来源与验证状态：** 上方封面是原创创意概念图，生成宿主未提供精确模型标识，不作为 Image 2.5 模型实测证据。12 个配方均为原创、尚未通过指定模型验证的提示词。详见 [图像来源记录](assets/PROVENANCE.md)。
 
-- [生成模型](#生成模型)
-- [创作界面](#创作界面)
-- [开发与训练](#开发与训练)
-- [参考图与结构控制](#参考图与结构控制)
-- [修复与放大](#修复与放大)
-- [学习与工作流](#学习与工作流)
-
-### 生成模型
-
-模型仓库、推理代码和模型权重可能采用不同许可证；下载和商用前请分别查看对应版本的说明。
-
-| 项目 | 简介 | 适合探索 |
-| :--- | :--- | :--- |
-| [FLUX.1](https://github.com/black-forest-labs/flux) | Black Forest Labs 的 FLUX.1 官方推理仓库 | 文生图推理与模型集成 |
-| [Qwen-Image](https://github.com/QwenLM/Qwen-Image) | 提供图像生成、复杂文字渲染与图像编辑相关模型和示例 | 带文字的视觉设计、编辑任务 |
-| [HunyuanImage 3.0](https://github.com/Tencent-Hunyuan/HunyuanImage-3.0) | 腾讯混元的原生多模态图像生成项目 | 多模态图像生成研究与部署 |
-
-### 创作界面
-
-- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 节点式生成界面、API 与后端，适合组织和分享工作流。
-- [InvokeAI](https://github.com/invoke-ai/InvokeAI) — 面向视觉创作的生成工具，提供 Web 界面与创作工作流。
-- [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) — Stable Diffusion 的 Web 界面；扩展和模型兼容性以项目文档为准。
-
-### 开发与训练
-
-- [Diffusers](https://github.com/huggingface/diffusers) — 基于 PyTorch 的扩散模型工具库，用于推理、实验与训练流程。
-- [AI Toolkit](https://github.com/ostris/ai-toolkit) — 扩散模型微调工具集；使用前确认所需模型及训练方式受支持。
-- [Kohya SS](https://github.com/bmaltais/kohya_ss) — Stable Diffusion 训练相关的图形界面与工具入口。
-
-### 参考图与结构控制
-
-- [ControlNet](https://github.com/lllyasviel/ControlNet) — 为扩散模型增加条件控制，可用于研究姿态、边缘与深度等结构约束。
-- [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) — 为预训练文生图扩散模型提供图像提示能力。
-
-这些组件不是通用插件。基础模型架构、权重、预处理器与运行工具需要匹配。
-
-### 修复与放大
-
-- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) — 面向真实图像与视频的修复项目，可用于探索生成图后处理与放大。
-
-### 学习与工作流
-
-- [ComfyUI Examples](https://github.com/comfyanonymous/ComfyUI_examples) — ComfyUI 官方示例仓库，适合从已有工作流理解节点连接。
-- [Diffusion Models Course](https://github.com/huggingface/diffusion-models-class) — Hugging Face 扩散模型课程材料，适合补足原理与代码实践；运行旧课程时留意依赖版本。
-
-## 中文提示词
-
-从描述“想要什么”开始，再补充构图、光线、材质和约束。每次只修改少量条件，便于比较结果。
+<details>
+<summary><strong>展开示例：城市微光 · 中文海报</strong></summary>
 
 ```text
-主体：一台透明外壳的便携式收音机。
-场景：浅灰色摄影棚背景，桌面干净。
-构图：三分之四侧面视角，主体位于右侧，左侧留出标题空间。
-光线：大面积柔光，边缘有轻微轮廓光。
-材质：透明塑料、磨砂金属、可见的内部电路。
-约束：不添加品牌标识、水印或额外文字。
-用途：横版科技产品介绍配图。
+为城市夜间摄影展设计一张竖版海报。
+主视觉是一束橙色路灯照在湿润的深蓝街道上，倒影形成简洁几何形状。
+上方清晰写出标题“城市微光”，下方仅写“夜间摄影展”。
+中文文字准确，标题明显大于副标题，留白充足。
+不增加其他文字、日期、标志或水印。
 ```
 
-[查看 5 个完整模板 →](docs/prompts.md)
+建议尺寸：1024x1536。生成后逐字检查文字。
 
-模板是本项目编写的创作起点，尚未做跨模型出图验证。画幅、分辨率、种子等设置请使用工具实际支持的参数。
+</details>
 
-## 收录标准
+<details>
+<summary><strong>展开示例：保持宠物身份的局部编辑</strong></summary>
 
-1. 优先链接官方仓库或原作者资源，避免二次搬运与失效镜像。
-2. 每个条目说明用途，不用未经验证的“最强”“免费商用”等结论。
-3. 工具、模型和学习材料分开归类；收录不等于质量排名。
-4. 新增资源需提供来源和具体价值；欢迎补充可复现的案例。
-5. 已失效、迁移或归档的资源通过 Issue 或 PR 标明，再决定更新或移除。
+```text
+为输入图中的宠物加一条芥末黄色针织围巾。
+保持面部比例、毛色花纹、眼睛颜色、姿态和表情。
+保留原始背景、相机角度和裁切。
+围巾自然地围在脖子上，不遮挡脸部，光照和阴影与原图一致。
+其余内容不变。
+```
 
-首版核验：**2026-09-09**。本次确认了 14 个上游仓库可访问且未归档，检查了项目定位；未进行本地安装、性能评测或许可证法律审查。本合集不是完整榜单，也不承诺持续实时更新。
+需要一张参考图；生成后检查围巾之外的区域是否发生变化。
 
-## 参与贡献
+</details>
 
-欢迎提交模型、工具、教程，以及有参数记录的生成案例。请先阅读 [贡献指南](CONTRIBUTING.md)，再通过 [Issue](https://github.com/Fangx-AI/awesome-image2.5/issues/new/choose) 或 Pull Request 提交。
+## 安装 Skill
 
-## 许可
+在 Codex 中使用内置安装器，分别提供需要的 Skill 文件夹链接：
 
-本项目原创文档与提示词采用 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)，详见 [LICENSE](LICENSE)。链接项目、模型权重、品牌标识及第三方素材遵循各自许可。
+```text
+$skill-installer
+安装 https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25
+```
+
+```text
+$skill-installer
+安装 https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25-reverse-prompt
+```
+
+其他支持 Agent Skills 的运行时，可将相应完整文件夹放入其文档指定的 skills 目录。不要覆盖已有同名 Skill。Skill 的安装与 CLI 安装相互独立。
+
+安装后可以这样说：
+
+```text
+用 $image25 帮我生成一张“城市微光”中文海报。
+用 $image25 给这张产品图换背景，保持产品形状和文字。
+用 $image25-reverse-prompt 分析这张参考图，提炼中文提示词。
+```
+
+## CLI 快速开始
+
+需要 Python 3.10+ 和 uv。先安装工具，再通过本机环境变量配置 OPENAI_API_KEY。
+
+```sh
+uv tool install git+https://github.com/Fangx-AI/awesome-image2.5
+```
+
+先检查请求，不调用 API：
+
+```sh
+image25 -p "A translucent cobalt-blue radio, studio photography" --model flare --dry-run
+```
+
+文生图：
+
+```sh
+image25 -p "A translucent cobalt-blue radio, studio photography" --model flare --size 1536x1024 -o generated/radio.png
+```
+
+参考图编辑：
+
+```sh
+image25 -p "Add a mustard scarf. Preserve the pet and background." --model sunburst -i pet.png -o generated/pet-edit.png
+```
+
+透明背景：
+
+```sh
+image25 -p "A tiny ceramic fox, isolated" --background transparent -o generated/fox.png
+```
+
+[更多用法：多图合成、蒙版、提示词文件、参数与故障排查 →](docs/getting-started.md)
+
+每次调用生成 1 张图，并保存提示词、模型和参数的 JSON 记录。CLI 不覆盖现有文件、不自动重试，也不读取其他目录里的密钥文件。
+
+## Image 2.5 模型
+
+| CLI 选项 | 实际模型标识 | 官方定位 |
+| :--- | :--- | :--- |
+| `--model flare`（默认） | `gpt-image-2.5-flare` | 日常高质量图像生成，侧重速度 |
+| `--model sunburst` | `gpt-image-2.5-sunburst` | 图像生成与编辑，侧重编辑精度 |
+
+质量选项：`auto / low / medium / high / xhigh / max`。
+
+核验日期：2026-09-09。来源：[Flare](https://developers.openai.com/api/docs/models/gpt-image-2.5-flare)、[Sunburst](https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst)、[图像生成指南](https://developers.openai.com/api/docs/guides/image-generation)。
+
+## 开发与验证
+
+```sh
+git clone https://github.com/Fangx-AI/awesome-image2.5.git
+cd awesome-image2.5
+uv sync
+uv run python -m unittest discover -s tests -v
+```
+
+自动化测试使用模拟响应，覆盖请求路由、模型参数、参考图顺序、蒙版校验、输出保存及失败清理。尚未通过本仓库 CLI 发起真实付费生图请求。
+
+## 致谢与贡献
+
+项目形态参考 [wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) 的「画廊 + Skills + CLI」组织方式。本仓库的提示词与实现独立编写，未复制其代码或示例图片。
+
+欢迎提交附带模型、提示词、参数和来源的真实 Image 2.5 案例，详见 [贡献指南](CONTRIBUTING.md)。
+
+原创代码与文档采用 [CC0 1.0](LICENSE)。第三方内容遵循原许可。本项目由社区维护，与 OpenAI 无官方关联。

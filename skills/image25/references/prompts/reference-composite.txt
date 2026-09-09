@@ -1,0 +1,1 @@
+Use image 1 as the target scene and image 2 as the reference for the object to insert. Place the main object from image 2 on the empty surface in image 1. Preserve its shape and material while matching the target scene's camera perspective, scale, lighting direction and contact shadow. Keep all existing objects and the original crop from image 1 unchanged.
