@@ -2,69 +2,55 @@
 
 # Awesome Image 2.5
 
-### 把灵感变成图像，把好图变成可复用的 Skill。
+**从可复制的提示词，到能检查结果的图像工作流。**
 
-**GPT Image 2.5 提示词画廊 · Agent Skills · 生图 / 改图 CLI**
+GPT Image 2.5 · 中文创作 · 图像编辑 · Agent Skills · CLI
 
-[English](README.en.md) · [浏览画廊](skills/image25/references/gallery.md) · [快速开始](docs/getting-started.md) · [参与贡献](CONTRIBUTING.md)
+[实图与前后对比](docs/showcase.md) · [分类案例](skills/image25/references/gallery.md) · [快速开始](docs/getting-started.md) · [English](README.en.md)
 
-![Image 2.5 创意概念封面](assets/cover.png)
-
-**12 个原创配方 · 2 个 Skills · Flare / Sunburst 双模型 · 中文优先**
+![中文茶饮广告灯箱](assets/showcase/tea-lightbox.png)
 
 </div>
 
-## 三种打开方式
+## 先看结果
 
-| 你想怎么用 | 入口 |
-| :--- | :--- |
-| 找到提示词，复制就用 | [分类提示词画廊](skills/image25/references/gallery.md) |
-| 让 Agent 帮你构思、生图、改图 | [Image 2.5 Skill](skills/image25/SKILL.md) |
-| 给一张图，提炼可复用提示词 | [Reverse Prompt Skill](skills/image25-reverse-prompt/SKILL.md) |
-| 用命令行连接官方 API | [CLI 安装与使用](docs/getting-started.md) |
+| 中文商业广告 | 阅读工作台 |
+| --- | --- |
+| ![茶饮广告](assets/showcase/tea-campaign.png) | ![阅读工作台](assets/showcase/field-notes-ui.png) |
+| [完整提示词](assets/showcase/tea-campaign.txt) | [完整提示词](assets/showcase/field-notes-ui.txt) |
 
-## 提示词画廊
+| 编辑前 | 编辑后：增加围巾 |
+| --- | --- |
+| ![参考宠物](assets/showcase/pet-portrait.png) | ![局部编辑](assets/showcase/pet-scarf.png) |
 
-从商业摄影到中文海报，从界面设计到参考图编辑。点击分类查看完整提示词，并下载独立文本文件。
+**实图附带完整提示词、输入关系和检查记录。** 这 6 张原创输出来自 Codex 内置生图工具，工具未提供精确模型 ID，因此没有标为指定 Image 2.5 模型实测。也记录风格偏移、细节变化等实际不足。[查看完整案例 →](docs/showcase.md)
 
-| 摄影与空间 | 设计与插画 | 参考图编辑 |
-| :--- | :--- | :--- |
-| [透明收音机 · 产品摄影](skills/image25/references/prompts/product-radio.txt) | [植物小店 · 等距插画](skills/image25/references/prompts/botanical-shop.txt) | [宠物围巾 · 保持身份](skills/image25/references/prompts/pet-costume.txt) |
-| [沙漠圆门 · 建筑空间](skills/image25/references/prompts/desert-portal.txt) | [城市微光 · 中文海报](skills/image25/references/prompts/chinese-poster.txt) | [中文标题 · 文字替换](skills/image25/references/prompts/text-localize.txt) |
-| [柠檬意面 · 美食摄影](skills/image25/references/prompts/food-editorial.txt) | [阅读应用 · 界面概念](skills/image25/references/prompts/app-mockup.txt) | [多图参考 · 物件合成](skills/image25/references/prompts/reference-composite.txt) |
-| [专注时刻 · 文章封面](skills/image25/references/prompts/editorial-cover.txt) | [植物探险家 · 角色设定](skills/image25/references/prompts/character-sheet.txt) | [MOSS · 品牌提案](skills/image25/references/prompts/brand-board.txt) |
+## 你能用它做什么
 
-> **来源与验证状态：** 上方封面是原创创意概念图，生成宿主未提供精确模型标识，不作为 Image 2.5 模型实测证据。12 个配方均为原创、尚未通过指定模型验证的提示词。详见 [图像来源记录](assets/PROVENANCE.md)。
+| 任务 | 入口 |
+| --- | --- |
+| 搜索、筛选、复制或下载提示词 | [搜索画廊 HTML](docs/gallery.html)（下载仓库后直接打开） |
+| 按摄影、设计、角色、教育、编辑等场景浏览 | [24 类提示词目录](skills/image25/references/gallery.md) |
+| 从产品图到广告，或从海报到样机 | [7 组完整工作流](docs/workflows.md) |
+| 让 Agent 帮你构思、出图和修改 | [Image 2.5 Skill](skills/image25/SKILL.md) |
+| 从参考图片提炼提示词 | [Reverse Prompt Skill](skills/image25-reverse-prompt/SKILL.md) |
+| 使用官方 API，保存提示词和参数记录 | [CLI 安装](docs/getting-started.md) |
+| 查阅社区实测及原始出处 | [社区来源](docs/community.md) |
 
-<details>
-<summary><strong>展开示例：城市微光 · 中文海报</strong></summary>
+提示词库包含 **132 个基础场景和 1,080 个明确标注的任务侧重变体**。变体共享场景，不计作独立案例；提示词总数不等于实测图片数。搜索页默认展示基础场景。支持 JSON、JSONL、CSV 导出。
 
-```text
-为城市夜间摄影展设计一张竖版海报。
-主视觉是一束橙色路灯照在湿润的深蓝街道上，倒影形成简洁几何形状。
-上方清晰写出标题“城市微光”，下方仅写“夜间摄影展”。
-中文文字准确，标题明显大于副标题，留白充足。
-不增加其他文字、日期、标志或水印。
+## 搜索与批量运行
+
+```sh
+image25 catalog "海报" --kind original
+image25 catalog --show chinese-poster
+image25 --recipe chinese-poster --dry-run
+image25 --recipe chinese-poster --model flare -o poster.png
+image25 batch examples/batch.json --dry-run
 ```
 
-建议尺寸：1024x1536。生成后逐字检查文字。
+目录搜索无需 API Key。实际生成需要配置本机 OPENAI_API_KEY。批量任务先整体预检，再顺序运行，失败即停。[质量标准](docs/quality.md) · [故障排查](docs/troubleshooting.md)
 
-</details>
-
-<details>
-<summary><strong>展开示例：保持宠物身份的局部编辑</strong></summary>
-
-```text
-为输入图中的宠物加一条芥末黄色针织围巾。
-保持面部比例、毛色花纹、眼睛颜色、姿态和表情。
-保留原始背景、相机角度和裁切。
-围巾自然地围在脖子上，不遮挡脸部，光照和阴影与原图一致。
-其余内容不变。
-```
-
-需要一张参考图；生成后检查围巾之外的区域是否发生变化。
-
-</details>
 
 ## 安装 Skill
 

@@ -1,0 +1,482 @@
+{
+  "collected_at": "2026-09-09T03:00:27.802151+00:00",
+  "upstream": "wuyoscar/GPT-Image2-Skill",
+  "commit": "135d873e1a843db5f122a15ddda02bd2845d4d25",
+  "files_requested": 33,
+  "files_read": 33,
+  "errors": [],
+  "sources": [
+    {
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1jk0p3v/tried_to_push_the_new_image_model_with_an/",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-cinematic-and-animation.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.reddit.com/r/midjourney/comments/1hkqr4x/isometric_maps_prompts_included/",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-isometric.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.reddit.com/r/midjourney/comments/1jmodcx/animated_pixel_art_food_prompts_included/",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-pixel-art.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.reddit.com/r/midjourney/comments/1jrcpan/fantasy_concept_arts_with_v7_prompts_included/",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-character-design.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.reddit.com/r/midjourney/comments/1kozn4u/retro_video_games_in_japan_prompts_included/",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-gaming.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.reddit.com/r/midjourney/comments/1kzzy77/cyberpunk_video_games_in_european_cities_prompts/",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-gaming.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.reddit.com/r/midjourney/comments/1l2d5dr/lowpoly_strategy_video_games_in_japan_prompts/",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-gaming.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.reddit.com/r/midjourney/comments/1lh2l98/anime_style_video_games_prompts_included/",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-gaming.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/67e414010000000007037315",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69d396140000000023012282",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-research-paper-figures.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e324cd0000000021039ca9",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e7878300000000230050bb",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-product-and-food.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e78cd4000000002103bdd3",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e7a01700000000230153f3",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e832170000000023012116",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e8cd0d0000000023007215",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e8eeed0000000021004a54",
+      "kind": "web",
+      "discovered_in": [
+        "docs/community-prompt-index.md",
+        "skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/ASxig6mFVYxrIE8-8Fthew",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-anime-and-manga.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/cht0001",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-anime-and-manga.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/LexnLin/status/2046952493213429886",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-brand-systems-and-identity.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/aleenaamiir/status/2047207315976368584",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-brand-systems-and-identity.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/den_turbin/status/2046863385791467773",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-brand-systems-and-identity.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/MANISH1027512",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-character-design.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-edit-endpoint-showcase.md",
+        "skills/gpt-image/references/gallery-official-openai-cookbook-examples.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/Sheldon056/status/2047157379020861782",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-fashion-editorial.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/john_my07/status/2047182640760140198",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-fashion-editorial.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/WolfRiccardo",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-gaming.md",
+        "skills/gpt-image/references/gallery-illustration.md",
+        "skills/gpt-image/references/gallery-photography.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/aleenaamiir/status/2046866168208916503",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-gaming.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/flowersslop",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-gaming.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/MrLarus",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/Panda20230902",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/Vtrivedy10/status/2046771959157887014",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/billtheinvestor/status/2047153211560399009",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-infographics-and-field-guides.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-ink-and-chinese.md",
+        "skills/gpt-image/references/gallery-isometric.md",
+        "skills/gpt-image/references/gallery-retro-and-cyberpunk.md",
+        "skills/gpt-image/references/gallery-watercolor.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/aleenaamiir/status/2046875573574877663",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-more-illustration-styles.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/AIimagined",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-photography.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/EddGorenstein",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-photography.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/patrickassale",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-photography.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/RoundtableSpace",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-pixel-art.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/ChillaiKalan__",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-product-and-food.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/Salmaaboukarr",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-product-and-food.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/mehvishs25",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-product-and-food.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e997a90000000022027c30",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-research-paper-figures.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.reddit.com/r/OpenAI/comments/1st5kcd/gpt2_cooked_this_photo_of_a_screen_prompt_macbook/",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-screen-photography.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69e5cb85000000001a027aa8",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/BubbleBrain",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/akokoi1",
+      "kind": "web",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/aleenaamiir/status/2047325329052823996",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/midori_tatsuta/status/2045441358530498797",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    },
+    {
+      "url": "https://x.com/palabraseca/status/2047079358326849911",
+      "kind": "x-post",
+      "discovered_in": [
+        "skills/gpt-image/references/gallery-typography-and-posters.md"
+      ],
+      "verification": "unreviewed",
+      "model": "unverified"
+    }
+  ]
+}

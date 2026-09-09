@@ -1,0 +1,14 @@
+{
+  "id": "pet-scarf",
+  "title": "局部编辑：只增加围巾",
+  "input": "pet-portrait",
+  "prompt": "Edit this exact cat photograph. Add only a small mustard-yellow knitted scarf wrapped naturally around the cat's neck, with a short loose end resting on the chest. Preserve the cat's exact facial identity, asymmetrical gray face patch, eye color, ears, whiskers, body shape, front paw position and curved tail. Preserve the window, cushion, plant, background, camera angle, crop and lighting. The scarf should be physically plausible with a soft contact shadow and visible knit texture. Do not change or beautify anything else. No text, collar or other accessories.",
+  "model": null,
+  "status": "host-model-unknown",
+  "source": "Codex built-in image generation",
+  "date": "2026-09-09",
+  "input_images": [
+    "pet-portrait.png"
+  ],
+  "postprocessing": "none"
+}

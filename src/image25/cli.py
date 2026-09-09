@@ -20,6 +20,7 @@ def parser():
     prompt = p.add_mutually_exclusive_group(required=True)
     prompt.add_argument("-p", "--prompt")
     prompt.add_argument("--prompt-file", type=Path)
+    prompt.add_argument("--recipe", help="Use an offline catalog recipe ID")
     p.add_argument("--model", choices=tuple(MODELS) + tuple(MODELS.values()), default="flare")
     p.add_argument("-i", "--image", action="append", type=Path, default=[])
     p.add_argument("--mask", type=Path)
@@ -33,7 +34,14 @@ def parser():
 
 
 def prepare(args):
-    prompt = args.prompt if args.prompt is not None else args.prompt_file.read_text(encoding="utf-8")
+    if args.recipe:
+        from .catalog import find_recipe
+        recipe = find_recipe(args.recipe)
+        prompt = recipe["prompt"]
+        if recipe["mode"] == "edit" and len(args.image) < recipe["requires"]:
+            raise ValueError(f"Recipe requires at least {recipe['requires']} reference image(s).")
+    else:
+        prompt = args.prompt if args.prompt is not None else args.prompt_file.read_text(encoding="utf-8")
     if not prompt.strip():
         raise ValueError("Prompt cannot be empty.")
     if args.size != "auto":
@@ -145,6 +153,13 @@ def run(args, client=None):
 
 
 def main(argv=None):
+    argv = list(sys.argv[1:] if argv is None else argv)
+    if argv and argv[0] == "catalog":
+        from .catalog import main as catalog_main
+        return catalog_main(argv[1:])
+    if argv and argv[0] == "batch":
+        from .batch import main as batch_main
+        return batch_main(argv[1:])
     args = parser().parse_args(argv)
     try:
         run(args)

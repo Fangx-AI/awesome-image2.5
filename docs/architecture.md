@@ -1,0 +1,38 @@
+# 项目结构与维护
+
+```text
+catalog/recipes.json               提示词与元数据的维护源
+catalog/recipes.csv / recipes.jsonl 批量导出
+src/image25/                       安装包与 CLI
+skills/image25/                    生图编辑 Skill 与可独立安装的参考资料
+skills/image25-reverse-prompt/      看图提炼提示词 Skill
+scripts/build_catalog.py           从维护源生成画廊、导出和安装包数据
+scripts/gallery-template.html      离线画廊模板
+docs/gallery.html                 可搜索的离线画廊
+docs/showcase.md                  有真实图片的精选案例
+assets/showcase/                  精选输出与生成来源记录
+tests/                           不调用付费接口的测试
+```
+
+## 更新提示词
+
+编辑 catalog/recipes.json 后运行：
+
+```sh
+python scripts/build_catalog.py
+python -m unittest discover -s tests -v
+```
+
+每条记录必须有唯一 id、所属分类、完整提示词、mode、kind、family_id、variant、status、建议尺寸和最低参考图数量。
+
+变体的 family_id 必须对应基础案例。变体不能通过改标题伪装成不同的原创场景。首页数字应明确展示组成。
+
+## 使用边界
+
+`--recipe` 只选择提示词，不静默覆盖 CLI 模型、尺寸或质量。索引中的 model 和 size 是建议值，实际请求以命令行设置为准。
+批量清单相对路径以清单所在目录为基准；任务相互独立，不支持把前一任务尚未生成的输出当作下一任务输入。
+批量运行失败即停；成功文件保留。再次运行请移除已完成任务或更换输出路径。
+
+## 发布前
+
+确认生成资料与维护源一致、所有本地链接有效、安装包包含 catalog JSON、CLI dry-run 可用、测试通过。公开图像需要注明来源。不要把私人输入图或环境文件放进提交。

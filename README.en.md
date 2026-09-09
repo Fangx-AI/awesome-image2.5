@@ -6,7 +6,11 @@
 
 ![Original creative concept cover](assets/cover.png)
 
-12 original prompt recipes · 2 installable skills · Flare + Sunburst · Python CLI
+132 base scenarios + 1,080 labeled variations · 24 categories · 2 installable skills · Flare + Sunburst
+
+[Six original outputs and two editing comparisons](docs/showcase.md) include complete prompts and provenance. The host did not expose their exact model identity; these are not verified Flare/Sunburst runs.
+
+Download the repository and open `docs/gallery.html` for offline search, filtering and exports. Use `image25 catalog --kind original` to search from the CLI, `image25 --recipe chinese-poster --dry-run` to inspect a recipe request, and `image25 batch examples/batch.json --dry-run` to validate a batch. [Community sources](docs/community.md) · [Workflows](docs/workflows.md)
 
 ## Use it your way
 
