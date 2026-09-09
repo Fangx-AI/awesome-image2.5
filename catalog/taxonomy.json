@@ -1,0 +1,394 @@
+[
+  {
+    "slug": "anime-and-manga",
+    "title": "🎌 动漫与漫画",
+    "laplace_numbers": [
+      71,
+      81,
+      86,
+      102,
+      107,
+      123
+    ],
+    "schema": "角色身份、镜头、动作、线条和分镜阅读顺序",
+    "check": "锁定每格的发型与服装；检查手部和气泡归属",
+    "prompt": "Create a two-page monochrome manga spread about an original bicycle courier caught in a sudden rainstorm. Use six panels in a clear left-to-right reading order, with one wide establishing panel, three action beats and two close-ups. Keep the courier's short hair, round glasses and yellow rain cape consistent. Use varied ink line weights and restrained screentone. Keep speech balloons empty for later lettering. Preserve clear gutters and readable silhouettes."
+  },
+  {
+    "slug": "gaming",
+    "title": "🎮 游戏与 HUD",
+    "laplace_numbers": [
+      40,
+      62,
+      80,
+      125
+    ],
+    "schema": "玩家视角、场景动线、HUD 区域和可玩性",
+    "check": "核对小地图、血条和场景对应；区分游戏画面与封面",
+    "prompt": "Create a 16:9 screenshot concept for an original third-person exploration game set in a flooded observatory. Place the player in the lower left looking toward a lit doorway. Reserve the lower right for three ability icons, the upper left for health and the upper right for a small map. Use consistent icon weights and generous spacing. Keep enemies and the traversal route visible; interface elements must not cover the character or objective."
+  },
+  {
+    "slug": "retro-and-cyberpunk",
+    "title": "🤖 复古与赛博朋克",
+    "laplace_numbers": [
+      12,
+      13,
+      37,
+      118
+    ],
+    "schema": "年代技术、城市结构、材质和霓虹色彩层次",
+    "check": "检查世界设定一致；不要把霓虹当作唯一风格线索",
+    "prompt": "Create a 16:9 concept board for an original retro-futurist harbor city. Divide it into a large street scene on the left and three stacked detail studies on the right: public phone, transit ticket and raincoat. Use rounded analog controls, enamel signs, copper wiring and weathered glass. Restrict light accents to amber and cyan against charcoal architecture. Repeat the same visual language in all four regions. No borrowed franchise logos or unreadable decorative lettering."
+  },
+  {
+    "slug": "cinematic-and-animation",
+    "title": "🎬 电影与动画",
+    "laplace_numbers": [
+      85,
+      87,
+      88,
+      106,
+      139
+    ],
+    "schema": "镜头组接、角色连续性、场景时间和灯光",
+    "check": "检查轴线、视线、道具及场景光线是否连续",
+    "prompt": "Create a six-panel storyboard in a 3 by 2 landscape grid for an original short film: a night-shift baker discovers a small bird in the shop. Show exterior, doorway, medium interaction, hand close-up, reverse angle and final wide shot. Keep the same apron, counter and warm window light in every panel. Use readable pencil-and-marker drawings, equal gutters and small panel numbers 1 through 6. Preserve screen direction and leave captions empty."
+  },
+  {
+    "slug": "character-design",
+    "title": "👤 角色设计与设定集",
+    "laplace_numbers": [
+      61,
+      76,
+      89,
+      90,
+      92,
+      97,
+      98
+    ],
+    "schema": "轮廓、比例、服饰结构、视图与表情",
+    "check": "逐视图核对配饰位置、左右手和比例",
+    "prompt": "Create a character reference sheet for an original mountain postal worker. Arrange front, side and back orthographic views on one shared baseline, with four small facial expressions underneath. The worker has a short navy jacket, orange scarf, square canvas satchel and sturdy boots. Preserve exact garment construction, body proportions and the satchel's side in every view. Use clean linework and flat color, a pale background and no dramatic perspective."
+  },
+  {
+    "slug": "typography-and-posters",
+    "title": "📝 排版与海报",
+    "laplace_numbers": [
+      1,
+      6,
+      26,
+      35,
+      47,
+      57,
+      75,
+      79,
+      82,
+      84,
+      111,
+      112,
+      113,
+      115,
+      117,
+      120
+    ],
+    "schema": "文案层级、网格、留白、主视觉和语言",
+    "check": "逐字校对标题、日期和价格；禁止额外卖点",
+    "prompt": "Design a 3:4 exhibition poster on warm ivory paper. Set the exact title \"夜间植物馆\" in large dark-green type across the upper third. Place a single cyanotype fern image in the middle, with generous negative space. At the bottom, align the exact text \"NIGHT BOTANICALS\" and \"09.18 — 10.12\" on a strict two-column grid. Use one small vermilion accent. Keep all text legible, without extra slogans or invented sponsor logos."
+  },
+  {
+    "slug": "illustration",
+    "title": "🎨 叙事与商业插画",
+    "laplace_numbers": [
+      28,
+      34,
+      48,
+      64,
+      110
+    ],
+    "schema": "故事动作、主体关系、轮廓和媒介边界",
+    "check": "检查叙事是否成立；区分插画笔触和摄影质感",
+    "prompt": "Create a landscape editorial illustration of a librarian delivering a book to a tiny rooftop garden. Put the librarian on the right and a waiting child on the left, connected by the passing book. Use layered cut-paper shapes, visible fiber edges, a limited moss-green and coral palette, and soft overlapping shadows. Let rooftop geometry establish depth. Keep the scene legible at thumbnail size and reserve clear space in the upper left for a headline."
+  },
+  {
+    "slug": "watercolor",
+    "title": "💧 水彩",
+    "laplace_numbers": [
+      109
+    ],
+    "schema": "透明罩染、纸白、湿边和色素沉积",
+    "check": "避免塑料般高光和统一模糊；保留边缘差异",
+    "prompt": "Paint a quiet greenhouse after rain as a transparent watercolor illustration. Use a landscape frame with a stone path leading toward a small open door. Leave paper white for wet leaves and window reflections. Combine soft wet-on-wet foliage with a few crisp dry-brush edges on pots. Use granulating ultramarine shadows and diluted yellow-green washes. Keep pencil construction faintly visible; avoid photographic sharpness, heavy oil impasto and glossy 3D surfaces."
+  },
+  {
+    "slug": "ink-and-chinese",
+    "title": "🖌️ 水墨与国风",
+    "laplace_numbers": [],
+    "schema": "散点透视、墨色浓淡、留白和题款",
+    "check": "题款字数与位置要明确；避免伪汉字",
+    "prompt": "Create a long horizontal ink-and-light-color landscape on warm rice paper. Show a river ferry approaching a village beneath distant mountains. Build depth with three overlapping layers, progressively lighter ink and generous untouched paper for mist. Use dry-brush texture for roof tiles and sparse cinnabar accents on lanterns. Reserve a small blank inscription area at the upper right. Keep the brushwork varied and avoid photographic perspective or decorative fake calligraphy."
+  },
+  {
+    "slug": "pixel-art",
+    "title": "🕹️ 像素艺术",
+    "laplace_numbers": [
+      49,
+      58
+    ],
+    "schema": "逻辑分辨率、调色板、像素簇和帧格",
+    "check": "检查像素尺度统一；避免平滑渐变和插值",
+    "prompt": "Create a pixel-art sprite sheet of an original delivery bicycle in eight directional views. Arrange the views in a 4 by 2 grid with equal 64 by 64 logical-pixel cells and consistent wheel size. Use a restricted sixteen-color palette, crisp nearest-neighbor edges and deliberate pixel clusters. Center every sprite on its cell baseline. Keep the background a flat light gray and avoid antialiasing, blur and continuous gradients."
+  },
+  {
+    "slug": "isometric",
+    "title": "📐 等距与微缩",
+    "laplace_numbers": [
+      33,
+      50,
+      59,
+      63,
+      77
+    ],
+    "schema": "轴测角度、比例、剖面和空间布局",
+    "check": "平行线不应随意汇聚；检查楼层及通道相连",
+    "prompt": "Create an isometric cutaway of a two-story neighborhood tea shop on a square canvas. Use consistent parallel axes and a fixed elevated view. The ground floor contains a counter, brewing station and four seats; the upper floor contains a small reading room reached by a visible staircase. Use warm wood, pale plaster and restrained green details. Keep walls cut away cleanly and furniture at a consistent scale, with no impossible connections."
+  },
+  {
+    "slug": "product-and-food",
+    "title": "📦 产品与食品",
+    "laplace_numbers": [
+      19,
+      23,
+      29,
+      42,
+      44,
+      46,
+      51,
+      53,
+      60,
+      66,
+      91,
+      114
+    ],
+    "schema": "产品几何、材料、布光、接触阴影与食物状态",
+    "check": "检查标签、器具结构、重力和食品质地",
+    "prompt": "Create a 3:4 studio product photograph of a fictional ceramic tea canister with a cream paper label reading exactly \"MORNING LEAF\". Place it at a slight three-quarter angle on a pale stone plinth, with two loose tea leaves nearby. Use a large soft key light from the left, a subtle dark reflection on the right and a grounded contact shadow. Preserve realistic ceramic roughness and paper texture. No floating lid, extra labels or unrelated props."
+  },
+  {
+    "slug": "brand-systems-and-identity",
+    "title": "🧩 品牌系统与视觉识别",
+    "laplace_numbers": [
+      24,
+      32,
+      36,
+      39,
+      55,
+      93
+    ],
+    "schema": "标志、色板、字体、版式与跨触点一致性",
+    "check": "同一标志重复出现时不可变形；品牌色和字号层级统一",
+    "prompt": "Create a square identity board for a fictional neighborhood bakery called \"NORTH CRUMB\". Use a modular grid containing a wordmark, three color swatches, a paper bag, a business card and one social announcement. Repeat the same rounded lettering, navy-and-butter palette and wheat motif across all applications. Keep packaging folds realistic and text sparse. Make the logo shape consistent at every scale; avoid unrelated mockups or additional brand names."
+  },
+  {
+    "slug": "photography",
+    "title": "📷 摄影与人像",
+    "laplace_numbers": [
+      15,
+      20,
+      21,
+      22,
+      27,
+      38,
+      52,
+      100,
+      103,
+      104,
+      105,
+      108,
+      119,
+      116
+    ],
+    "schema": "拍摄视角、光比、空间层次和自然细节",
+    "check": "不凭画面猜真实设备参数；检查皮肤与反射",
+    "prompt": "Create an environmental portrait of an adult bookbinder beside a workshop window on an overcast morning. Frame from the waist up, with the person slightly right of center and a workbench in the foreground. Use soft side light, natural skin texture, gently compressed perspective and a modest depth of field that keeps the tools recognizable. Include worn linen, paper dust and small hand imperfections. Avoid beauty-filter skin and overly cinematic neon lighting."
+  },
+  {
+    "slug": "screen-photography",
+    "title": "🖥️ 屏幕摄影",
+    "laplace_numbers": [
+      78
+    ],
+    "schema": "实体设备、拍摄角度、反光和屏幕内容",
+    "check": "区分真实拍屏与截图；保持屏幕透视一致",
+    "prompt": "Create a candid photograph of an open laptop on a wooden desk at night, viewed slightly from above. Show a fictional music library on screen with the exact heading \"Evening Library\" and three readable playlist rows. Include the keyboard edge, faint room reflections on the glass and a small warm desk lamp. Keep the displayed interface aligned to the screen plane. Use subtle sensor grain, avoiding exaggerated moire or a perfectly flat screenshot appearance."
+  },
+  {
+    "slug": "infographics-and-field-guides",
+    "title": "📊 信息图与知识卡",
+    "laplace_numbers": [
+      25,
+      31,
+      65,
+      69
+    ],
+    "schema": "知识分区、阅读路径、注释和图例",
+    "check": "核对事实与数值；图像不能代替专业内容审阅",
+    "prompt": "Design a vertical field-guide card about a fictional alpine flower named \"Silver Bell\". Use four clear regions: title, large labeled specimen, habitat sketch and three care notes. Draw thin leader lines to leaf, stem and blossom without crossings. Keep the palette restrained and use large readable labels. Clearly mark the card \"FICTIONAL SPECIMEN\". Leave data fields blank for supplied facts rather than inventing biological claims."
+  },
+  {
+    "slug": "research-paper-figures",
+    "title": "📚 科研论文图示",
+    "laplace_numbers": [
+      9
+    ],
+    "schema": "节点关系、图形语法、模块与数据依据",
+    "check": "生成图仅作构思；正式结果图需用真实数据和绘图工具",
+    "prompt": "Create a landscape conceptual method diagram for a fictional document retrieval system. Arrange four modules from left to right labeled exactly \"Documents\", \"Index\", \"Retriever\" and \"Answer\". Show one arrow between neighboring modules and a separate query entering the retriever from above. Use a white background, slate outlines and one teal highlight. Keep all labels large and relationships unambiguous. Do not invent benchmark values, error bars, citations or experimental results."
+  },
+  {
+    "slug": "official-openai-cookbook-examples",
+    "title": "🏢 官方示例与提示方法",
+    "laplace_numbers": [],
+    "schema": "官方样例、原始出处与可复用约束",
+    "check": "区分官方展示、指南与可执行参数",
+    "prompt": "Create a clean logo exploration sheet for an original plant-care service named \"STEM ROOM\". Present three distinct concepts in one horizontal row, each combining a simple leaf symbol with the same exact wordmark. Use dark green on an ivory background and maintain equal visual scale. Keep shapes readable at small sizes and avoid gradients. This is an original practice prompt, not a quoted official prompt."
+  },
+  {
+    "slug": "edit-endpoint-showcase",
+    "title": "✨ 参考图编辑与多图合成",
+    "laplace_numbers": [
+      94,
+      95
+    ],
+    "schema": "输入编号、修改范围、不可变项与蒙版",
+    "check": "对照输入检查身份、文字、布局及边界变化",
+    "prompt": "Edit image 1 by changing only the scarf to a mustard-yellow knitted scarf. Preserve the subject's face, pose, fur or hair, clothing, background, framing and light direction. Match the scarf's shadows and folds to the existing scene. Do not add accessories, crop the image or alter text. Treat any supplied mask as the intended edit region, then inspect the entire result for unintended changes."
+  },
+  {
+    "slug": "ui-ux-mockups",
+    "title": "📱 UI / UX 与设计系统",
+    "laplace_numbers": [
+      17,
+      45,
+      140,
+      141
+    ],
+    "schema": "屏幕规格、信息架构、组件、状态和数据",
+    "check": "检查对齐、中文可读性和组件一致性；设计图不等于可运行界面",
+    "prompt": "Design a front-facing desktop workspace UI for a fictional research app called \"FIELD NOTES\" on a 16:10 canvas. Allocate a narrow left navigation rail, a central document list and a right reading panel. Use an eight-point spacing rhythm, clear selected states and a calm ivory-and-sage palette. Include the exact navigation labels \"Library\", \"Projects\" and \"Archive\". Keep rows aligned and avoid decorative device frames or impossible interactive controls."
+  },
+  {
+    "slug": "data-visualization",
+    "title": "📈 数据可视化",
+    "laplace_numbers": [],
+    "schema": "数据表、视觉编码、坐标、图例与不确定性",
+    "check": "核对数值和比例；有真实数据时优先确定性绘图",
+    "prompt": "Create a conceptual data-visualization style board with three clearly labeled chart placeholders: \"Monthly trend\", \"Category share\" and \"Regional comparison\". Use consistent typography, a white background, restrained blue accents and accessible contrast. Leave numeric values and plotted results blank for real data. Show clear axis and legend positions. Mark the board \"LAYOUT STUDY\"; do not fabricate measurements or suggest this is an actual analysis."
+  },
+  {
+    "slug": "technical-illustration",
+    "title": "⚙️ 技术剖面与爆炸图",
+    "laplace_numbers": [],
+    "schema": "部件顺序、装配轴、连接关系和标注",
+    "check": "核对部件是否可装配；概念图不能作为生产图纸",
+    "prompt": "Create an exploded-view concept illustration of a fictional mechanical desk timer. Align the outer case, dial, hands, gear assembly and back cover along one central assembly axis. Use a pale technical background, restrained material colors and thin numbered leader lines that do not cross. Keep corresponding screw holes aligned. Label it \"CONCEPT ASSEMBLY\" and avoid dimensions or manufacturing claims that were not supplied."
+  },
+  {
+    "slug": "architecture-and-interior",
+    "title": "🏛️ 建筑与室内",
+    "laplace_numbers": [
+      83
+    ],
+    "schema": "空间功能、尺度、消失点、材料与光向",
+    "check": "检查门窗、楼梯和家具尺度；效果图不等于施工设计",
+    "prompt": "Create a photorealistic architectural concept of a small neighborhood reading room in a renovated brick building. Use a level eye-height view, one clear vanishing point and soft afternoon light entering from the left. Include a long oak table, wall shelves and an accessible uncluttered aisle. Show brick, linen and matte plaster distinctly. Keep furniture at plausible scale and avoid stairs, doors or windows that lead nowhere."
+  },
+  {
+    "slug": "scientific-and-educational",
+    "title": "🔬 科学与教育",
+    "laplace_numbers": [
+      30
+    ],
+    "schema": "对象结构、标注精度、图例与教学顺序",
+    "check": "科学内容由可靠资料提供；避免生成伪知识",
+    "prompt": "Create an educational layout study explaining the water cycle in a simple landscape diagram. Place ocean at left, mountains at right and clouds above. Use four large exact labels: \"Evaporation\", \"Condensation\", \"Precipitation\" and \"Collection\", each attached to an appropriate directed arrow. Keep land and water layers visually distinct and the reading path clear. Avoid decorative equations, unsupported statistics and confusing arrow directions."
+  },
+  {
+    "slug": "fashion-editorial",
+    "title": "👗 时尚编辑",
+    "laplace_numbers": [
+      73,
+      99,
+      101
+    ],
+    "schema": "服装轮廓、面料、姿势和场景叙事",
+    "check": "核对服装结构、手部和配饰连续性",
+    "prompt": "Create a full-length fashion editorial photograph of an adult model wearing a sculptural charcoal wool coat and rust-orange scarf. Place the model in a quiet concrete courtyard under soft winter light. Use a restrained upright pose that reveals the coat's silhouette, with visible fabric weight and natural folds. Keep the hands anatomically clear and the footwear grounded. Avoid brand logos and excessive skin retouching."
+  },
+  {
+    "slug": "fine-art-painting",
+    "title": "🎨 绘画与艺术语言",
+    "laplace_numbers": [
+      11
+    ],
+    "schema": "构图、笔触、颜料层、色彩关系和底材",
+    "check": "区分厚涂、薄涂与数码滤镜；避免只堆风格词",
+    "prompt": "Paint a riverside evening scene with visible broken-color brushwork and thin overlapping oil layers. Use a low horizon, a broad reflective river and a small warm-lit boat as the focal point. Let violet shadows and muted gold highlights interact without hard outlines. Vary edge sharpness and leave subtle canvas texture visible. Keep the result clearly a painting, not a photograph with a texture filter."
+  },
+  {
+    "slug": "more-illustration-styles",
+    "title": "✏️ 纸艺、3D 与材料风格",
+    "laplace_numbers": [
+      41,
+      54,
+      56,
+      67,
+      68,
+      70,
+      74,
+      124,
+      43
+    ],
+    "schema": "材质机制、形体、接触阴影和风格边界",
+    "check": "同一对象材质规律统一；防止只换贴图",
+    "prompt": "Create a square illustration of a small fox reading under a mushroom, built entirely from layered colored paper. Show cut edges, slight fiber roughness and soft contact shadows between layers. Use five paper colors and a simple silhouette. Keep every visible object within the paper-craft medium; do not add glossy plastic eyes or realistic fur. Reserve a calm border around the scene."
+  },
+  {
+    "slug": "cinematic-film-references",
+    "title": "🎥 电影镜头语言",
+    "laplace_numbers": [
+      18,
+      72
+    ],
+    "schema": "景别、机位、镜头秩序、环境尺度和调色",
+    "check": "电影感由空间与灯光建立；不把调色当作全部",
+    "prompt": "Create a contemplative widescreen film-frame concept of a lone traveler approaching a desert observatory at dawn. Place the traveler small in the lower third and the observatory as a simple monumental shape on the horizon. Use long soft shadows, dusty blue air and one muted warm window. Let empty space carry the mood. Keep detail sparse and avoid excessive lens flare or random futuristic ornaments."
+  },
+  {
+    "slug": "beauty-and-lifestyle",
+    "title": "💄 美妆与生活方式",
+    "laplace_numbers": [],
+    "schema": "日常场景、产品材料、皮肤与柔光",
+    "check": "避免虚构功效或配方；核对标签与瓶盖结构",
+    "prompt": "Create a vertical lifestyle photograph of an unlabeled amber glass skincare bottle on a travertine bathroom shelf beside a folded linen towel. Use diffused morning light through frosted glass, subtle reflections and a realistic contact shadow. Include a single small branch as a secondary element. Keep bottle geometry plausible and the scene quiet, without invented medical claims, ingredient labels or impossible liquid effects."
+  },
+  {
+    "slug": "events-and-experience",
+    "title": "🎟️ 活动、地图与导览",
+    "laplace_numbers": [
+      7,
+      8,
+      96
+    ],
+    "schema": "入口、区域、动线、地标与图例",
+    "check": "动线必须连通；虚构地图不可冒充实际导航",
+    "prompt": "Design a landscape visitor map for a fictional riverside book festival called \"RIVER READS\". Mark one entrance, three tent zones, a reading lawn, restrooms and an information desk. Connect them with a clear continuous walking route and include a concise legend. Use friendly flat illustration and large readable labels. Keep the map schematic and explicitly label it \"FICTIONAL EVENT MAP\"."
+  },
+  {
+    "slug": "tattoo-design",
+    "title": "🖋️ 纹身设计",
+    "laplace_numbers": [],
+    "schema": "身体位置、线条粗细、负空间与可转印结构",
+    "check": "检查细节是否适合实际尺寸；保留皮肤呼吸空间",
+    "prompt": "Create a vertical tattoo flash concept for a forearm placement, presented on off-white paper with no real body. Arrange a moth above two fern fronds in a balanced tapered silhouette. Use crisp black linework, limited stippling and generous negative-space gaps. Keep tiny details subordinate to the overall shape and include a small simplified stencil version beside it. Avoid dense muddy shading and lines too fine to remain distinct at the intended scale."
+  }
+]

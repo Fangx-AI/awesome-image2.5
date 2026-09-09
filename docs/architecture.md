@@ -1,6 +1,8 @@
 # 项目结构与维护
 
-所有发布页面统一运行 `python scripts/build_all.py` 重建。它按依赖顺序构建提示词实验区、本项目实图、旧版图谱和 Image 2.5 来源图库；不要只运行其中一个脚本后提交首页。
+所有发布页面统一运行 `python scripts/build_all.py` 重建。它按依赖顺序构建提示词实验区、本项目实图、旧版图谱、来源详情，最后由 `build_repository.py` 构建 GitHub README 与 31 类 Skill 图谱；不要只运行其中一个脚本后提交首页。
+
+`catalog/taxonomy.json` 维护 31 类的顺序、用途、检查点、新编练习 Prompt 和社区作品归类；`catalog/category-index.json` 是生成的计数索引。`skills/image25/references/gallery.md` 是 Skill 的正式分类入口；原有未出图实验目录迁到 `prompt-lab-index.md`。中英 README 使用同一份样张与分类顺序生成。
 
 `catalog/web-image25.json` 与 `catalog/community-image25.json` 是当前来源记录，生成 `catalog/image25-index.json`、分类页面及独立 Markdown / HTML 详情页。`scripts/collect_x_posts.py` 批量读取已发现的公开 X 链接；`scripts/collect_community_cases.py` 读取固定提交的社区案例。采集需要网络，日常构建不需要网络。
 

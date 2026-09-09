@@ -1,22 +1,95 @@
-# Prompt craft
+# Prompt Craft：从分类案例到可用指令
 
-## New images
+[分类图谱](gallery.md) · [API 参数](api.md)
 
-Use concrete visual instructions: subject → setting → composition → light/material → exact text → exclusions. Keep API controls (model, size, quality, format) separate from prompt prose. For typography, quote every requested string and specify hierarchy, placement and line breaks.
+## 1. 先选交付物，再选风格
 
-## Edits
+海报、游戏 HUD、品牌系统、论文示意和屏幕摄影不是同一个任务。先打开最接近的分类文件，阅读一到三个实际 Prompt，找到可保留的布局规则，再替换题材。画面好看不代表适合当前交付物。
 
-Use a small change contract:
-- Change: the specific object, material, lighting or text.
-- Preserve: identity, pose, geometry, crop, camera, other objects and untouched text.
-- Integrate: match perspective, occlusion, light direction and contact shadows.
+## 2. 先分配画布
 
-For multiple references, explicitly name each image's role. A mask's transparent region requests regeneration; opaque areas request preservation. The mask is guidance, not a guarantee of pixel-perfect locking. Inspect boundaries and unchanged regions after generation.
+先说明横竖版、网格、主体位置和留白，再描述装饰。示例：竖版海报，上方三分之一放标题，中间放产品，下方两列放日期与地址。API 像素尺寸写在命令参数中，画面内部布局写在 Prompt 中。
 
-## Reverse prompting
+## 3. 给画面一个清晰主次
 
-A visual description cannot recover the original hidden prompt or model settings. Describe visible evidence and label uncertain properties as interpretations. Keep readable text verbatim; never invent text obscured in the image.
+主体占多少画幅，配角如何引导视线，背景提供什么信息，都应明确。把“丰富细节”换成可数的物件与具体位置。缩略图下无法分辨主体时，先减少次要元素。
 
-## Iteration
+## 4. 精确文字单独列清单
 
-Compare one targeted change at a time. Reuse the previous image as the edit target when continuing an edit. Keep the full preservation contract in the revised prompt. For charts or scientific figures, use supplied facts only and verify labels and relationships; a visually plausible diagram is not evidence.
+逐行提供要出现的文案，用引号引用，并说明字号层级与位置。不要同时要求大量微型文字和远景全貌。生成后逐字核对价格、日期、人名和数字，不接受语义近似作为正确。
+
+## 5. 中文与多语言排版
+
+说明简体或繁体，保留用户原句；中英文字体层级分开。指定行数、换行位置、模块对齐。避免为了装饰让模型增添拼音、英文口号或假印章。文字多时拆成多张可读版面。
+
+## 6. 结构化 Prompt 用于复杂约束
+
+产品、食品和多材质场景可用以下结构，值必须是可见的设计要求。字段不是 API 参数。
+
+~~~json
+{
+  "canvas": "3:4 vertical product photograph",
+  "layout": "one hero bottle on a low plinth; copy above",
+  "subject": {"shape": "short amber glass bottle", "label": "NORTH LEAF"},
+  "materials": ["translucent glass", "matte paper", "rough stone"],
+  "light": "large soft source from upper left; grounded contact shadow",
+  "palette": ["warm ivory", "amber", "dark green"],
+  "avoid": ["extra labels", "floating lid", "plastic-looking glass"]
+}
+~~~
+
+## 7. 多面板必须约定连续性
+
+明确行列数、阅读顺序、面板尺寸、分隔线和各格任务。角色表写清服装、配饰和比例不变；分镜写清视线与运动方向；品牌板写清标志、字体和色板复用。不要仅写“九宫格”。
+
+## 8. UI 应当像设计说明
+
+列出导航、主区域、详情栏及空态或选中态，指定组件间距和文本。屏幕截图与设备样机是不同交付物：前者保持正视与平面，后者需要设备边缘、透视与反光。生成的 UI 视觉不能当作可交互实现。
+
+## 9. 品牌系统检查跨触点一致性
+
+同一字标放到包装、卡片、海报和图标上时，轮廓与比例必须一致。先固定标志、颜色与字体，再安排应用场景。若只需要标志，不要输出大量无关样机。
+
+## 10. 产品与食物分别控制形体和表面
+
+先确定瓶口、盖子、包装折线或食材形态，再写材料、反射和灯光。玻璃要有厚度与透射，纸张要有粗糙度，食物要有明确温度状态。检查接触阴影、重力与液体方向，避免漂亮却不可能的结构。
+
+## 11. 摄影写可观察的拍摄条件
+
+说明机位、景别、前后景、光源方向与环境。参考图没有可靠元数据时，不断言具体镜头、光圈或设备型号。把“自然”落实为皮肤纹理、轻微衣褶、场景磨损和合理反射。
+
+## 12. 风格用技术特征表达
+
+水彩：透明罩染、纸白、湿边、颗粒沉积。水墨：浓淡、干湿、留白、散点空间。像素：逻辑分辨率、调色板、像素簇。纸艺：纸层、切边和接触阴影。分别约束媒介，避免一张图同时要求矛盾的材质机制。
+
+## 13. 建筑、等距与技术图的空间规则
+
+建筑检查消失点、通道和家具尺度；等距图保持平行轴与统一比例；爆炸图说明装配方向和部件顺序。图像可以辅助构思，不能凭视觉细节声称结构经过工程验证。
+
+## 14. 信息图需要阅读路径
+
+规定标题、主体图、说明卡和图例区域；引线不交叉，编号可追踪。科普卡只使用已提供或可靠来源中的事实。没有数据时保留空位或明确虚构，不让模型编造权威文字。
+
+## 15. 科研和数据图需要语义约束
+
+写明节点、箭头方向、分区、坐标与颜色含义。生成式图片适合方法构思和风格草图；真实统计结果、比例、误差条与发表用图应从实际数据用确定性绘图工具制作。视觉可信度不等于数据可信度。
+
+## 16. 编辑写成修改合同
+
+- 修改：只改变哪个对象、文案、颜色或材料。
+- 保留：身份、姿势、几何、构图、光源、其他物件及未修改文字。
+- 融合：透视、遮挡、边缘、接触阴影和反射如何匹配。
+
+例如：只把围巾改为芥末黄色针织；保留人物脸部、动作、镜头位置、背景和光线。不要只写“改好看”。
+
+## 17. 多参考图与蒙版
+
+按输入顺序写角色：图 1 是编辑底图，图 2 提供产品外形，图 3 提供配色。说明借用哪一部分，不能把所有参考无差别混合。蒙版透明区域请求重绘，不保证其他像素绝对不变；输出后也检查蒙版外区域。
+
+## 18. 有针对性地排除和迭代
+
+排除最可能的偏差，例如纸艺图排除塑料材质、真实拍屏排除平面截图。不要堆几十个无关负面词。一次调整一个关键问题，保留每次的 Prompt、输入、输出与观察，确认改动确实解决问题。
+
+## 19. 案例证据与模型参数分开
+
+作者声明不是我们的执行回执；宿主型号未知时保持未知；旧版图谱保持旧版标签。练习 Prompt 不与无关示例图配成“生成效果”。模型、尺寸、质量和格式以实际 CLI/API 请求为准，不照抄旧版参数表。
