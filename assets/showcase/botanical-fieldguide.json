@@ -1,0 +1,11 @@
+{
+  "id": "botanical-fieldguide",
+  "title": "植物图鉴 · 多面板信息",
+  "prompt": "Create an exquisite botanical field-guide plate about the rosemary plant, landscape 3:2. Ivory archival paper, natural-history watercolor combined with precise fine ink linework, elegant readable editorial typography, orderly museum-book composition. Exact title 'ROSEMARY', subtitle 'Salvia rosmarinus'. Main left illustration: one large anatomically believable rosemary branch with narrow opposite needle-like green leaves, woody stem, and small pale blue flowers. Right column: three separately framed detail studies with exact labels 'LEAF', 'FLOWER', 'STEM'; a clearly enlarged leaf pair, a small blue flower closeup, and a woody stem detail respectively. Thin understated leader lines with no crossing, a balanced generous grid, small muted sage and blue color swatches along bottom without labels. No invented measurements, medicinal claims, additional paragraphs, garbled microtext or decorative stamps. The illustration should be detailed enough to inspire an educational design while keeping each panel immediately legible.",
+  "status": "host-model-unknown",
+  "model": null,
+  "source": "Codex built-in image generation",
+  "date": "2026-09-09",
+  "input_images": [],
+  "postprocessing": "none"
+}

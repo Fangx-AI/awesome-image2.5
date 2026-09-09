@@ -38,7 +38,7 @@ def build():
              f"{len(entries)} 条完整提示词 · {len(categories)} 个分类 · {original} 个基础案例 + {len(entries)-original} 个任务侧重变体。",
              "", "变体共享基础场景，分别强调边缘、材质、版式、可辨识性或编辑保真；不视为独立出图实测。",
              "全部条目的验证状态目前为 prompt-only。", "",
-             "[仓库首页](../../../README.md) · [离线搜索画廊](../../../docs/gallery.html) · [JSON](../../../catalog/recipes.json) · [CSV](../../../catalog/recipes.csv)", "",
+             "[仓库首页](../../../README.md) · [离线搜索画廊](../../../docs/prompt-lab.html) · [JSON](../../../catalog/recipes.json) · [CSV](../../../catalog/recipes.csv)", "",
              "| 分类 | 条目数 | 基础案例 |", "| :--- | ---: | ---: |"]
     for cid, cat in categories.items():
         group = [e for e in entries if e["category"] == cid]
@@ -58,7 +58,7 @@ def build():
     write("skills/image25/references/gallery.md", "\n".join(index))
     template = (ROOT / "scripts/gallery-template.html").read_text(encoding="utf-8")
     safe_data = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
-    write("docs/gallery.html", template.replace("__CATALOG_JSON__", safe_data).replace("__TOTAL__", str(len(entries))))
+    write("docs/prompt-lab.html", template.replace("__CATALOG_JSON__", safe_data).replace("__TOTAL__", str(len(entries))))
     print(f"Built {len(entries)} recipes, {original} original cases, {len(categories)} categories.")
 
 

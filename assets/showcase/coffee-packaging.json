@@ -1,0 +1,11 @@
+{
+  "id": "coffee-packaging",
+  "title": "咖啡包装 · 系列一致性",
+  "prompt": "Create a sophisticated brand packaging presentation for a fictional coffee roaster named 'ALTITUDE'. Landscape 3:2, three upright matte paper coffee bags aligned on one warm ivory studio surface, equal shape and scale, realistic folded tops and bottom gussets. Each bag carries the same crisp ALTITUDE wordmark at the same position and a different bold minimal abstract mountain illustration. Left bag deep midnight blue with copper illustration and the readable label '01 DAWN'; middle warm burnt orange with cream illustration and '02 SUMMIT'; right muted forest green with pale sage illustration and '03 DUSK'. Consistent graphic system, disciplined hierarchy, tactile uncoated paper, delicate natural shadows, premium contemporary graphic design, photographed almost straight-on. Nothing overlaps text. No cups, beans, decorative objects, extra labels, claims or watermark. Make this a convincing coordinated packaging design, not three unrelated styles.",
+  "status": "host-model-unknown",
+  "model": null,
+  "source": "Codex built-in image generation",
+  "date": "2026-09-09",
+  "input_images": [],
+  "postprocessing": "none"
+}

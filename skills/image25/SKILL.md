@@ -9,6 +9,8 @@ Turn the user's request into a usable image, preserving explicit content, model 
 
 ## Choose the route
 
+For a visual task, start with [the real-output gallery](references/visual-gallery.md). Select a case by the user's deliverable, read its complete prompt, and identify the composition rules to preserve versus the subject/text/colors to replace. For packaging preserve the shared layout; for menus inventory all text; for edits enumerate reference invariants. Read the case's observed limitations before reusing it. Use the prompt-only catalog below only if no real-output case fits.
+
 - Prompt-only request: return a tailored prompt without running generation.
 - Generation: describe subject, medium, composition, light, exact text and exclusions. Browse [the gallery](references/gallery.md) only when a relevant recipe helps. It routes to category files; read only the relevant category. Start from original cases, not numerous variants of the same scene.
 - Editing: inspect each supplied image using the runtime's image viewer. Identify image 1 as the edit target and assign a role to each other reference. State what changes and what remains fixed. See [craft notes](references/craft.md).

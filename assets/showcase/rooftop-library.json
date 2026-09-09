@@ -1,0 +1,11 @@
+{
+  "id": "rooftop-library",
+  "title": "屋顶图书馆 · 空间叙事",
+  "prompt": "Architectural visualization of a small public rooftop library at blue hour, landscape 3:2. A warm glowing timber-and-glass reading pavilion sits within a dense urban rooftop garden, with a gently curved translucent roof, fine timber ribs, floor-to-ceiling glass, visible bookshelves and several quiet reading nooks. A continuous accessible walkway connects the pavilion entrance to a sheltered terrace, shallow reflecting water along one edge, restrained native grasses and one small tree. Camera from an elevated three-quarter viewpoint, wide enough to understand the whole building and circulation. Background distant city softly recedes into a lavender sky. Warm interior lighting and cool exterior twilight, tactile stone and timber, physically credible structural members and glass reflections, refined architectural photography realism. Two small adult visitors for scale, no crowds, no words, no logos, no impossible floating columns. Clear distinction between circulation space and planting, plausible human scale, avoid generic futuristic megastructures.",
+  "status": "host-model-unknown",
+  "model": null,
+  "source": "Codex built-in image generation",
+  "date": "2026-09-09",
+  "input_images": [],
+  "postprocessing": "none"
+}

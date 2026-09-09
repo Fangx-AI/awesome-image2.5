@@ -5,7 +5,7 @@
 变体共享基础场景，分别强调边缘、材质、版式、可辨识性或编辑保真；不视为独立出图实测。
 全部条目的验证状态目前为 prompt-only。
 
-[仓库首页](../../../README.md) · [离线搜索画廊](../../../docs/gallery.html) · [JSON](../../../catalog/recipes.json) · [CSV](../../../catalog/recipes.csv)
+[仓库首页](../../../README.md) · [离线搜索画廊](../../../docs/prompt-lab.html) · [JSON](../../../catalog/recipes.json) · [CSV](../../../catalog/recipes.csv)
 
 | 分类 | 条目数 | 基础案例 |
 | :--- | ---: | ---: |

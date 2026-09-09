@@ -6,9 +6,12 @@ catalog/recipes.csv / recipes.jsonl 批量导出
 src/image25/                       安装包与 CLI
 skills/image25/                    生图编辑 Skill 与可独立安装的参考资料
 skills/image25-reverse-prompt/      看图提炼提示词 Skill
-scripts/build_catalog.py           从维护源生成画廊、导出和安装包数据
-scripts/gallery-template.html      离线画廊模板
-docs/gallery.html                 可搜索的离线画廊
+scripts/build_catalog.py           生成提示词实验区、导出和安装包数据
+scripts/build_showcase.py          生成实图首页、画廊与 Skill 案例
+catalog/showcase-notes.json        实图用途、拆解、替换方法与观察记录
+scripts/gallery-template.html      提示词实验区模板
+docs/prompt-lab.html               未出图提示词搜索
+docs/gallery.html                 可搜索的实图画廊
 docs/showcase.md                  有真实图片的精选案例
 assets/showcase/                  精选输出与生成来源记录
 tests/                           不调用付费接口的测试
@@ -25,7 +28,11 @@ python -m unittest discover -s tests -v
 
 每条记录必须有唯一 id、所属分类、完整提示词、mode、kind、family_id、variant、status、建议尺寸和最低参考图数量。
 
-变体的 family_id 必须对应基础案例。变体不能通过改标题伪装成不同的原创场景。首页数字应明确展示组成。
+变体的 family_id 必须对应基础案例。变体不能通过改标题伪装成不同的原创场景，也不进入实图首页。
+
+## 更新实图案例
+
+将原始 PNG、完整 TXT 提示词及 JSON 生成记录放入 assets/showcase/；在 catalog/showcase-notes.json 写入实际观察。在 build_showcase.py 的分类路由中登记案例 ID，然后运行 python scripts/build_showcase.py。首页、搜索画廊与 Skill 参考页从同一份资料生成。不要直接修改生成页。生成记录中模型未知时保留 null，不推断具体模型。
 
 ## 使用边界
 
