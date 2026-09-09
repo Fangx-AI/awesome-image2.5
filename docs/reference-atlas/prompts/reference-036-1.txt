@@ -1,0 +1,18 @@
+A high-fashion magazine cover, 3:4 portrait, Vogue Paris / British Vogue editorial aesthetic.
+
+Subject: a tall female model, medium-dark skin tone, mid-thirties, standing three-quarters to camera, direct piercing gaze. She wears a sculptural high-collared ivory wool coat over a silk slip dress in deep aubergine. Minimalist silver spiral earrings. Hair in a sleek low chignon with a single escaped strand. Makeup: matte bronze-warm, glossy plum lip.
+
+Background: muted concrete-grey seamless paper backdrop, vertical shaft of cool daylight from upper left. Shallow depth of field.
+
+Exact cover typography (all English, crisp, correctly spelled):
+- Masthead, huge uppercase serif, white: "VOGUE"
+- Date strip top-left, tiny caps: "NOVEMBER 2026 · PARIS EDITION · €9.00"
+- Main cover line, bold sans-serif centered: "THE QUIET POWER ISSUE"
+- Right-edge cover lines, stacked:
+   "THE NEW MINIMALISTS — a 40-page portfolio"
+   "HOW AI TOOLS ARE REWRITING THE ATELIER"
+   "MARTIN MARGIELA'S UNREVEALED ARCHIVE"
+   "SKIN · INVESTMENT · WHERE THE MONEY GOES NEXT"
+- Bottom-left barcode with catalog code "VG1126"
+
+Lighting: classic fashion editorial — soft single-source key, subtle fill, deep shadow on one cheek, fine film grain.

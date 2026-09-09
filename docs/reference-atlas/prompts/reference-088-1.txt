@@ -1,0 +1,11 @@
+Landscape 16:9 timeline / family tree of frontier LLMs 2018–2026, three vertically stacked lanes over a horizontal time axis.
+
+Time axis ticks: "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026".
+
+LANE 1 (top, muted navy) "OpenAI line": chips "GPT-2", "GPT-3", "Codex", "InstructGPT", "GPT-3.5", "GPT-4", "GPT-4o", "gpt-image-2".
+LANE 2 (middle, dusty teal) "Anthropic line": chips "Claude 1", "Claude 2", "Claude 3 Opus", "Claude 3.5 Sonnet", "Claude 4 Opus", "Claude 4.7 Opus".
+LANE 3 (bottom, soft terracotta) "Open-weights line": chips "GPT-Neo", "LLaMA 1", "LLaMA 2", "Mistral", "Mixtral", "LLaMA 3", "DeepSeek-V2", "Llama 4 405B", "Qwen3-Next", "DeepSeek-V3.1".
+
+Solid slate-gray arcs = intra-family successors; warm-copper dashed arcs = cross-family distillation. Soft vertical highlight bands at 2020 ("scaling laws paper"), 2022 ("InstructGPT / RLHF"), 2024 ("multimodal goes mainstream").
+
+Title: "Frontier LLM lineage, 2018 – 2026". Subtitle: "chips = model releases; solid arcs = intra-family successors; dashed arcs = cross-family distillation."

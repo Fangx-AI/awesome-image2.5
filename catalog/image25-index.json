@@ -1,0 +1,2937 @@
+{
+  "entries": [
+    {
+      "id": "official-retrofuturism",
+      "title": "复古未来城市",
+      "category": "建筑与场景",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-mid-century-modern-posters",
+      "title": "现代主义海报组",
+      "category": "海报与文字",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-impressionist-cityscape",
+      "title": "印象派街景",
+      "category": "插画与艺术",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/521YOTFHRC1SBj5llj4HkY/15d00909f0f73cf0af06b7de524d1d33/impressionist-cityscape.webp?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-wedding-invitation",
+      "title": "婚礼邀请函",
+      "category": "出版与版式",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/4j4NxMqYjew5nrW2nqo7Yq/dd05b405739b3fb9f0f3cb56a196889b/wedding-invitation.webp?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-sci-fi-surrealism",
+      "title": "科幻超现实",
+      "category": "插画与艺术",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/Oe7BObgTAVCWhUe8Xsxy6/ef835be62240562b3ae4be70d404d61d/sci-fi-surrealism.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-vintage-national-park-stamps",
+      "title": "国家公园邮票",
+      "category": "品牌与图标",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/4M5M3sRxcgnYl8Q2M8DZ3y/bc3773f82ae0e68d025e2dca3d5b8f43/vintage-national-park-stamps.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-presentation-image",
+      "title": "演示文稿视觉",
+      "category": "信息与教育",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/4IPoFYxHjVAfoZ4ZmKO1VX/25a75228d3dcaf8ae9369467a06a5281/presentation-image.webp?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-mosaic",
+      "title": "马赛克风格",
+      "category": "插画与艺术",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/3GALloAIN7Jn0P7wbvHPEB/0d02422440dfb3a001ff125cf37f7de4/mosaic.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-stickers",
+      "title": "贴纸设计",
+      "category": "品牌与图标",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/5jpsVIXTvhsaamMRBBygyj/59a740665177515836747b400f52e3fc/stickers.webp?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-cyberpunk",
+      "title": "赛博朋克城市",
+      "category": "建筑与场景",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/5siUce5uMdk0FxOA5opjoB/fcfb4452b13c144108f7786a9412f982/cyberpunk.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-80s-headshot",
+      "title": "八十年代肖像",
+      "category": "摄影与人像",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-baby-portrait-after",
+      "title": "人物服装编辑",
+      "category": "参考图编辑",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/31fyboLGIlu5roN22tlEHK/9be57d84b3b7bbf22e7aa7f74b5af102/baby-portrait-after.webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-desk-mockup",
+      "title": "显示器界面样机",
+      "category": "界面与屏幕",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-desk-mockup.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-label-edit",
+      "title": "产品标签编辑",
+      "category": "参考图编辑",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-label-edit.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-exhibition-poster",
+      "title": "展览文字海报",
+      "category": "海报与文字",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-exhibition-poster.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-character-turnaround",
+      "title": "角色三视图",
+      "category": "角色与游戏",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-character-turnaround.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-night-studio",
+      "title": "夜间工作室",
+      "category": "摄影与人像",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-night-studio.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-ceramic-caddy",
+      "title": "陶瓷收纳器",
+      "category": "产品与商业",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-ceramic-caddy.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-lab-composite",
+      "title": "多参考图合成",
+      "category": "参考图编辑",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-lab-composite.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-isometric-diorama",
+      "title": "等距建筑剖面",
+      "category": "建筑与场景",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-isometric-diorama.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-phone-in-hand",
+      "title": "手机屏幕文字",
+      "category": "界面与屏幕",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-phone-in-hand.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-sticker-transparent",
+      "title": "透明贴纸",
+      "category": "品牌与图标",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-sticker-transparent.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "simon-raccoon-chart",
+      "title": "图表中加入浣熊科学家",
+      "category": "参考图编辑",
+      "author": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "model_claim": "gpt-image-2.5-sunburst",
+      "verification": "author-reported-with-command",
+      "images": [
+        {
+          "url": "https://static.simonwillison.net/static/2026/racoon-chart.webp"
+        }
+      ],
+      "reference_images": [
+        {
+          "url": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp"
+        }
+      ],
+      "prompt_url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "prompt_available": true,
+      "prompt_excerpt": "add a raccoon scientist studying the chart thoughtfully",
+      "rights": "Original author; brief excerpt and external image reference",
+      "note": "原页同时展示输入、命令及结果；没有本项目独立调用的记录。"
+    },
+    {
+      "id": "x-2097447432757887207",
+      "title": "节日主题系列",
+      "category": "插画与艺术",
+      "author": "@BlackthorneAI",
+      "source_url": "https://x.com/BlackthorneAI/status/2097447432757887207",
+      "model_claim": "GPT-Image-2.5",
+      "verification": "author-claim-via-public-mirror",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTWLbsAAne5Y.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTWFW0AAD6o7.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTV-WcAE5P7n.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTV0WcAA0fCN.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "prompt_url": "https://x.com/BlackthorneAI/status/2097447432757887207",
+      "prompt_available": false,
+      "rights": "Original author; no license inferred from public availability",
+      "note": "同帖四张主题图片；未从首帖取得逐张完整提示词。"
+    },
+    {
+      "id": "x-2097513469172129825",
+      "title": "柔光旗袍肖像",
+      "category": "摄影与人像",
+      "author": "@BubbleBrain",
+      "source_url": "https://x.com/BubbleBrain/status/2097513469172129825",
+      "model_claim": "GPT Image 2.5",
+      "verification": "author-claim-via-public-mirror",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRvdLStaoAAAkSy.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "prompt_url": "https://x.com/BubbleBrain/status/2097513469172129825",
+      "prompt_available": true,
+      "rights": "Original author; no license inferred from public availability",
+      "note": "原帖公开提示词；人物风格与成图以原作者作品为准。"
+    },
+    {
+      "id": "x-2097411028510179759",
+      "title": "树林细节与噪点测试",
+      "category": "摄影与人像",
+      "author": "@mark_k",
+      "source_url": "https://x.com/mark_k/status/2097411028510179759",
+      "model_claim": "GPT-Image-2.5",
+      "verification": "author-claim-via-public-mirror",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRt_pW_XEAAYiCE.jpg?name=orig",
+          "width": 1448,
+          "height": 1086
+        }
+      ],
+      "prompt_url": "https://x.com/mark_k/status/2097411028510179759",
+      "prompt_available": true,
+      "rights": "Original author; no license inferred from public availability",
+      "note": "作者用于观察细节纹理与噪点，不将其描述为质量胜出。"
+    },
+    {
+      "id": "x-2097486896750338125",
+      "title": "摄影参考保持与角色重设计",
+      "category": "参考图编辑",
+      "author": "@nanyuan0412",
+      "source_url": "https://x.com/nanyuan0412/status/2097486896750338125",
+      "model_claim": "GPT Image 2.5",
+      "verification": "author-claim-via-public-mirror",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie-bwAATJ-v.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie5bEAA6mRU.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie6awAALmnX.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie6aQAA5vPA.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "prompt_url": "https://x.com/nanyuan0412/status/2097486896750338125",
+      "prompt_available": true,
+      "rights": "Original author; no license inferred from public availability",
+      "note": "原帖讨论保留曝光、材质和构图的做法；多图为作者同帖材料，未推断输入输出顺序。"
+    },
+    {
+      "id": "laplace-01-images2point5_16-9",
+      "title": "Launch Wordmark",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/01-images2point5_16-9.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/01-images2point5_16-9.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/01-images2point5_16-9.jpg",
+          "upstream_path": "assets/generated/01-images2point5_16-9.jpg",
+          "git_blob_sha": "b31c99063f53e88b6423eed918ca29953cede17a"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-019-imported-",
+      "title": "实物与手绘涂鸦创意广告",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/019-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/019-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/019-imported-.png",
+          "upstream_path": "assets/generated/019-imported-.png",
+          "git_blob_sha": "3db1cb69c45c98ae72839164d099eefb45726fb2"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-020-imported-",
+      "title": "黑白肖像艺术",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/020-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/020-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/020-imported-.png",
+          "upstream_path": "assets/generated/020-imported-.png",
+          "git_blob_sha": "54d106a85cf479f4ab6d41f31c8d0e1403b1cf98"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-021-imported-",
+      "title": "磨砂玻璃后的虚实对比剪影",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/021-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/021-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/021-imported-.png",
+          "upstream_path": "assets/generated/021-imported-.png",
+          "git_blob_sha": "c8d448bdd2c2f54c74c44b940ec0d39326e12612"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-022-imported-",
+      "title": "三只动物与地标自拍",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/022-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/022-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/022-imported-.png",
+          "upstream_path": "assets/generated/022-imported-.png",
+          "git_blob_sha": "b7f54c6c46fc562010d70c855b00ac86f8a64a5a"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-023-imported-",
+      "title": "品牌化键盘键帽",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/023-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/023-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/023-imported-.png",
+          "upstream_path": "assets/generated/023-imported-.png",
+          "git_blob_sha": "be2eaac3527ba712bfbfaf260851bc5b8e16a463"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-024-imported-emoji",
+      "title": "镀铬emoji徽章",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/024-imported-emoji.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/024-imported-emoji.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/024-imported-emoji.png",
+          "upstream_path": "assets/generated/024-imported-emoji.png",
+          "git_blob_sha": "ba71e1e448ae386f4da06cd0ac6809453d147e34"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-025-imported-",
+      "title": "儿童涂色页插画",
+      "category": "信息与教育",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/025-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/025-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/025-imported-.png",
+          "upstream_path": "assets/generated/025-imported-.png",
+          "git_blob_sha": "e7e30673fc0bcad5ebf35aad68f4102518f367e4"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-026-imported-",
+      "title": "字母与单词含义融合",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/026-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/026-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/026-imported-.png",
+          "upstream_path": "assets/generated/026-imported-.png",
+          "git_blob_sha": "2de2f6336c37d8ae67ebf1c791b497ec10b5a363"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-027-imported-",
+      "title": "双重曝光",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/027-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/027-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/027-imported-.png",
+          "upstream_path": "assets/generated/027-imported-.png",
+          "git_blob_sha": "7380d4028696410d02ba55432928d995d725cacb"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-028-imported-",
+      "title": "超现实交互场景",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/028-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/028-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/028-imported-.png",
+          "upstream_path": "assets/generated/028-imported-.png",
+          "git_blob_sha": "2932e9076b9f939e9af2befa56f86b1489042a8f"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-029-imported-",
+      "title": "动物硅胶腕托",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/029-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/029-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/029-imported-.png",
+          "upstream_path": "assets/generated/029-imported-.png",
+          "git_blob_sha": "1b105625ef7258f08f938b5bef236bc93c7fd6c6"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-030-imported-",
+      "title": "发光线条解剖图",
+      "category": "信息与教育",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/030-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/030-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/030-imported-.png",
+          "upstream_path": "assets/generated/030-imported-.png",
+          "git_blob_sha": "eeabadb52fb3f39e31efe316fe009141afece90d"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-031-imported-",
+      "title": "特色城市天气预报",
+      "category": "信息与教育",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/031-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/031-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/031-imported-.png",
+          "upstream_path": "assets/generated/031-imported-.png",
+          "git_blob_sha": "36da57b8b9662b6a77a8793a5da63b359ce0dcb5"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-032-imported-",
+      "title": "代码风格名片",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/032-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/032-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/032-imported-.png",
+          "upstream_path": "assets/generated/032-imported-.png",
+          "git_blob_sha": "be461e490de9d200e1858f022785ed1c6d7b6a5e"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-033-imported-",
+      "title": "乐高城市景观",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/033-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/033-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/033-imported-.png",
+          "upstream_path": "assets/generated/033-imported-.png",
+          "git_blob_sha": "6710a62eb1600b7ce6ab2252465f5d3faba23c5f"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-034-imported-",
+      "title": "水晶球故事场景",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/034-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/034-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/034-imported-.png",
+          "upstream_path": "assets/generated/034-imported-.png",
+          "git_blob_sha": "3e3dd3e18609e26f539c8e7dc2f68e8992f0c70e"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-035-imported-",
+      "title": "怀旧动漫风格电影海报",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/035-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/035-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/035-imported-.png",
+          "upstream_path": "assets/generated/035-imported-.png",
+          "git_blob_sha": "11ae5f119115070aacb63b2d6c4f524d3554d225"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-036-imported-logo",
+      "title": "Logo 形状创意书架",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/036-imported-logo.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/036-imported-logo.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/036-imported-logo.png",
+          "upstream_path": "assets/generated/036-imported-logo.png",
+          "git_blob_sha": "b118e23ade392e4498b0c1275211e52456b3e4a3"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-037-imported-",
+      "title": "迷你赛博朋克移轴景观",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/037-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/037-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/037-imported-.png",
+          "upstream_path": "assets/generated/037-imported-.png",
+          "git_blob_sha": "aa81719329595e247141c975b699512fba2237fd"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-038-imported-",
+      "title": "剪影艺术",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/038-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/038-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/038-imported-.png",
+          "upstream_path": "assets/generated/038-imported-.png",
+          "git_blob_sha": "12d0dc99b23c9c7b3e4c2742498e90842743df09"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-039-imported-logo",
+      "title": "未来主义 Logo 交易卡",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/039-imported-logo.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/039-imported-logo.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/039-imported-logo.png",
+          "upstream_path": "assets/generated/039-imported-logo.png",
+          "git_blob_sha": "7948c4c17e53e1761af2abfeaca66a57a2e5fef4"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-040-imported-3d",
+      "title": "超写实3D游戏角色怀旧场景",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/040-imported-3d.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/040-imported-3d.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/040-imported-3d.png",
+          "upstream_path": "assets/generated/040-imported-3d.png",
+          "git_blob_sha": "b311b9320a4994d71c15441cc06ee1220e667987"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-041-imported-",
+      "title": "创意丝绸宇宙",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/041-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/041-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/041-imported-.png",
+          "upstream_path": "assets/generated/041-imported-.png",
+          "git_blob_sha": "0bb50eb4e4cb7e6bed4493086129b76583d71def"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-042-imported-",
+      "title": "奇幻水下场景冰棒",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/042-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/042-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/042-imported-.png",
+          "upstream_path": "assets/generated/042-imported-.png",
+          "git_blob_sha": "eeeceafb79bfaa3994cfc53d5eff8646b0d854a7"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-043-imported-",
+      "title": "蒸汽朋克机械鱼",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/043-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/043-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/043-imported-.png",
+          "upstream_path": "assets/generated/043-imported-.png",
+          "git_blob_sha": "ce0ffb76a62c7765d12a9f71184fd5c650f930f3"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-044-imported-emoji",
+      "title": "Emoji 奶油雪糕",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/044-imported-emoji.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/044-imported-emoji.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/044-imported-emoji.png",
+          "upstream_path": "assets/generated/044-imported-emoji.png",
+          "git_blob_sha": "23c89db24a39a8242ad5f0bab5374478db60bf16"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-045-imported-",
+      "title": "虚构推文截图",
+      "category": "界面与屏幕",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/045-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/045-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/045-imported-.png",
+          "upstream_path": "assets/generated/045-imported-.png",
+          "git_blob_sha": "79d41e6fe57e3fbbef3d39682580ec6c7332ea63"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-046-imported-emoji",
+      "title": "Emoji 簇绒地毯",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/046-imported-emoji.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/046-imported-emoji.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/046-imported-emoji.png",
+          "upstream_path": "assets/generated/046-imported-emoji.png",
+          "git_blob_sha": "bc24875a6c2dd55df5035c77542dc4473cf7ed7b"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-047-imported-",
+      "title": "彩色矢量艺术海报",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/047-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/047-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/047-imported-.png",
+          "upstream_path": "assets/generated/047-imported-.png",
+          "git_blob_sha": "7f84f3fb838c9e9ca80ee6ee230c6e65a8fcc74f"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-048-imported-",
+      "title": "云彩艺术",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/048-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/048-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/048-imported-.png",
+          "upstream_path": "assets/generated/048-imported-.png",
+          "git_blob_sha": "8c2666e195265cf5531fff963ab3cf4a7bb514e3"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-049-imported-8",
+      "title": "8位像素图标",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/049-imported-8.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/049-imported-8.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/049-imported-8.png",
+          "upstream_path": "assets/generated/049-imported-8.png",
+          "git_blob_sha": "0e83e7effb880264e79583c1e5faf1ed99e39261"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-050-imported-3d",
+      "title": "迷你 3D 建筑",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/050-imported-3d.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/050-imported-3d.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/050-imported-3d.png",
+          "upstream_path": "assets/generated/050-imported-3d.png",
+          "git_blob_sha": "a5e18070a979cec6bccb6ab42411458c13476a47"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-051-imported-",
+      "title": "创意绿植花盆",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/051-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/051-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/051-imported-.png",
+          "upstream_path": "assets/generated/051-imported-.png",
+          "git_blob_sha": "7fce678e63790433be83b0550d2ced85e2d8b7a6"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-052-imported-iphone",
+      "title": "“极其平凡”的iPhone自拍",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/052-imported-iphone.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/052-imported-iphone.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/052-imported-iphone.png",
+          "upstream_path": "assets/generated/052-imported-iphone.png",
+          "git_blob_sha": "6039eb41ea258d5b773148654c4e1398fc4c7812"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-053-imported-emoji",
+      "title": "Emoji 充气感靠垫",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/053-imported-emoji.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/053-imported-emoji.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/053-imported-emoji.png",
+          "upstream_path": "assets/generated/053-imported-emoji.png",
+          "git_blob_sha": "b86e15e8fabb3d1fb825cf8ac856d5e0429e268d"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-054-imported-emoji",
+      "title": "纸艺风格 Emoji 图标",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/054-imported-emoji.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/054-imported-emoji.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/054-imported-emoji.png",
+          "upstream_path": "assets/generated/054-imported-emoji.png",
+          "git_blob_sha": "8c2a5fe8911991e2bb25db216cf1b52bba9b3b69"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-055-imported-",
+      "title": "护照入境印章",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/055-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/055-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/055-imported-.png",
+          "upstream_path": "assets/generated/055-imported-.png",
+          "git_blob_sha": "d9a6fae40ee791b590d06de739d11c0a445fc2c5"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-056-imported-",
+      "title": "物理破坏效果卡片",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/056-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/056-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/056-imported-.png",
+          "upstream_path": "assets/generated/056-imported-.png",
+          "git_blob_sha": "3c58dbd638f1009a54aee1a7a64a7a3fed465bcc"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-057-imported-",
+      "title": "时尚杂志封面风格",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/057-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/057-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/057-imported-.png",
+          "upstream_path": "assets/generated/057-imported-.png",
+          "git_blob_sha": "29d459146c9db932c9188797d4e4a8339a1ed113"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-058-imported-3d",
+      "title": "体素风格 3D 图标",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/058-imported-3d.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/058-imported-3d.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/058-imported-3d.png",
+          "upstream_path": "assets/generated/058-imported-3d.png",
+          "git_blob_sha": "1a5d6591e3f3967dbeae6c617ee19de6be702b36"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-059-imported-esc",
+      "title": "键盘ESC键帽微型立体模型",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/059-imported-esc.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/059-imported-esc.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/059-imported-esc.png",
+          "upstream_path": "assets/generated/059-imported-esc.png",
+          "git_blob_sha": "612e7946b64a0435a3de97086fca0e7c0044c32a"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-06-mid-century-modern-posters",
+      "title": "Mid-century Poster Grid",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/06-mid-century-modern-posters.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/06-mid-century-modern-posters.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/06-mid-century-modern-posters-b.jpg",
+          "upstream_path": "assets/generated/06-mid-century-modern-posters-b.jpg",
+          "git_blob_sha": "eb29ed9974e07ba6569ff684e2c950b83ffcbc30"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/06-mid-century-modern-posters.jpg",
+          "upstream_path": "assets/generated/06-mid-century-modern-posters.jpg",
+          "git_blob_sha": "4fcb1eb20582fff97710580817d11907ee9f11ae"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-060-imported-",
+      "title": "快乐胶囊制作",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/060-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/060-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/060-imported-.png",
+          "upstream_path": "assets/generated/060-imported-.png",
+          "git_blob_sha": "498542f2fd8511cc60b64202c7b11a9cc8bbd8eb"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-061-imported-3d-q",
+      "title": "3D Q版大学拟人化形象",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/061-imported-3d-q.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/061-imported-3d-q.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/061-imported-3d-q.png",
+          "upstream_path": "assets/generated/061-imported-3d-q.png",
+          "git_blob_sha": "7e64483865afcc355908001561f8b9e4ae5b04c0"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-062-imported-rpg",
+      "title": "RPG 风格角色卡片制作",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/062-imported-rpg.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/062-imported-rpg.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/062-imported-rpg.png",
+          "upstream_path": "assets/generated/062-imported-rpg.png",
+          "git_blob_sha": "db2756f8845e21aa38b2f5c74c79ce59894262ba"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-063-imported-",
+      "title": "微型立体场景（西游主题）",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/063-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/063-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/063-imported-.png",
+          "upstream_path": "assets/generated/063-imported-.png",
+          "git_blob_sha": "bfeb61b94fff3dc4be78eee9f35ebd32383c1105"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-064-imported-",
+      "title": "奇幻卡通插画",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/064-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/064-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/064-imported-.png",
+          "upstream_path": "assets/generated/064-imported-.png",
+          "git_blob_sha": "bdba44955dbb981e1836810a4f8a6b246eb0872f"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-065-imported-",
+      "title": "手绘信息图卡片（深度工作）",
+      "category": "信息与教育",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/065-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/065-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/065-imported-.png",
+          "upstream_path": "assets/generated/065-imported-.png",
+          "git_blob_sha": "2a6c8ff58f521a6dfb37f15b101de4557c942c0b"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-066-imported-3d",
+      "title": "柔和风格3D广告",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/066-imported-3d.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/066-imported-3d.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/066-imported-3d.png",
+          "upstream_path": "assets/generated/066-imported-3d.png",
+          "git_blob_sha": "00fd5a3a1bc6a12012e3e61790d55bdcaab93aad"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-067-imported-3d-markdown",
+      "title": "极简主义 3D 插画（Markdown 格式）",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/067-imported-3d-markdown.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/067-imported-3d-markdown.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/067-imported-3d-markdown.png",
+          "upstream_path": "assets/generated/067-imported-3d-markdown.png",
+          "git_blob_sha": "e2838f8c12c0fe41495c9570596aa29078c94dec"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-068-imported-",
+      "title": "毛茸茸南瓜灯",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/068-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/068-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/068-imported-.png",
+          "upstream_path": "assets/generated/068-imported-.png",
+          "git_blob_sha": "79c0bb7da6dc53a9c5f46fad1b7d993f0aa43825"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-069-imported-",
+      "title": "手绘信息图卡片（熬夜护肝）",
+      "category": "信息与教育",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/069-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/069-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/069-imported-.png",
+          "upstream_path": "assets/generated/069-imported-.png",
+          "git_blob_sha": "25ec934b997b36c4356000086839a37d50953cee"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-07-vintage-national-park-stamps",
+      "title": "National Park Stamps",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/07-vintage-national-park-stamps.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/07-vintage-national-park-stamps.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/07-vintage-national-park-stamps.jpg",
+          "upstream_path": "assets/generated/07-vintage-national-park-stamps.jpg",
+          "git_blob_sha": "f5e51e471ce7038960584e2230ae5e7ec55bc089"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-070-imported-",
+      "title": "折叠式纸雕立体绘本",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/070-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/070-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/070-imported-.png",
+          "upstream_path": "assets/generated/070-imported-.png",
+          "git_blob_sha": "d1b56b066260269a55aa03a54ca8ff9d81d28fef"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-071-imported-",
+      "title": "动漫贴纸集合",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/071-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/071-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/071-imported-.png",
+          "upstream_path": "assets/generated/071-imported-.png",
+          "git_blob_sha": "258e21c5829c09e8ab26c9a47f31b7e08bbd10b6"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-072-imported-35mm",
+      "title": "35mm 胶片风格飞岛",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/072-imported-35mm.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/072-imported-35mm.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/072-imported-35mm.png",
+          "upstream_path": "assets/generated/072-imported-35mm.png",
+          "git_blob_sha": "448f76dbd6ed338fe88d08ccc34da3c90dd394fb"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-073-imported-ootd",
+      "title": "名画人物 OOTD",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/073-imported-ootd.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/073-imported-ootd.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/073-imported-ootd.png",
+          "upstream_path": "assets/generated/073-imported-ootd.png",
+          "git_blob_sha": "82ef02ac4ac141249e101aeb49e01d4964f6b8ae"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-074-imported-3d-json",
+      "title": "极简主义 3D 插画（JSON 格式）",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/074-imported-3d-json.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/074-imported-3d-json.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/074-imported-3d-json.png",
+          "upstream_path": "assets/generated/074-imported-3d-json.png",
+          "git_blob_sha": "1a64d4dc73726e8107d6aca03923ffb6053ae47d"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-075-imported-",
+      "title": "小红书封面",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/075-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/075-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/075-imported-.png",
+          "upstream_path": "assets/generated/075-imported-.png",
+          "git_blob_sha": "ab3d63283590cc78dfec20562f650dc72b2e8ab8"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-076-imported-",
+      "title": "手办与真人同框",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/076-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/076-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/076-imported-.png",
+          "upstream_path": "assets/generated/076-imported-.png",
+          "git_blob_sha": "8481e464bf9dadc8434b3f5fe7031ef8b1cc1822"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-077-imported-",
+      "title": "玩具盒中的国家立体模型",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/077-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/077-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/077-imported-.png",
+          "upstream_path": "assets/generated/077-imported-.png",
+          "git_blob_sha": "9068ee14beea7ad4eb3be437ce677aea1e2c98bc"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-078-imported-crt",
+      "title": "复古CRT电脑启动屏幕",
+      "category": "界面与屏幕",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/078-imported-crt.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/078-imported-crt.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/078-imported-crt.png",
+          "upstream_path": "assets/generated/078-imported-crt.png",
+          "git_blob_sha": "dd59f47d9bf4228a128df5c11d95324bc9e2a525"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-079-imported-",
+      "title": "讽刺海报生成",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/079-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/079-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/079-imported-.png",
+          "upstream_path": "assets/generated/079-imported-.png",
+          "git_blob_sha": "4f156c5df7b0126de8fc2b13727289b8aa89bb87"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-08-wedding-invitation",
+      "title": "Wedding Invitation Flat-lay",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/08-wedding-invitation.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/08-wedding-invitation.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/08-wedding-invitation.jpg",
+          "upstream_path": "assets/generated/08-wedding-invitation.jpg",
+          "git_blob_sha": "5b23b18574cf10a7997d177d5a102e0144632542"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-080-imported-ps2",
+      "title": "PS2 游戏封面",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/080-imported-ps2.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/080-imported-ps2.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/080-imported-ps2.png",
+          "upstream_path": "assets/generated/080-imported-ps2.png",
+          "git_blob_sha": "e4b02fdbffacedeea5466431c4c52d19e09ef5f8"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-081-imported-",
+      "title": "讽刺漫画生成",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/081-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/081-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/081-imported-.png",
+          "upstream_path": "assets/generated/081-imported-.png",
+          "git_blob_sha": "57a8870fd472389d936999b991944e2ed48b85ac"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-082-imported-",
+      "title": "极简未来主义海报",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/082-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/082-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/082-imported-.png",
+          "upstream_path": "assets/generated/082-imported-.png",
+          "git_blob_sha": "f6cda83391b10d6c7ab4fbea9bb382b0afd8e47e"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-083-imported-",
+      "title": "个性化房间设计",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/083-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/083-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/083-imported-.png",
+          "upstream_path": "assets/generated/083-imported-.png",
+          "git_blob_sha": "dca49af41401eff04b8f637c0710ba4ffc71d8cb"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-084-imported-",
+      "title": "复古宣传海报",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/084-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/084-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/084-imported-.png",
+          "upstream_path": "assets/generated/084-imported-.png",
+          "git_blob_sha": "7649a5383f3ccdc0a5710b36261495b852f80f2a"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-085-imported-q",
+      "title": "Q版求婚场景",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/085-imported-q.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/085-imported-q.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/085-imported-q.png",
+          "upstream_path": "assets/generated/085-imported-q.png",
+          "git_blob_sha": "39776c16e3d0399e5f4048819f3b0a268dcf61d3"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-086-imported-",
+      "title": "吉卜力风格",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/086-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/086-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/086-imported-.png",
+          "upstream_path": "assets/generated/086-imported-.png",
+          "git_blob_sha": "7fcce9f527ee4112d68ad46ad0c2fbca1c47f418"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-087-imported-3d-q",
+      "title": "3D Q版风格场景",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/087-imported-3d-q.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/087-imported-3d-q.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/087-imported-3d-q.png",
+          "upstream_path": "assets/generated/087-imported-3d-q.png",
+          "git_blob_sha": "939df894624ac4c17120b2f4865cb34078f64fbb"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-088-imported-3d",
+      "title": "皮克斯3D风格原创角色",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/088-imported-3d.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/088-imported-3d.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/088-imported-3d.png",
+          "upstream_path": "assets/generated/088-imported-3d.png",
+          "git_blob_sha": "8078638515178f5f32babe240d8f947bd1d9397a"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-089-imported-q",
+      "title": "Q版角色表情包",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/089-imported-q.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/089-imported-q.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/089-imported-q.png",
+          "upstream_path": "assets/generated/089-imported-q.png",
+          "git_blob_sha": "153a20c02f6c1d5b22c1613ae490ee9300150354"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-09-presentation-image",
+      "title": "Science Deck Screenshot",
+      "category": "出版与版式",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/09-presentation-image.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/09-presentation-image.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/09-presentation-image.jpg",
+          "upstream_path": "assets/generated/09-presentation-image.jpg",
+          "git_blob_sha": "34f374300a0a5648e1c90efe4a668ee911d5484b"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-090-imported-funko-pop",
+      "title": "Funko Pop 公仔包装",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/090-imported-funko-pop.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/090-imported-funko-pop.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/090-imported-funko-pop.png",
+          "upstream_path": "assets/generated/090-imported-funko-pop.png",
+          "git_blob_sha": "5d055c38487f2c5619ba1789e126873566620893"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-091-imported-",
+      "title": "名画人物麦片广告",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/091-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/091-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/091-imported-.png",
+          "upstream_path": "assets/generated/091-imported-.png",
+          "git_blob_sha": "6be2f9572617e9916a840c2c2cf9b846f9b27d52"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-092-imported-q",
+      "title": "Q版可爱俄罗斯套娃",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/092-imported-q.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/092-imported-q.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/092-imported-q.png",
+          "upstream_path": "assets/generated/092-imported-q.png",
+          "git_blob_sha": "a9e5b7d49848adf69c98a332763be98c50aea2fe"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-093-imported-",
+      "title": "可爱珐琅别针",
+      "category": "品牌与图标",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/093-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/093-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/093-imported-.png",
+          "upstream_path": "assets/generated/093-imported-.png",
+          "git_blob_sha": "ea34e4bbd0f8f0c7483b813953c2508f0af18123"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-094-imported-",
+      "title": "半透明玻璃质感变换",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/094-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/094-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/094-imported-.png",
+          "upstream_path": "assets/generated/094-imported-.png",
+          "git_blob_sha": "c2579e531bd65a15f54694089aac30f9f95056c8"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-095-imported-json",
+      "title": "玻璃材质重塑（JSON）",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/095-imported-json.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/095-imported-json.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/095-imported-json.png",
+          "upstream_path": "assets/generated/095-imported-json.png",
+          "git_blob_sha": "f37d01d05bea2600b9f9d4a1eff557f6330e4987"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-096-imported-",
+      "title": "古代藏宝图",
+      "category": "信息与教育",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/096-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/096-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/096-imported-.png",
+          "upstream_path": "assets/generated/096-imported-.png",
+          "git_blob_sha": "53882e63104ffea39c5358a425fe75f79fd5e891"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-097-imported-",
+      "title": "自拍生成摇头娃娃",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/097-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/097-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/097-imported-.png",
+          "upstream_path": "assets/generated/097-imported-.png",
+          "git_blob_sha": "cd53de2039ba4200a68dcf48f63d2b12f37a91d4"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-098-imported-",
+      "title": "定制动漫手办",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/098-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/098-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/098-imported-.png",
+          "upstream_path": "assets/generated/098-imported-.png",
+          "git_blob_sha": "49f5349e5a70d223fc323754993615d696a2956f"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-099-imported-",
+      "title": "双色调摄影棚时尚肖像",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/099-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/099-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/099-imported-.png",
+          "upstream_path": "assets/generated/099-imported-.png",
+          "git_blob_sha": "728b6b598bdb02fb8edb9768cbc353fb3f9d1a9b"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-100-imported-",
+      "title": "巨型月亮下的夜色剪影",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/100-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/100-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/100-imported-.png",
+          "upstream_path": "assets/generated/100-imported-.png",
+          "git_blob_sha": "f08fb90fb00b64026f73954911de05f60f33cec8"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-101-imported-",
+      "title": "都市奢华男士肖像",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/101-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/101-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/101-imported-.png",
+          "upstream_path": "assets/generated/101-imported-.png",
+          "git_blob_sha": "5c56e8a6e7d3d4c6e5611f9619c17d923c9c7959"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-102-imported-",
+      "title": "佩戴分子发夹的动漫女学生",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/102-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/102-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/102-imported-.png",
+          "upstream_path": "assets/generated/102-imported-.png",
+          "git_blob_sha": "41590eaeaf0b61da1d8717286f62f7c2c8f8bff9"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-103-imported-",
+      "title": "黄金时刻电影感男性肖像",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/103-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/103-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/103-imported-.png",
+          "upstream_path": "assets/generated/103-imported-.png",
+          "git_blob_sha": "c4fe4b91cd839b47cbee6eb0dd480318de822a7b"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-104-imported-",
+      "title": "佩戴骷髅戒指的忧郁肖像",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/104-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/104-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/104-imported-.png",
+          "upstream_path": "assets/generated/104-imported-.png",
+          "git_blob_sha": "2bc04426ece0a107ddd15a60530506fd2e2dae6c"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-105-imported-",
+      "title": "电影感黑白影棚肖像",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/105-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/105-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/105-imported-.png",
+          "upstream_path": "assets/generated/105-imported-.png",
+          "git_blob_sha": "7c32357ae6092ffe8c81941dd10da87defbc0e12"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-106-imported-",
+      "title": "幼儿快餐喜剧剧照",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/106-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/106-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/106-imported-.png",
+          "upstream_path": "assets/generated/106-imported-.png",
+          "git_blob_sha": "5aec14259048d0bb59dd0f063b51d41418bc0bd1"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-107-imported-",
+      "title": "便利店里的动漫女学生",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/107-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/107-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/107-imported-.png",
+          "upstream_path": "assets/generated/107-imported-.png",
+          "git_blob_sha": "a035e10367088f5a3339396ad0d224239b7f2652"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-108-imported-",
+      "title": "电影感雨中欧洲街道人像",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/108-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/108-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/108-imported-.png",
+          "upstream_path": "assets/generated/108-imported-.png",
+          "git_blob_sha": "8f021d7221ea38f8e60c7d9aeda1440f64663b88"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-109-imported-",
+      "title": "富士山水彩风格转换",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/109-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/109-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/109-imported-.png",
+          "upstream_path": "assets/generated/109-imported-.png",
+          "git_blob_sha": "cbc7eef12538d7f621dacee22b708e31e1df41cb"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-11-impressionist-cityscape",
+      "title": "Impressionist Cityscape",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/11-impressionist-cityscape.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/11-impressionist-cityscape.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/11-impressionist-cityscape-a.jpg",
+          "upstream_path": "assets/generated/11-impressionist-cityscape-a.jpg",
+          "git_blob_sha": "88b2c71e91066e8122f766012277e9452994e19e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/11-impressionist-cityscape-b.jpg",
+          "upstream_path": "assets/generated/11-impressionist-cityscape-b.jpg",
+          "git_blob_sha": "1561acc70fd2d4eb48481505f1c093f83fc63d34"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-110-imported-",
+      "title": "烹饪速写插画叙事",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/110-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/110-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/110-imported-.png",
+          "upstream_path": "assets/generated/110-imported-.png",
+          "git_blob_sha": "fbd2284999f3fe402c6c7eadcc65c297ad02984a"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-111-imported-",
+      "title": "现代艺术活动海报",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/111-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/111-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/111-imported-.png",
+          "upstream_path": "assets/generated/111-imported-.png",
+          "git_blob_sha": "38bbcb123cdeef3c29ce2403764d4f9cda122522"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-112-imported-",
+      "title": "英文社论报纸排版",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/112-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/112-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/112-imported-.png",
+          "upstream_path": "assets/generated/112-imported-.png",
+          "git_blob_sha": "509564af180ee813d5641fc6821a7d5aae65bc15"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-113-imported-",
+      "title": "定制地标旅行海报模板",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/113-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/113-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/113-imported-.png",
+          "upstream_path": "assets/generated/113-imported-.png",
+          "git_blob_sha": "459b349a05a3a7574e459305be4714f90cd906ae"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-114-imported-",
+      "title": "四格香蕉奶昔食谱拼图",
+      "category": "信息与教育",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/114-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/114-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/114-imported-.png",
+          "upstream_path": "assets/generated/114-imported-.png",
+          "git_blob_sha": "02236333a19ee8235ef89583d2469cc86638599d"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-115-imported-",
+      "title": "复古植物学勿忘我海报",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/115-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/115-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/115-imported-.png",
+          "upstream_path": "assets/generated/115-imported-.png",
+          "git_blob_sha": "b6259f464d2f8b621e71b68c8eef6bad5f674f50"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-116-imported-",
+      "title": "爱因斯坦手写论文风格",
+      "category": "信息与教育",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/116-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/116-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/116-imported-.png",
+          "upstream_path": "assets/generated/116-imported-.png",
+          "git_blob_sha": "e368f49ab9ac0ab52a28fc93a83df8cace62f420"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-117-imported-",
+      "title": "电影感沙漠“火之环”专辑封面",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/117-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/117-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/117-imported-.png",
+          "upstream_path": "assets/generated/117-imported-.png",
+          "git_blob_sha": "8dccae90cf64f7069ab00e6314966324b7e3b3ad"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-118-imported-",
+      "title": "赛博朋克犬耳女剑客",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/118-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/118-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/118-imported-.png",
+          "upstream_path": "assets/generated/118-imported-.png",
+          "git_blob_sha": "536bdbbb12f879001e8d2bc884a071ea66775029"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-119-imported-",
+      "title": "冬日暮色中的灯笼摄影",
+      "category": "摄影与人像",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/119-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/119-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/119-imported-.png",
+          "upstream_path": "assets/generated/119-imported-.png",
+          "git_blob_sha": "acc35f6ecb7e1c7152b4da3f4b8b2c0eeadc5b51"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-12-cyberpunk",
+      "title": "Restrained Cyberpunk City",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/12-cyberpunk.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/12-cyberpunk.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/12-cyberpunk.jpg",
+          "upstream_path": "assets/generated/12-cyberpunk.jpg",
+          "git_blob_sha": "69a49c6817d265981bdc160bc176263fc58cfe5e"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-120-imported-",
+      "title": "海盗放克播放列表封面",
+      "category": "海报与文字",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/120-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/120-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/120-imported-.png",
+          "upstream_path": "assets/generated/120-imported-.png",
+          "git_blob_sha": "09937685497ed14935f9add261ac1759c8fa8669"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-123-imported-",
+      "title": "晨曦光圈动漫都市",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/123-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/123-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/123-imported-.png",
+          "upstream_path": "assets/generated/123-imported-.png",
+          "git_blob_sha": "3eadc7f08f9eb6c5209fb4016609f8664d5dd1b7"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-124-imported-",
+      "title": "雨天清晨的仓鼠玻璃艺术",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/124-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/124-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/124-imported-.png",
+          "upstream_path": "assets/generated/124-imported-.png",
+          "git_blob_sha": "efa4d4da52218aed9973d0b0167f79057340e51e"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-125-imported-",
+      "title": "冲锋的双头地狱犬",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/125-imported-.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/125-imported-.md",
+      "model_claim": "GPT Image 2.5 batch",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/125-imported-.png",
+          "upstream_path": "assets/generated/125-imported-.png",
+          "git_blob_sha": "a5c8ad1539127f2b30c03b4eb26d7caf9e0ac305"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-13-retrofuturism",
+      "title": "Orbital Colony Retrofuturism",
+      "category": "插画与艺术",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/13-retrofuturism.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/13-retrofuturism.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/13-retrofuturism.jpg",
+          "upstream_path": "assets/generated/13-retrofuturism.jpg",
+          "git_blob_sha": "5a36af54b0be7d71dbc137bdd15f0aba925cc4aa"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-139-adrevival-storyboard",
+      "title": "AdRevival Private Management Storyboard",
+      "category": "产品与商业",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/139-adrevival-storyboard.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/139-adrevival-storyboard.md",
+      "model_claim": "GPT Image 2.5",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/139-adrevival-storyboard.png",
+          "upstream_path": "assets/generated/139-adrevival-storyboard.png",
+          "git_blob_sha": "20e629c633427144ea7f45d8ea6b08cd6e5d8605"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-140-x-open-source-ai-index",
+      "title": "X Open Source AI Index UI",
+      "category": "界面与屏幕",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/140-x-open-source-ai-index.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/140-x-open-source-ai-index.md",
+      "model_claim": "GPT Image 2.5",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/140-x-open-source-ai-index.png",
+          "upstream_path": "assets/generated/140-x-open-source-ai-index.png",
+          "git_blob_sha": "4192771ab7c6656a83311e91793d5aa9944afdcf"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-141-feishu-collaboration-ui",
+      "title": "Feishu Collaboration UI",
+      "category": "界面与屏幕",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/141-feishu-collaboration-ui.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/141-feishu-collaboration-ui.md",
+      "model_claim": "GPT Image 2.5",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/141-feishu-collaboration-ui.png",
+          "upstream_path": "assets/generated/141-feishu-collaboration-ui.png",
+          "git_blob_sha": "ad4bc747792ce31361d9410d41ffa3ad55675a10"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-15-80s-headshot",
+      "title": "1980s Studio Headshot",
+      "category": "角色与游戏",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/15-80s-headshot.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/15-80s-headshot.md",
+      "model_claim": "GPT Image 2.5 (repository-level declaration)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/15-80s-headshot-alt.jpg",
+          "upstream_path": "assets/generated/15-80s-headshot-alt.jpg",
+          "git_blob_sha": "50496b2e50a2bfeeb6383ade3f5a6f0ea251bd8c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/15-80s-headshot.jpg",
+          "upstream_path": "assets/generated/15-80s-headshot.jpg",
+          "git_blob_sha": "d7b5ffded5f77a246e0564a566445a33f9b249d8"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-17-canvas-forge-ui",
+      "title": "Canvas Forge UI Screenshot",
+      "category": "界面与屏幕",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/17-canvas-forge-ui.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/17-canvas-forge-ui.md",
+      "model_claim": "ChatGPT Images 2.5 (Web)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/17-canvas-forge-ui.jpg",
+          "upstream_path": "assets/generated/17-canvas-forge-ui.jpg",
+          "git_blob_sha": "8a74aa8d9726fd03393164985daa285e3b36a113"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    },
+    {
+      "id": "laplace-18-desert-observatory-keyframe",
+      "title": "Desert Observatory Keyframe",
+      "category": "建筑与场景",
+      "author": "LaplaceYoung",
+      "source_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/18-desert-observatory-keyframe.md",
+      "prompt_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/18-desert-observatory-keyframe.md",
+      "model_claim": "ChatGPT Images 2.5 (Web)",
+      "verification": "author-reported-not-independently-tested",
+      "model_evidence_url": "https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/18-desert-observatory-keyframe.png",
+          "upstream_path": "assets/generated/18-desert-observatory-keyframe.png",
+          "git_blob_sha": "fa71e8a1ac8eb6bacff84b3e2aae209206d6e4b0"
+        }
+      ],
+      "rights": "Images linked to publisher; underlying third-party rights not reassigned",
+      "prompt_republished": false
+    }
+  ],
+  "duplicate_records": [],
+  "evidence_counts": {
+    "official-sample": 12,
+    "provider-reported": 10,
+    "author-reported-with-command": 1,
+    "author-claim-via-public-mirror": 4,
+    "author-reported-not-independently-tested": 119
+  }
+}

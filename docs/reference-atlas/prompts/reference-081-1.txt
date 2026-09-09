@@ -1,0 +1,13 @@
+Landscape 16:9 high-fidelity systems figure of a multi-agent LLM architecture, in the style of a richly detailed AutoGen / LangGraph / Anthropic Managed Agents Figure 1. Subtle drop-shadows, warm-copper highlights, numbered flow markers ①②③④.
+
+ZONE 1 — "User interface": rounded user box with placeholder task "research question: summarize recent red-teaming attacks and reproduce the top three".
+
+ZONE 2 — "Orchestrator layer": central hexagonal hub "Planner LLM" with warm-copper top edge. Three satellite chips: "Task decomposition", "Agent routing", "Re-plan on failure". Small inset chip "prompt cache hit ~98%".
+
+ZONE 3 — "Specialised workers": 2×2 hexagons "Researcher" / "Coder" / "Critic" / "Writer", each with glyph + status ribbon ("idle", "running step 3/5", "done", "running step 2/4"). Centre labeled "async message bus".
+
+ZONE 4 — "Tools & memory": (a) "Tool registry" panel listing "web_search ×41", "python_exec ×27", "read_file ×18", "write_file ×12", "browser_use ×7"; (b) "Memory" panel with "Short-term scratchpad" and cylinder "Long-term vector store — 1.8M episodes".
+
+Bottom inset "Example trace": 8-step horizontal timeline chips from "User asks" through "Planner decomposes", "Researcher: web_search(...)", "Coder: python_exec(...)", "Critic: verify", "Re-plan" (loop-back arrow), "Writer: compose final answer".
+
+Title: "Agentic LLM system: planner orchestrates specialised workers over a shared tool and memory layer". Subtitle: "adapted from AutoGen (Wu et al., 2023), LangGraph, and Anthropic Managed Agents patterns".

@@ -1,40 +1,34 @@
 # Awesome Image 2.5
 
-**GPT Image 2.5 prompt gallery, agent skills, and a generation / editing CLI.**
+A visual, source-backed collection for finding useful image-generation ideas.
 
-[中文](README.md) · [Prompt gallery](skills/image25/references/gallery.md) · [Quick start](docs/getting-started.md)
+[中文](README.md) · [Live gallery](https://fangx-ai.github.io/awesome-image2.5/) · [Browse categories](docs/image25/README.md) · [Quick start](docs/getting-started.md)
 
-![Original creative concept cover](assets/cover.png)
+**146 Image 2.5 source records · 11 categories · 14 original demonstrations · 162 legacy learning cases**
 
-Visual examples with full prompts · Editing comparisons · 2 installable skills · Flare + Sunburst
+Every Image 2.5 record includes images, author attribution, a source or prompt link, and the strength of its model evidence. The current collection contains 12 official examples, 10 provider claims, one author experiment with a command, four X author claims, and 119 community cases. These are not 146 independently reproduced experiments. Most community cases currently come from one author repository.
 
-[Original outputs and editing comparisons](docs/showcase.md) include complete prompts and provenance. The host did not expose their exact model identity; these are not verified Flare/Sunburst runs.
+Browse the gallery, open a case, and follow the original prompt where it is available. Missing prompts and parameters are never invented. Images remain linked to their publishers and require network access.
 
-Download the repository and open `docs/gallery.html` for a searchable real-output gallery. Use `image25 catalog --kind original` to search from the CLI, `image25 --recipe chinese-poster --dry-run` to inspect a recipe request, and `image25 batch examples/batch.json --dry-run` to validate a batch. [Community sources](docs/community.md) · [Workflows](docs/workflows.md)
-
-## Use it your way
-
-- **Prompts:** browse the gallery and copy a recipe into your image tool.
-- **Agents:** install `skills/image25` for generation/editing or `skills/image25-reverse-prompt` for visual prompt extraction.
-- **CLI:** install from GitHub and use the official Images API.
+## Generate and edit
 
 ```sh
 uv tool install git+https://github.com/Fangx-AI/awesome-image2.5
-image25 -p "A translucent cobalt-blue portable radio, studio photography" --dry-run
-image25 -p "A translucent cobalt-blue portable radio, studio photography" --model flare -o generated/radio.png
-image25 -p "Add a mustard scarf; preserve the pet and scene" --model sunburst -i pet.png -o generated/pet-edit.png
+image25 --prompt-file your-prompt.txt --model flare --dry-run
+image25 --prompt-file your-prompt.txt --model flare -o output.png
 ```
 
-Live API calls require OPENAI_API_KEY in your environment. Each request produces one image and a JSON record. Existing files are never overwritten. There are no automatic retries.
+Live API calls require your own locally configured `OPENAI_API_KEY`. See [installation and skills](docs/getting-started.md), [editing workflows](docs/workflows.md), and [quality checks](docs/quality.md).
 
-## Model support
+The [14 original demonstrations](docs/original-gallery.md) include complete prompts, adaptation advice, and observed defects. Their host did not expose the exact model ID. The [162 legacy cases](docs/legacy-gallery.md), adapted from Wuyoscar's MIT-licensed GPT-Image2-Skill, remain explicitly labeled GPT Image 2.
 
-The CLI uses `gpt-image-2.5-flare` and `gpt-image-2.5-sunburst`, not an assumed `gpt-image-2.5` alias. It supports generation, multiple edit references, masks, quality selection and transparent PNG/WebP output. [API notes and official sources](skills/image25/references/api.md).
+## Maintain and contribute
 
-## Gallery status
+```sh
+python scripts/build_all.py
+python -m unittest discover -s tests -v
+```
 
-Recipes are original and labelled **prompt-only**, not benchmarked model outputs. The cover is an original concept render; its host did not expose an exact model identifier. See [provenance](assets/PROVENANCE.md). Automated tests exercise the CLI with mocked API responses; they do not prove live account access.
+Network collection is separate from deterministic offline page generation. Read the [source methodology](docs/research.md), [project architecture](docs/architecture.md), [contribution guide](CONTRIBUTING.md), and [third-party notices](THIRD_PARTY_NOTICES.md).
 
-Inspired by the gallery + skills + CLI format of [wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill). This implementation and these prompts were written for this repository; upstream images and source code are not copied.
-
-[Contributing](CONTRIBUTING.md) · [CC0 license](LICENSE). Independent community project, not an official OpenAI product.
+Community project; not affiliated with OpenAI. Third-party images and prompts retain their original rights.

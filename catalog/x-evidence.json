@@ -1,0 +1,782 @@
+{
+  "collected_at": "2026-09-09T03:52:10.257010+00:00",
+  "records": [
+    {
+      "id": "2096901566985068734",
+      "url": "https://x.com/AIVideoHub_/status/2096901566985068734",
+      "author": "AIVideoHub_",
+      "published_at": "Mon Sep 07 10:01:06 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRmw2xVbsAAcFgX.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRmw2xObsAAlO6l.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRmw2xRakAAR2FX.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRmw2xUa8AAEl-k.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "text_sha256": "56cb2edd3efa6cbce04976f68d2581a8f73ad62ce2f125b87559276bbbbfe724",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097159277937115208",
+      "url": "https://x.com/Aiwithamirr1/status/2097159277937115208",
+      "author": "Aiwithamirr1",
+      "published_at": "Tue Sep 08 03:05:09 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRqbO62aMAAZCY-.jpg?name=orig",
+          "width": 736,
+          "height": 1432
+        }
+      ],
+      "text_sha256": "59af5a50b96a6cd3d11495aa2c5b05bc882cd3b51394c78b0228c6a2bf6dd39d",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096805553339342932",
+      "url": "https://x.com/Aqsahere_/status/2096805553339342932",
+      "author": "Aqsahere_",
+      "published_at": "Mon Sep 07 03:39:35 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRlZhfLasAEC3g4.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRlZiI-bYAABS3E.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "text_sha256": "2c72d50ae8b2dbb8fbcc19e727943120d7fa9b274bfeb721702687824ddb3dc5",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096914920915001598",
+      "url": "https://x.com/Aqsahere_/status/2096914920915001598",
+      "author": "Aqsahere_",
+      "published_at": "Mon Sep 07 10:54:10 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRm9AKaaMAARCM-.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "text_sha256": "438b55894d065865c5366d0e94e8562a5b37f83cfa21350dbcbe29675ad20816",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097249218507461093",
+      "url": "https://x.com/Aqsahere_/status/2097249218507461093",
+      "author": "Aqsahere_",
+      "published_at": "Tue Sep 08 09:02:33 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRrtC3ca8AACRVK.jpg?name=orig",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "text_sha256": "3c3175ec60214b884659a5b28b3c7b094ae64a45e0f0dc40a8fafafeac8d7aa0",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097447432757887207",
+      "url": "https://x.com/BlackthorneAI/status/2097447432757887207",
+      "author": "BlackthorneAI",
+      "published_at": "Tue Sep 08 22:10:11 +0000 2026",
+      "model_evidence": "GPT-Image-2.5",
+      "verification": "author-claim-via-public-mirror",
+      "prompt_available": false,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTWLbsAAne5Y.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTWFW0AAD6o7.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTV-WcAE5P7n.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTV0WcAA0fCN.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "text_sha256": "c2dbe592b0edb1c5a2a03bd6007a24e3e1b6379f59f847c5681bf433fa7f8f9d",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097513469172129825",
+      "url": "https://x.com/BubbleBrain/status/2097513469172129825",
+      "author": "BubbleBrain",
+      "published_at": "Wed Sep 09 02:32:35 +0000 2026",
+      "model_evidence": "GPT Image 2.5",
+      "verification": "author-claim-via-public-mirror",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRvdLStaoAAAkSy.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "d3519ed347da417422c518830148fc4803610bc1c6457a1040449e37f4b29979",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097269715966230876",
+      "url": "https://x.com/CyberTotal2026/status/2097269715966230876",
+      "author": "CyberTotal2026",
+      "published_at": "Tue Sep 08 10:24:00 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": false,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRiiSbjbwAAOW8g.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "text_sha256": "660d63311274cb4691011dd9a6f28901527831d4301de0bcd08bcef2b105c091",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096555489073279173",
+      "url": "https://x.com/DuaFatimaAi/status/2096555489073279173",
+      "author": "DuaFatimaAi",
+      "published_at": "Sun Sep 06 11:05:55 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRh2BbAawAAZRGN.jpg?name=orig",
+          "width": 768,
+          "height": 1376
+        }
+      ],
+      "text_sha256": "cba18f598267b681e170988d4bf1464487196642389b0e03dbe4b128e2c8dd50",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2049002279051895243",
+      "url": "https://x.com/Goodmanprotocol/status/2049002279051895243",
+      "author": "Goodmanprotocol",
+      "published_at": "Tue Apr 28 05:46:26 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HG-ErIdaoAAsW6q.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HG-ErMEbAAAkGN7.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HG-ErQobUAAiuPn.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HG-ErV5aMAA6V0x.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "37a5134108fe8c1a758444d1039deaa14c4dadad7204d4a8a98350937d957c7a",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097222942438649948",
+      "url": "https://x.com/Goodmanprotocol/status/2097222942438649948",
+      "author": "Goodmanprotocol",
+      "published_at": "Tue Sep 08 07:18:08 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRrVG8Zb0AE1AZ4.jpg?name=orig",
+          "width": 1122,
+          "height": 1402
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRrVHmfaMAAW3le.jpg?name=orig",
+          "width": 1122,
+          "height": 1402
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRrVIajacAAiNWX.jpg?name=orig",
+          "width": 1122,
+          "height": 1402
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRrVJMDaoAAJeXM.jpg?name=orig",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "text_sha256": "67fe135dbdb4e95e707e02fd79165d5aafe281c0237b28a695136891da3f83fa",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096809673378967588",
+      "url": "https://x.com/Lianaalane/status/2096809673378967588",
+      "author": "Lianaalane",
+      "published_at": "Mon Sep 07 03:55:57 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRldR4ObQAAn50q.jpg?name=orig",
+          "width": 940,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "c80def2cb987a13d73dfa60c514e873934583da5789101b59ac226534943bf67",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097157373936935051",
+      "url": "https://x.com/Lianaalane/status/2097157373936935051",
+      "author": "Lianaalane",
+      "published_at": "Tue Sep 08 02:57:35 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRqZgyHa8AAwvCC.jpg?name=orig",
+          "width": 1027,
+          "height": 1531
+        }
+      ],
+      "text_sha256": "56c5543c002aa70124422b2ec4ec95c6573df022126feecae69011836733be12",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096902953110299096",
+      "url": "https://x.com/MissDelulu9/status/2096902953110299096",
+      "author": "MissDelulu9",
+      "published_at": "Mon Sep 07 10:06:37 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRmyE4qbkAA8K89.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRmyGadbcAA1Wwa.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "text_sha256": "76ea27db831e1f782b9cbf0c44bd1574efc0aeb73510caaee10899514b893071",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096909970398941572",
+      "url": "https://x.com/MrDasOnX/status/2096909970398941572",
+      "author": "MrDasOnX",
+      "published_at": "Mon Sep 07 10:34:30 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRm4fraaQAAt2h9.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "698faf1ebc377fe7209f7298af2d25de7d14d21c89269c520e75ecc872dd28c0",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097284686448046135",
+      "url": "https://x.com/Naiknelofar788/status/2097284686448046135",
+      "author": "Naiknelofar788",
+      "published_at": "Tue Sep 08 11:23:29 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRsNTGzbAAAJKUV.jpg?name=orig",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRsNTG0aYAEwpJF.jpg?name=orig",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRsNTG3aIAAX4MN.jpg?name=orig",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRsNTG3bkAAGEVt.jpg?name=orig",
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "text_sha256": "08f9803c5239f5b300ff8d86952e808f37f1002a84de7a00eb73764b257c0fe9",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2049846981271699685",
+      "url": "https://x.com/Preda2005/status/2049846981271699685",
+      "author": "Preda2005",
+      "published_at": "Thu Apr 30 13:42:59 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HHKE4rhagAARaVr.jpg?name=orig",
+          "width": 2731,
+          "height": 4096
+        }
+      ],
+      "text_sha256": "b594eddb90f59f5e48ad1bb16abb489ae73a99378c0e4b4588058ca2c2a290fa",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096807576168169628",
+      "url": "https://x.com/Sairah_0/status/2096807576168169628",
+      "author": "Sairah_0",
+      "published_at": "Mon Sep 07 03:47:37 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRlbXlobkAAG4p1.jpg?name=orig",
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRlbXlubAAAbFZU.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "text_sha256": "59d167cdbf6100cda1460833ed6b04614076c8b6d05a7fa5479b1b2f963415aa",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2067925399947067728",
+      "url": "https://x.com/azed_ai/status/2067925399947067728",
+      "author": "azed_ai",
+      "published_at": "Fri Jun 19 11:00:10 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HLK_KjdasAAbmRt.jpg?name=orig",
+          "width": 2688,
+          "height": 1792
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HLK_LJcbYAALX16.jpg?name=orig",
+          "width": 2688,
+          "height": 1792
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HLK_LvbbMAAj2RO.jpg?name=orig",
+          "width": 2688,
+          "height": 1792
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HLK_MPTa4AAcPN5.jpg?name=orig",
+          "width": 2688,
+          "height": 1792
+        }
+      ],
+      "text_sha256": "17618c488b2af59b4e81c55bdbb94a12891477c22764e6a9739834dd63cc38c0",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2048529821706195442",
+      "url": "https://x.com/dotey/status/2048529821706195442",
+      "author": "dotey",
+      "published_at": "Sun Apr 26 22:29:03 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HG3W9gzakAAVZbc.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "text_sha256": "deca98309521733a7634fe766ac0b8e2320e4bd40dd5828f12056962b756c226",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097185580224491672",
+      "url": "https://x.com/harboriis/status/2097185580224491672",
+      "author": "harboriis",
+      "published_at": "Tue Sep 08 04:49:40 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRqzIaObwAAU-pU.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRqzJOXagAA3jSw.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRqzJ_KacAAVOVc.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRqzKkga8AA01zR.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "71f07404eb60b7a32559ed86b00ca8da105a764f0d35d65e5615a4a094f72fd9",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2063094917774086510",
+      "url": "https://x.com/iamaiistudio/status/2063094917774086510",
+      "author": "iamaiistudio",
+      "published_at": "Sat Jun 06 03:05:33 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HKGVn52acAAH69H.jpg?name=orig",
+          "width": 1529,
+          "height": 2048
+        }
+      ],
+      "text_sha256": "2c7494e731f10052908fbeb52539b4ecf3c7e4fa5fd88d4234cf3cc78ed2241c",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096808538534514913",
+      "url": "https://x.com/iamsofiaijaz/status/2096808538534514913",
+      "author": "iamsofiaijaz",
+      "published_at": "Mon Sep 07 03:51:27 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRlcP97aAAABzgR.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "text_sha256": "9edc5a5abd87639905f90e4a3d5ff912de0a3355a83ff21293a27fe6c9c53edf",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096269909076623535",
+      "url": "https://x.com/liyue_ai/status/2096269909076623535",
+      "author": "liyue_ai",
+      "published_at": "Sat Sep 05 16:11:07 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRdxq-FaMAAsNqQ.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "ffc61123fe3e5a87b9f0a46eb5257ac98c69934ffc6aae089d3d7982d628ced1",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096631729410986083",
+      "url": "https://x.com/liyue_ai/status/2096631729410986083",
+      "author": "liyue_ai",
+      "published_at": "Sun Sep 06 16:08:52 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRi64qUa4AEftJa.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "00d676df66522d031d0323ee6e63b898710669d4f67e31addb59c7bbd3a9873c",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096838519918596234",
+      "url": "https://x.com/liyue_ai/status/2096838519918596234",
+      "author": "liyue_ai",
+      "published_at": "Mon Sep 07 05:50:35 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRl3Zava8AAncXW.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "e0eaaf81bcd75d4a2cc519e0b22df32aee1e52ef7612219fee41230b5677f34c",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097204639863287913",
+      "url": "https://x.com/liyue_ai/status/2097204639863287913",
+      "author": "liyue_ai",
+      "published_at": "Tue Sep 08 06:05:24 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRrEO03aIAAcNxq.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "text_sha256": "0f66ad060b01a3fa2810ec31c29acbf8aae449a7abd90b1b8c0d84f941a81932",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097411028510179759",
+      "url": "https://x.com/mark_k/status/2097411028510179759",
+      "author": "mark_k",
+      "published_at": "Tue Sep 08 19:45:31 +0000 2026",
+      "model_evidence": "GPT-Image-2.5",
+      "verification": "author-claim-via-public-mirror",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRt_pW_XEAAYiCE.jpg?name=orig",
+          "width": 1448,
+          "height": 1086
+        }
+      ],
+      "text_sha256": "e5c6680b7b055a47d0417cf96b0a5e767c6535deff5bce2f3f311d4c868690d2",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097486896750338125",
+      "url": "https://x.com/nanyuan0412/status/2097486896750338125",
+      "author": "nanyuan0412",
+      "published_at": "Wed Sep 09 00:47:00 +0000 2026",
+      "model_evidence": "GPT Image 2.5",
+      "verification": "author-claim-via-public-mirror",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie-bwAATJ-v.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie5bEAA6mRU.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie6awAALmnX.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie6aQAA5vPA.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "text_sha256": "34b4f391e5aa4805d16390e8ff3edc0024ccf6ee0fbf9a5412521ef8940e0a12",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2097176979497791899",
+      "url": "https://x.com/saniaspeaks_/status/2097176979497791899",
+      "author": "saniaspeaks_",
+      "published_at": "Tue Sep 08 04:15:30 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRqrTE2aAAALDs1.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRqrV33aAAAlxGO.jpg?name=orig",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "text_sha256": "d77064a9b16969519268316768b561632a5e7eb7273cfae44576075595953719",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096601368114937969",
+      "url": "https://x.com/sha_zdiii/status/2096601368114937969",
+      "author": "sha_zdiii",
+      "published_at": "Sun Sep 06 14:08:13 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRif0H-b0AAICfr.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRif056bsAARpcf.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "text_sha256": "807a3d20c813364c4d22e7c5b71bd55abe0b5a2ba13705e87bdcdf2eff231b79",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2096982628541100464",
+      "url": "https://x.com/sha_zdiii/status/2096982628541100464",
+      "author": "sha_zdiii",
+      "published_at": "Mon Sep 07 15:23:13 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRn6kGybAAAjGf9.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRn6k7bW8AAFHl3.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "text_sha256": "a0ef2d7b3075108ee3e43aebf03c31ec0d616dab403df45846424d34963dcb05",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    },
+    {
+      "id": "2050152865566708134",
+      "url": "https://x.com/xRahultripathi/status/2050152865566708134",
+      "author": "xRahultripathi",
+      "published_at": "Fri May 01 09:58:27 +0000 2026",
+      "model_evidence": null,
+      "verification": "model-unverified",
+      "prompt_available": true,
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HHObKobbQAAc2pf.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "text_sha256": "0529f9598dce994abe3b338338f293ba8b624c144d69ac349f53cc42424385e0",
+      "retrieval": "FxTwitter public API",
+      "rights": "Original author; no license inferred from public availability"
+    }
+  ]
+}

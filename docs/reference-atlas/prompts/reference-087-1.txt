@@ -1,0 +1,13 @@
+Landscape 16:9 figure of 4 attention heatmaps (2×2 grid), shared 12-token input.
+
+Token labels across X and Y (rotated 45° on X): "The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog", "near", "the", "river".
+
+Four 12×12 cell panels with individual titles:
+"Layer 6, Head 3 — subject-verb" (highlighted cells between "fox"/"jumped")
+"Layer 9, Head 7 — coreference" (highlighted cells between "the"(×2)/"river")
+"Layer 11, Head 2 — prepositional" (highlighted cells between "over"/"dog", "near"/"river")
+"Layer 14, Head 1 — sentence-final" (activity concentrated in rightmost column)
+
+Cells: dusty-teal gradient, darker = higher weight. Peak cells outlined in 1px soft-terracotta. Shared vertical color bar on far right with ticks "0.0", "0.25", "0.5", "0.75", "1.0" and label "attention weight".
+
+Title: "Representative multi-head attention patterns in a 16-layer Transformer". Subtitle: "four of 256 heads, hand-picked for illustrative head-role diversity; inspired by Clark et al., 2019."

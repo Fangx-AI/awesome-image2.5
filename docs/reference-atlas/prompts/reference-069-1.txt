@@ -1,0 +1,17 @@
+Generate a high-quality vertical encyclopedia-style infographic for [topic].
+
+This should not be a normal poster or a simple illustration. It should feel like a modular educational infographic that combines the clarity of a field guide, the structure of an encyclopedia page, the polish of a lifestyle knowledge card, and the shareability of a strong social-media explainer.
+
+The image should include:
+- a clear and appealing main visual of the topic
+- several enlarged detail callouts
+- multiple rounded modular information sections
+- strong title hierarchy and highlighted key labels
+- concise but information-rich educational content
+- visual scoring, quick takeaways, or a Top 5 module
+
+Adapt the content sections automatically based on the topic. Useful categories include: basic profile, classification, appearance, habits or ecology, formation mechanism or structure, growth or usage conditions, care or maintenance advice, risks and cautions, suitable users or use cases, pros and cons, and a quick scorecard.
+
+Visual requirements: use a clean light background, soft colors, subtle shadows, refined small icons, rounded information cards, and neat layout. The information density should be high but not crowded, and the final image should feel publishable, collectible, and repeatable as a knowledge-card format rather than an advertisement.
+
+Do not make it look like a commercial promo poster. Emphasize knowledge organization, modular information, and a field-guide presentation.

@@ -1,0 +1,12 @@
+Landscape 16:9 academic systems diagram of a RAG pipeline, 6-stage left-to-right flow.
+
+(1) "User query" box with placeholder text "What are the side effects of drug X?" and a small user silhouette.
+(2) Hexagonal "Embedding encoder (BERT-style)", caption "dense vector d=768".
+(3) Stylised database cylinder "Vector store" with "Index: 1.2M chunks"; arrow from (2) labeled "kNN, k=5".
+(4) "Retrieved passages" — stack of 5 doc thumbnails; caption "top-k chunks + metadata".
+(5) Hexagonal hub "Frozen LLM"; long curved arrow from (1) labeled "original query" also lands here; arrow from (4) labeled "retrieved context".
+(6) "Grounded answer" with inline marker "[cite: doc#47]"; caption "with source citations".
+
+Dashed outline around (2)-(3) labeled "OFFLINE — built once". Dashed outline around (4)-(5) labeled "ONLINE — per query".
+
+Title: "Retrieval-Augmented Generation pipeline". Subtitle: "Lewis et al., 2020".

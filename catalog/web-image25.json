@@ -1,0 +1,534 @@
+{
+  "records": [
+    {
+      "id": "official-retrofuturism",
+      "title": "复古未来城市",
+      "category": "建筑与场景",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-mid-century-modern-posters",
+      "title": "现代主义海报组",
+      "category": "海报与文字",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-impressionist-cityscape",
+      "title": "印象派街景",
+      "category": "插画与艺术",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/521YOTFHRC1SBj5llj4HkY/15d00909f0f73cf0af06b7de524d1d33/impressionist-cityscape.webp?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-wedding-invitation",
+      "title": "婚礼邀请函",
+      "category": "出版与版式",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/4j4NxMqYjew5nrW2nqo7Yq/dd05b405739b3fb9f0f3cb56a196889b/wedding-invitation.webp?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-sci-fi-surrealism",
+      "title": "科幻超现实",
+      "category": "插画与艺术",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/Oe7BObgTAVCWhUe8Xsxy6/ef835be62240562b3ae4be70d404d61d/sci-fi-surrealism.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-vintage-national-park-stamps",
+      "title": "国家公园邮票",
+      "category": "品牌与图标",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/4M5M3sRxcgnYl8Q2M8DZ3y/bc3773f82ae0e68d025e2dca3d5b8f43/vintage-national-park-stamps.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-presentation-image",
+      "title": "演示文稿视觉",
+      "category": "信息与教育",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/4IPoFYxHjVAfoZ4ZmKO1VX/25a75228d3dcaf8ae9369467a06a5281/presentation-image.webp?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-mosaic",
+      "title": "马赛克风格",
+      "category": "插画与艺术",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/3GALloAIN7Jn0P7wbvHPEB/0d02422440dfb3a001ff125cf37f7de4/mosaic.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-stickers",
+      "title": "贴纸设计",
+      "category": "品牌与图标",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/5jpsVIXTvhsaamMRBBygyj/59a740665177515836747b400f52e3fc/stickers.webp?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-cyberpunk",
+      "title": "赛博朋克城市",
+      "category": "建筑与场景",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/5siUce5uMdk0FxOA5opjoB/fcfb4452b13c144108f7786a9412f982/cyberpunk.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-80s-headshot",
+      "title": "八十年代肖像",
+      "category": "摄影与人像",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&q=90&fm=webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "official-baby-portrait-after",
+      "title": "人物服装编辑",
+      "category": "参考图编辑",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model_claim": "ChatGPT Images 2.5",
+      "verification": "official-sample",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/31fyboLGIlu5roN22tlEHK/9be57d84b3b7bbf22e7aa7f74b5af102/baby-portrait-after.webp"
+        }
+      ],
+      "prompt_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-desk-mockup",
+      "title": "显示器界面样机",
+      "category": "界面与屏幕",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-desk-mockup.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-label-edit",
+      "title": "产品标签编辑",
+      "category": "参考图编辑",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-label-edit.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-exhibition-poster",
+      "title": "展览文字海报",
+      "category": "海报与文字",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-exhibition-poster.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-character-turnaround",
+      "title": "角色三视图",
+      "category": "角色与游戏",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-character-turnaround.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-night-studio",
+      "title": "夜间工作室",
+      "category": "摄影与人像",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-night-studio.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-ceramic-caddy",
+      "title": "陶瓷收纳器",
+      "category": "产品与商业",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-ceramic-caddy.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-lab-composite",
+      "title": "多参考图合成",
+      "category": "参考图编辑",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-lab-composite.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-isometric-diorama",
+      "title": "等距建筑剖面",
+      "category": "建筑与场景",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-isometric-diorama.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-phone-in-hand",
+      "title": "手机屏幕文字",
+      "category": "界面与屏幕",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-phone-in-hand.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "reely-sunburst-sticker-transparent",
+      "title": "透明贴纸",
+      "category": "品牌与图标",
+      "author": "ReelyArt",
+      "source_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "model_claim": "GPT Image 2.5 Sunburst",
+      "verification": "provider-reported",
+      "images": [
+        {
+          "url": "https://cdn.reely.art/models/gpt-image-2-5/sunburst-sticker-transparent.webp"
+        }
+      ],
+      "prompt_url": "https://reely.art/models/gpt-image-2-5-sunburst",
+      "prompt_available": false,
+      "rights": "Original publisher; external image reference",
+      "note": "原页提供示例图；未提供与该图逐项配对的完整生成记录。"
+    },
+    {
+      "id": "simon-raccoon-chart",
+      "title": "图表中加入浣熊科学家",
+      "category": "参考图编辑",
+      "author": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "model_claim": "gpt-image-2.5-sunburst",
+      "verification": "author-reported-with-command",
+      "images": [
+        {
+          "url": "https://static.simonwillison.net/static/2026/racoon-chart.webp"
+        }
+      ],
+      "reference_images": [
+        {
+          "url": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp"
+        }
+      ],
+      "prompt_url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "prompt_available": true,
+      "prompt_excerpt": "add a raccoon scientist studying the chart thoughtfully",
+      "rights": "Original author; brief excerpt and external image reference",
+      "note": "原页同时展示输入、命令及结果；没有本项目独立调用的记录。"
+    },
+    {
+      "id": "x-2097447432757887207",
+      "title": "节日主题系列",
+      "category": "插画与艺术",
+      "author": "@BlackthorneAI",
+      "source_url": "https://x.com/BlackthorneAI/status/2097447432757887207",
+      "model_claim": "GPT-Image-2.5",
+      "verification": "author-claim-via-public-mirror",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTWLbsAAne5Y.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTWFW0AAD6o7.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTV-WcAE5P7n.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRuhTV0WcAA0fCN.jpg?name=orig",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "prompt_url": "https://x.com/BlackthorneAI/status/2097447432757887207",
+      "prompt_available": false,
+      "rights": "Original author; no license inferred from public availability",
+      "note": "同帖四张主题图片；未从首帖取得逐张完整提示词。"
+    },
+    {
+      "id": "x-2097513469172129825",
+      "title": "柔光旗袍肖像",
+      "category": "摄影与人像",
+      "author": "@BubbleBrain",
+      "source_url": "https://x.com/BubbleBrain/status/2097513469172129825",
+      "model_claim": "GPT Image 2.5",
+      "verification": "author-claim-via-public-mirror",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRvdLStaoAAAkSy.jpg?name=orig",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "prompt_url": "https://x.com/BubbleBrain/status/2097513469172129825",
+      "prompt_available": true,
+      "rights": "Original author; no license inferred from public availability",
+      "note": "原帖公开提示词；人物风格与成图以原作者作品为准。"
+    },
+    {
+      "id": "x-2097411028510179759",
+      "title": "树林细节与噪点测试",
+      "category": "摄影与人像",
+      "author": "@mark_k",
+      "source_url": "https://x.com/mark_k/status/2097411028510179759",
+      "model_claim": "GPT-Image-2.5",
+      "verification": "author-claim-via-public-mirror",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRt_pW_XEAAYiCE.jpg?name=orig",
+          "width": 1448,
+          "height": 1086
+        }
+      ],
+      "prompt_url": "https://x.com/mark_k/status/2097411028510179759",
+      "prompt_available": true,
+      "rights": "Original author; no license inferred from public availability",
+      "note": "作者用于观察细节纹理与噪点，不将其描述为质量胜出。"
+    },
+    {
+      "id": "x-2097486896750338125",
+      "title": "摄影参考保持与角色重设计",
+      "category": "参考图编辑",
+      "author": "@nanyuan0412",
+      "source_url": "https://x.com/nanyuan0412/status/2097486896750338125",
+      "model_claim": "GPT Image 2.5",
+      "verification": "author-claim-via-public-mirror",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie-bwAATJ-v.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie5bEAA6mRU.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie6awAALmnX.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRu3ie6aQAA5vPA.jpg?name=orig",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "prompt_url": "https://x.com/nanyuan0412/status/2097486896750338125",
+      "prompt_available": true,
+      "rights": "Original author; no license inferred from public availability",
+      "note": "原帖讨论保留曝光、材质和构图的做法；多图为作者同帖材料，未推断输入输出顺序。"
+    }
+  ]
+}

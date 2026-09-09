@@ -9,6 +9,10 @@ Turn the user's request into a usable image, preserving explicit content, model 
 
 ## Choose the route
 
+For current Image 2.5 source examples, browse [the source gallery](https://fangx-ai.github.io/awesome-image2.5/) or [the category index](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/README.md). Follow the original case's prompt link and check its evidence label. Some records contain only repository-level model claims; some official or provider samples do not disclose prompts. Do not invent missing parameters or attribute a reconstructed prompt to the author.
+
+For broader visual coverage, use [the complete attributed reference atlas](references/reference-atlas.md): 31 categories covering games, typography, paper figures, architecture and more. Its original model is GPT Image 2. Do not label those outputs as Image 2.5. Read one category, retain the original author/source, and adapt the prompt for the current task. Treat reported community results as evidence from their authors, not as your own completed generation.
+
 For a visual task, start with [the real-output gallery](references/visual-gallery.md). Select a case by the user's deliverable, read its complete prompt, and identify the composition rules to preserve versus the subject/text/colors to replace. For packaging preserve the shared layout; for menus inventory all text; for edits enumerate reference invariants. Read the case's observed limitations before reusing it. Use the prompt-only catalog below only if no real-output case fits.
 
 - Prompt-only request: return a tailored prompt without running generation.

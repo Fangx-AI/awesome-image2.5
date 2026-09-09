@@ -1,0 +1,18 @@
+Landscape 16:9 figure of a ReAct trace on a factual-QA task, vertical sequence of 7 alternating blocks.
+
+Top header: "Task — user asks: 'What year did the scientist who proved the Higgs boson exists win the Nobel Prize?'"
+
+Seven blocks, top-to-bottom, each numbered 1–7 on the left:
+1. Thought: "I need to identify the scientist associated with the proof of the Higgs boson and then look up their Nobel Prize year."
+2. Action: wiki_search("Higgs boson discovery")
+3. Observation: "The 2012 announcement at CERN confirmed the Higgs boson..."
+4. Thought: "The theoretical prediction is due to Peter Higgs and François Englert. I should check if they were later awarded the Nobel."
+5. Action: wiki_search("Peter Higgs Nobel Prize")
+6. Observation: "Peter Higgs and François Englert won the 2013 Nobel Prize in Physics..."
+7. Thought: "Answer: 2013."
+
+Thought blocks: dusty-teal left border, italic, brain glyph. Action blocks: muted-navy left border, monospace, wrench glyph. Observation blocks: soft-terracotta left border, lighter fill, eye glyph. Thin slate-gray arrows between blocks.
+
+Bottom: pill-shaped "Final answer: 2013" with a check glyph.
+
+Title: "ReAct trace: interleaved reasoning and tool-use on a factual-QA task". Subtitle: "Yao et al., 2022."

@@ -4,7 +4,15 @@
 
 ## 提交提示词或案例
 
-优先选择明确场景，说明它解决的具体问题。新增提示词放在 `skills/image25/references/prompts/`，并在 [画廊](skills/image25/references/gallery.md) 中添加条目。
+优先选择明确场景，说明它解决的具体问题。新增实验提示词维护在 `catalog/recipes.json`，然后运行 `python scripts/build_all.py`；不要直接编辑生成的画廊或 Skill 提示词文件。
+
+## 提交公开来源作品
+
+请提供原始作品页、作者、公开图片地址、模型声明所在页、提示词入口与许可信息。没有完整提示词也可以提交有价值的作品，但必须明确缺失项。案例级模型证据优于仓库首页的泛化说明；仅凭标题、发布时间或画风不能确认型号。
+
+人工整理的来源维护在 `catalog/web-image25.json`，社区采集维护在 `catalog/community-image25.json`，X 候选链接维护在 `catalog/x-seeds.json`。参照 [采集方法](docs/research.md) 选择证据标签。保留原作者地址，不将旧版案例或未知模型输出改标为 Image 2.5。
+
+以下字段用于本项目自己的生成案例：
 
 每个案例提供：
 - 标题、分类、完整提示词。

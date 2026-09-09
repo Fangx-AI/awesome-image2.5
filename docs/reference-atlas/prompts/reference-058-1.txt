@@ -1,0 +1,23 @@
+{
+  "global_settings": {
+    "resolution": "8K ultra high definition",
+    "aspect_ratio": "2:3 vertical",
+    "style": "hyper-realistic food photography",
+    "clarity": "extreme sharpness, micro-texture visibility",
+    "motion": "frozen action with suspended ingredients",
+    "lighting_quality": "studio-grade, high-contrast, cinematic"
+  },
+  "scene_description": "A dynamic salad explosion emerging from a matte black bowl placed on a round wooden surface. Ingredients are mid-air, scattered upward and outward, each ingredient lit by a directional key light that highlights surface moisture.",
+  "ingredients_visible": [
+    "green lettuce leaves", "cherry tomatoes (whole and sliced)", "cucumber slices arranged in a curved stack",
+    "black olives", "white cheese cubes", "orange citrus slice", "small broccoli florets",
+    "fresh green basil leaves", "a drizzle of olive oil caught mid-fall"
+  ],
+  "motion_details": {
+    "ingredients": "caught mid-arc, rotating slightly, some lightly blurred to convey motion",
+    "particles": "tiny droplets of olive oil and water beads floating between ingredients",
+    "bowl": "perfectly still, matte black, absorbing highlights"
+  },
+  "environment": { "background": "softly graded off-white to warm beige", "surface": "circular cut of raw oak wood" },
+  "render_flags": ["food photography award-winning", "no CGI tell", "editorial cookbook cover feel"]
+}

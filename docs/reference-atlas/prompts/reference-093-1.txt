@@ -1,0 +1,7 @@
+Create a premium conceptual figure for an EMNLP / ACL paper, landscape 16:9, high-resolution, polished editorial-academic style. Theme: "LLM Persona Atlas". This should not look like a generic pipeline diagram. It should look like a beautifully designed Figure 1 from a top NLP / agent paper: minimal, refined, memorable, with a strong central visual metaphor.
+
+Use a warm off-white paper background, subtle grain, large clean margins, crisp vector-like linework, delicate shadows, and fine gradients used sparingly. Use an understated, high-end color palette: ink black, warm gray, muted cobalt, dusty teal, soft sage, pale amber, muted coral, slate blue. No saturated rainbow colors, no cartoon style, no photorealism, no generic stock illustration.
+
+Composition: left "Utterance Stream" with small translucent speech fragments flowing in as curved data ribbons; center "Persona Lens" as a glass-like hexagonal prism / agent lens that refracts utterance ribbons into six colored persona strands; right "Six Persona Glyphs" as a coherent 2x3 gallery of abstract symbolic avatars labeled "Concise", "Explainer", "Cautious", "Supportive", "Creative", and "Analyst".
+
+Keep typography sparse, crisp, and clean. Add a small title "LLM Persona Atlas" and subtitle "from utterance style to model profile". Avoid dense method labels, big boxes, fake equations, fake citations, garbled text, photoreal humans, childish cartoon avatars, heavy shadows, and purple gradient backgrounds.

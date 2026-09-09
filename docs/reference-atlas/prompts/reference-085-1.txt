@@ -1,0 +1,13 @@
+Landscape 16:9 grouped-bar ablation chart.
+
+X-axis: 5 benchmark groups "MMLU", "GSM8K", "HumanEval", "BBH", "MATH". Y-axis "Accuracy (%)" with ticks "0", "20", "40", "60", "80", "100".
+
+Each group has 4 bars side-by-side:
+(1) "full model" — dusty-teal with thin warm-copper top outline
+(2) "– chain-of-thought" — slate gray
+(3) "– self-consistency" — muted navy
+(4) "– tool-use" — soft terracotta
+
+Thin black ±1σ error bars on each; numeric label above each bar in monospace. Faint horizontal gridlines. Legend box top-right.
+
+Title: "Ablation of core reasoning components across 5 benchmarks". Subtitle: "error bars = ±1 std over 3 runs; numeric drops relative to full model shown above each bar."

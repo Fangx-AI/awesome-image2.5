@@ -1,0 +1,9 @@
+Landscape 16:9 academic figure of diffusion forward + reverse chains, two horizontal chains stacked vertically.
+
+TOP chain (left→right) labeled "Forward diffusion q(x_t | x_{t-1})": five frames "x_0", "x_{T/4}", "x_{T/2}", "x_{3T/4}", "x_T" progressing from a crisp small mountain-sun landscape to pure Gaussian noise. Arrows between frames labeled "+ β_t ε".
+
+BOTTOM chain (right→left) labeled "Reverse denoising p_θ(x_{t-1} | x_t)": same five frames in reverse, with a small hexagonal ε_θ(x_t, t) block between each pair.
+
+Far-right curved arrow "T diffusion steps" connecting top-right to bottom-right; far-left curved arrow "sample x_0" connecting bottom-left to top-left.
+
+Title: "Denoising Diffusion: forward corruption and learned reverse". Subtitle: "Ho et al., 2020".

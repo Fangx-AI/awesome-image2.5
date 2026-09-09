@@ -1,5 +1,11 @@
 # 项目结构与维护
 
+所有发布页面统一运行 `python scripts/build_all.py` 重建。它按依赖顺序构建提示词实验区、本项目实图、旧版图谱和 Image 2.5 来源图库；不要只运行其中一个脚本后提交首页。
+
+`catalog/web-image25.json` 与 `catalog/community-image25.json` 是当前来源记录，生成 `catalog/image25-index.json`、分类页面及独立 Markdown / HTML 详情页。`scripts/collect_x_posts.py` 批量读取已发现的公开 X 链接；`scripts/collect_community_cases.py` 读取固定提交的社区案例。采集需要网络，日常构建不需要网络。
+
+`vendor/gpt-image2/` 保留上游原始快照与 MIT 许可。这里的原始相对链接不作本地导航使用；面向读者的转换版本在 `docs/reference-atlas/`。旧版资料与型号未知的本项目生成记录不进入默认 Image 2.5 筛选。
+
 ```text
 catalog/recipes.json               提示词与元数据的维护源
 catalog/recipes.csv / recipes.jsonl 批量导出
@@ -22,7 +28,7 @@ tests/                           不调用付费接口的测试
 编辑 catalog/recipes.json 后运行：
 
 ```sh
-python scripts/build_catalog.py
+python scripts/build_all.py
 python -m unittest discover -s tests -v
 ```
 

@@ -1,0 +1,10 @@
+Create a Nature Biomedical Engineering / NeurIPS medical-AI method figure, landscape 3:2 (1536×1024), soft literature-science colors and minimal academic layout.
+
+Figure title: "Multimodal foundation model for clinical decision support".
+
+Layout: a left-to-right method pipeline with three horizontal bands and panel labels A–C.
+A. Inputs on the left: small clean icons and labeled cards "Radiology image", "Pathology tile", "EHR sequence", "Lab values", "Genomics". Use subtle rounded rectangles.
+B. Middle architecture: five modality encoders feeding into a central pale-teal block "Shared clinical representation"; include small modules "contrastive alignment", "missing-modality mask", "temporal attention". Add thin arrows and skip connections.
+C. Outputs on the right: three task heads "diagnosis", "risk score", "treatment response" with small calibrated probability bars. Add a lower inset "external validation" showing two hospital icons and an arrow labeled "site transfer".
+
+Style requirements: soft Nature/Science palette (muted teal, dusty blue, sage green, warm sand, coral accents), white background, precise vector-like arrows, modest shadows only, readable labels, lots of whitespace, no futuristic HUD, no clinical gore, no real hospital logos, no watermark.
