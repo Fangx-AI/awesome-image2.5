@@ -29,7 +29,7 @@ def build():
     write("catalog/recipes.jsonl", "\n".join(json.dumps(e, ensure_ascii=False) for e in entries))
     stream = io.StringIO(newline="")
     fields = ["id", "title", "category", "mode", "kind", "family_id", "variant", "status", "size", "model", "requires", "prompt"]
-    writer = csv.DictWriter(stream, fieldnames=fields, extrasaction="ignore")
+    writer = csv.DictWriter(stream, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
     writer.writeheader()
     writer.writerows(entries)
     write("catalog/recipes.csv", stream.getvalue())
