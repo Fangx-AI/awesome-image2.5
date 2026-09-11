@@ -1,0 +1,26 @@
+name: 推荐外部作品 / Suggest a source
+description: 只需原始链接和推荐理由；不要求你拥有完整提示词或 API 回执。
+title: "[Source] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: 原始作品链接 / Original source URL
+      description: 优先作者原帖或案例页；请勿提交私人素材或密钥。
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: 值得收录的原因 / Why is it useful?
+      description: 它适合什么任务？有何可学习的构图、编辑或提示词方法？中文或 English 均可。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 模型、提示词与许可线索 / Optional evidence
+      description: 已知时附作者模型声明、提示词入口和许可链接；不知道可留空，由维护流程核查。
+  - type: markdown
+    attributes:
+      value: "提交是推荐线索，不等于已通过收录。自动审核会查看实际图片、来源与模型依据；保留原作者署名。"

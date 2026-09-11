@@ -24,18 +24,34 @@ Open an image to read the full prompt, adaptation notes and observed limitations
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/tea-campaign.md"><img src="assets/showcase/tea-campaign.png" width="100%" alt="Chinese poster · exact text"/></a><br/><strong>Chinese poster · exact text</strong><br/><a href="skills/image25/references/showcase/tea-campaign.md">Prompt & walkthrough</a></td>
-<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/field-notes-ui.md"><img src="assets/showcase/field-notes-ui.png" width="100%" alt="Workspace UI · clear layout"/></a><br/><strong>Workspace UI · clear layout</strong><br/><a href="skills/image25/references/showcase/field-notes-ui.md">Prompt & walkthrough</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/tea-campaign.md"><img src="assets/showcase/tea-campaign.png" width="100%" alt="Chinese poster · exact text"/></a><br/><strong>Chinese poster · exact text</strong><br/><a href="skills/image25/references/showcase/tea-campaign.md">Walkthrough</a> · <a href="assets/showcase/tea-campaign.txt">Copy prompt (TXT)</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/field-notes-ui.md"><img src="assets/showcase/field-notes-ui.png" width="100%" alt="Workspace UI · clear layout"/></a><br/><strong>Workspace UI · clear layout</strong><br/><a href="skills/image25/references/showcase/field-notes-ui.md">Walkthrough</a> · <a href="assets/showcase/field-notes-ui.txt">Copy prompt (TXT)</a></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/coffee-packaging.md"><img src="assets/showcase/coffee-packaging.png" width="100%" alt="Packaging · consistent series"/></a><br/><strong>Packaging · consistent series</strong><br/><a href="skills/image25/references/showcase/coffee-packaging.md">Prompt & walkthrough</a></td>
-<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/courier-character.md"><img src="assets/showcase/courier-character.png" width="100%" alt="Character sheet · three views"/></a><br/><strong>Character sheet · three views</strong><br/><a href="skills/image25/references/showcase/courier-character.md">Prompt & walkthrough</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/coffee-packaging.md"><img src="assets/showcase/coffee-packaging.png" width="100%" alt="Packaging · consistent series"/></a><br/><strong>Packaging · consistent series</strong><br/><a href="skills/image25/references/showcase/coffee-packaging.md">Walkthrough</a> · <a href="assets/showcase/coffee-packaging.txt">Copy prompt (TXT)</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/courier-character.md"><img src="assets/showcase/courier-character.png" width="100%" alt="Character sheet · three views"/></a><br/><strong>Character sheet · three views</strong><br/><a href="skills/image25/references/showcase/courier-character.md">Walkthrough</a> · <a href="assets/showcase/courier-character.txt">Copy prompt (TXT)</a></td>
 </tr>
 </table>
 
 [Explore Image 2.5 source examples →](docs/image25/README.md)
 
-**New here?** [How to use the prompts](docs/prompts.md) · [Documentation map](docs/README.md) · [FAQ](docs/troubleshooting.md). Supporting guides and original case titles are currently primarily in Chinese; prompt blocks can be reused directly.
+**New here?** [Start in English](docs/getting-started.en.md) · [Documentation map](docs/README.md) · [FAQ](docs/troubleshooting.md). Supporting guides and original case titles are currently primarily in Chinese; prompt blocks can be reused directly.
+
+<a id="try-it"></a>
+
+<details><summary>Try the tea poster: copy one complete prompt</summary>
+
+Paste this into your image tool and select a portrait canvas. No reference image is needed. Replace the brand and copy to make it your own. The displayed project output has an unknown exact model; a new run may differ.
+
+~~~text
+Create a finished premium vertical Chinese beverage campaign poster, aspect ratio 2:3. Original fictional tea brand 山间. A single elegant amber glass cold-brew tea bottle stands slightly right of center on a pale warm limestone block, with a small clear tea glass to the left and one fresh tea sprig resting low in the foreground. Bottle has a cream paper label with exactly two readable Chinese characters 山间 and a small blue-green square emblem. Upper left: beautifully typeset large Chinese headline exactly 慢下来，喝口茶 split into two balanced lines if needed. Under it, small subheading exactly 山间冷泡茶. No other text. Restrained palette of warm ivory, dark pine green and translucent amber. Late afternoon window light from upper left creates a geometric soft-edged shadow on the wall, authentic condensation, precise glass thickness, believable liquid refraction. Product label remains crisp and front-facing enough to read. Editorial typography with carefully controlled spacing, generous negative space, refined printed advertising aesthetic, exceptionally polished commercial art direction. Do not add certifications, statistics, tiny filler text, watermarks or unrelated objects.
+~~~
+
+Check the exact headline, bottle label and extra text first. [Full setup](docs/getting-started.en.md).
+
+</details>
+
+If this saves you time, **Star the repository** to find it again. [What changed](CHANGELOG.md) · [Suggest a source](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=source.yml) · [Share your result](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=resource.yml)
 <a id="gallery-index"></a>
 
 ## Selected prompt gallery
@@ -1614,7 +1630,7 @@ https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25
 https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25-reverse-prompt
 ~~~
 
-[Setup and updates (Chinese)](docs/getting-started.md) · [Skill instructions](skills/image25/SKILL.md)
+[Setup and updates](docs/getting-started.en.md) · [Skill instructions](skills/image25/SKILL.md)
 
 </details>
 
@@ -1639,7 +1655,7 @@ Use image25-reverse-prompt to extract composition, materials, lighting and mediu
 Edit image 1: change only the scarf color; preserve identity, pose, lighting and background.
 ~~~
 
-[CLI parameter table (Chinese)](docs/getting-started.md#参数) · [Prompt Craft](skills/image25/references/craft.md) · [Editing workflows (Chinese)](docs/workflows.md)
+[CLI options](docs/getting-started.en.md#cli-options) · [Prompt Craft](skills/image25/references/craft.md) · [Editing workflows (Chinese)](docs/workflows.md)
 
 ### Reference editing: input and result
 

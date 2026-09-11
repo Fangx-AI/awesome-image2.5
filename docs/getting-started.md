@@ -1,6 +1,6 @@
 # 安装与使用
 
-[返回首页](../README.md) · [文档导航](README.md) · [常见问题](troubleshooting.md)
+[返回首页](../README.md) · [English](getting-started.en.md) · [文档导航](README.md) · [常见问题](troubleshooting.md)
 
 | 你的目标 | 需要什么 | 下一步 |
 | --- | --- | --- |

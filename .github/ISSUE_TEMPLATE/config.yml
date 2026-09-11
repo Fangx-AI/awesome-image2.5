@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 安装与常见问题 / Setup and troubleshooting
+    url: https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/getting-started.md
+    about: 先确认安装、参考文件和 API 配置。
+  - name: English quick start
+    url: https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/getting-started.en.md
+    about: Copy a prompt, install a Skill or run the CLI.

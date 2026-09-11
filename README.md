@@ -24,18 +24,34 @@
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/tea-campaign.md"><img src="assets/showcase/tea-campaign.png" width="100%" alt="中文海报：文字与版式"/></a><br/><strong>中文海报：文字与版式</strong><br/><a href="skills/image25/references/showcase/tea-campaign.md">查看完整提示词与拆解</a></td>
-<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/field-notes-ui.md"><img src="assets/showcase/field-notes-ui.png" width="100%" alt="产品界面：布局与层级"/></a><br/><strong>产品界面：布局与层级</strong><br/><a href="skills/image25/references/showcase/field-notes-ui.md">查看完整提示词与拆解</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/tea-campaign.md"><img src="assets/showcase/tea-campaign.png" width="100%" alt="中文海报：文字与版式"/></a><br/><strong>中文海报：文字与版式</strong><br/><a href="skills/image25/references/showcase/tea-campaign.md">案例拆解</a> · <a href="assets/showcase/tea-campaign.txt">直接取用提示词 TXT</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/field-notes-ui.md"><img src="assets/showcase/field-notes-ui.png" width="100%" alt="产品界面：布局与层级"/></a><br/><strong>产品界面：布局与层级</strong><br/><a href="skills/image25/references/showcase/field-notes-ui.md">案例拆解</a> · <a href="assets/showcase/field-notes-ui.txt">直接取用提示词 TXT</a></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/coffee-packaging.md"><img src="assets/showcase/coffee-packaging.png" width="100%" alt="系列包装：统一的品牌感"/></a><br/><strong>系列包装：统一的品牌感</strong><br/><a href="skills/image25/references/showcase/coffee-packaging.md">查看完整提示词与拆解</a></td>
-<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/courier-character.md"><img src="assets/showcase/courier-character.png" width="100%" alt="角色三视图：外观一致性"/></a><br/><strong>角色三视图：外观一致性</strong><br/><a href="skills/image25/references/showcase/courier-character.md">查看完整提示词与拆解</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/coffee-packaging.md"><img src="assets/showcase/coffee-packaging.png" width="100%" alt="系列包装：统一的品牌感"/></a><br/><strong>系列包装：统一的品牌感</strong><br/><a href="skills/image25/references/showcase/coffee-packaging.md">案例拆解</a> · <a href="assets/showcase/coffee-packaging.txt">直接取用提示词 TXT</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/courier-character.md"><img src="assets/showcase/courier-character.png" width="100%" alt="角色三视图：外观一致性"/></a><br/><strong>角色三视图：外观一致性</strong><br/><a href="skills/image25/references/showcase/courier-character.md">案例拆解</a> · <a href="assets/showcase/courier-character.txt">直接取用提示词 TXT</a></td>
 </tr>
 </table>
 
 [继续看 Image 2.5 官方与社区来源作品 →](docs/image25/README.md)
 
 **第一次来？** [怎样复制和改写提示词](docs/prompts.md) · [文档导航](docs/README.md) · [常见问题](docs/troubleshooting.md)。只浏览和复制提示词无需安装。
+
+<a id="try-it"></a>
+
+<details><summary>现在试一次：展开并复制茶饮海报的完整提示词</summary>
+
+复制到你已有的生图工具，选择竖版画幅即可尝试，不需要参考图。将品牌和文案换成自己的内容。上方实图精确型号未知，新生成结果可能不同。
+
+~~~text
+Create a finished premium vertical Chinese beverage campaign poster, aspect ratio 2:3. Original fictional tea brand 山间. A single elegant amber glass cold-brew tea bottle stands slightly right of center on a pale warm limestone block, with a small clear tea glass to the left and one fresh tea sprig resting low in the foreground. Bottle has a cream paper label with exactly two readable Chinese characters 山间 and a small blue-green square emblem. Upper left: beautifully typeset large Chinese headline exactly 慢下来，喝口茶 split into two balanced lines if needed. Under it, small subheading exactly 山间冷泡茶. No other text. Restrained palette of warm ivory, dark pine green and translucent amber. Late afternoon window light from upper left creates a geometric soft-edged shadow on the wall, authentic condensation, precise glass thickness, believable liquid refraction. Product label remains crisp and front-facing enough to read. Editorial typography with carefully controlled spacing, generous negative space, refined printed advertising aesthetic, exceptionally polished commercial art direction. Do not add certifications, statistics, tiny filler text, watermarks or unrelated objects.
+~~~
+
+先检查标题逐字准确、瓶身标签清楚、是否多出无关文字。[完整安装说明](docs/getting-started.md)。
+
+</details>
+
+如果这些案例帮你节省了时间，欢迎 **Star 收藏**，下次需要时回来查。[查看更新](CHANGELOG.md) · [推荐好作品](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=source.yml) · [分享你的结果](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=resource.yml)
 <a id="gallery-index"></a>
 
 ## 🎨 提示词精选展示

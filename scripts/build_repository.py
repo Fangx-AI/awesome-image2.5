@@ -223,11 +223,18 @@ def readme(english=False):
         front+=['<tr>']
         for i in range(offset,offset+2):
             id=featured_ids[i];path='skills/image25/references/showcase/'+id+'.md'
-            front+=[f'<td width="50%" align="center" valign="top"><a href="{path}"><img src="assets/showcase/{id}.png" width="100%" alt="{featured_titles[i]}"/></a><br/><strong>{featured_titles[i]}</strong><br/><a href="{path}">'+('Prompt & walkthrough' if english else '查看完整提示词与拆解')+'</a></td>']
+            front+=[f'<td width="50%" align="center" valign="top"><a href="{path}"><img src="assets/showcase/{id}.png" width="100%" alt="{featured_titles[i]}"/></a><br/><strong>{featured_titles[i]}</strong><br/><a href="{path}">'+('Walkthrough' if english else '案例拆解')+f'</a> · <a href="assets/showcase/{id}.txt">'+('Copy prompt (TXT)' if english else '直接取用提示词 TXT')+'</a></td>']
         front+=['</tr>']
     front+=['</table>','',
        ('[Explore Image 2.5 source examples →](docs/image25/README.md)' if english else '[继续看 Image 2.5 官方与社区来源作品 →](docs/image25/README.md)'), '']
     front += [('**New here?** [How to use the prompts](docs/prompts.md) · [Documentation map](docs/README.md) · [FAQ](docs/troubleshooting.md). Supporting guides and original case titles are currently primarily in Chinese; prompt blocks can be reused directly.' if english else '**第一次来？** [怎样复制和改写提示词](docs/prompts.md) · [文档导航](docs/README.md) · [常见问题](docs/troubleshooting.md)。只浏览和复制提示词无需安装。'),'']
+    front += ['<a id="try-it"></a>','',
+        '<details><summary>'+('Try the tea poster: copy one complete prompt' if english else '现在试一次：展开并复制茶饮海报的完整提示词')+'</summary>','',
+        ('Paste this into your image tool and select a portrait canvas. No reference image is needed. Replace the brand and copy to make it your own. The displayed project output has an unknown exact model; a new run may differ.' if english else '复制到你已有的生图工具，选择竖版画幅即可尝试，不需要参考图。将品牌和文案换成自己的内容。上方实图精确型号未知，新生成结果可能不同。'),'',
+        '~~~text',next(e['prompt'] for e in own if e['id']=='tea-campaign'),'~~~','',
+        ('Check the exact headline, bottle label and extra text first. [Full setup](docs/getting-started.en.md).' if english else '先检查标题逐字准确、瓶身标签清楚、是否多出无关文字。[完整安装说明](docs/getting-started.md)。'),'',
+        '</details>','',
+        ('If this saves you time, **Star the repository** to find it again. [What changed](CHANGELOG.md) · [Suggest a source](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=source.yml) · [Share your result](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=resource.yml)' if english else '如果这些案例帮你节省了时间，欢迎 **Star 收藏**，下次需要时回来查。[查看更新](CHANGELOG.md) · [推荐好作品](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=source.yml) · [分享你的结果](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=resource.yml)'), '']
     # Language labels and evidence remain clear without English inventories on the Chinese page.
     if not english:
         atlas=atlas.replace('完整 MD / Full atlas','全部案例与提示词').replace('[↑ Index]','[↑ 返回分类]').replace('完整分类 / Full atlas','查看完整分类')
@@ -268,6 +275,8 @@ def readme(english=False):
           '提供了分类展示、按需读取的 Skill 图谱和旧版案例参考。上游 MIT 版权声明及外部作者署名保留。':'inspired the category presentation and on-demand Skill atlas and supplied the legacy reference cases. Upstream MIT notices and author attribution are preserved.',
         }
         for a,b in translations.items(): result=result.replace(a,b)
+        result=result.replace('[Setup and updates (Chinese)](docs/getting-started.md)','[Setup and updates](docs/getting-started.en.md)').replace('[CLI parameter table (Chinese)](docs/getting-started.md#参数)','[CLI options](docs/getting-started.en.md#cli-options)')
+        result=result.replace('[How to use the prompts](docs/prompts.md)','[Start in English](docs/getting-started.en.md)')
         result=result.replace(f'{len(current)} 个 Image 2.5 带图来源条目 · {len(own)} 个本项目型号未知实图 · {len(legacy["entries"])} 个旧版学习案例 · {len(taxonomy)} 份新编练习 Prompt。',f'{len(current)} Image 2.5 source records · {len(own)} unknown-model project outputs · {len(legacy["entries"])} legacy cases · {len(taxonomy)} practice prompts.')
     return result
 

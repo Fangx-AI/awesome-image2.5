@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Put reusable TXT prompts beside featured images and add an inline first example.
+- Add an English start-to-finish guide and separate source recommendations from original submissions.
+
 - Improve the GitHub entry page with a branded banner, direct examples and task-based navigation.
 - Add a documentation map, complete Skill setup, file-free CLI dry run and prompt adaptation guide.
 - Link workflow steps to full cases, show edit inputs and clarify checkout requirements.

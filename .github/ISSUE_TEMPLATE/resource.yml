@@ -1,23 +1,23 @@
-name: 提交提示词或案例
-description: 分享一个 Image 2.5 提示词或生成结果
+name: 分享原创提示词或结果 / Share your work
+description: 分享你自己的提示词或生成结果；推荐外部作品请使用 Suggest a source。
 title: "[Gallery] "
 body:
   - type: input
     id: title
     attributes:
-      label: 案例标题与分类
+      label: 案例标题与分类 / Title and category
     validations:
       required: true
   - type: textarea
     id: prompt
     attributes:
-      label: 完整提示词
+      label: 完整提示词 / Full prompt
     validations:
       required: true
   - type: dropdown
     id: status
     attributes:
-      label: 验证状态
+      label: 验证状态 / Evidence status
       options:
         - prompt-only（尚未出图验证）
         - host-model-unknown（宿主未披露模型）
@@ -27,7 +27,7 @@ body:
   - type: textarea
     id: details
     attributes:
-      label: 模型、参数、结果与来源
-      description: 附模型名、日期、尺寸、质量、输入来源和可分享的输出；不要提交密钥。
+      label: 模型、参数、结果与来源 / Model, result and source
+      description: 有输出时附模型名、日期、参数和可分享的图片；未出图可写 prompt-only。型号未知时保持未知，不要提交密钥。
     validations:
       required: true

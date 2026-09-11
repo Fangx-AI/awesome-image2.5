@@ -2,7 +2,7 @@
 
 欢迎完善 Image 2.5 提示词、真实出图案例、Skills 与 CLI。
 
-[文档导航](docs/README.md) · [提交新资源](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=resource.yml) · [更正已有案例](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=correction.md)
+[文档导航](docs/README.md) · [推荐外部作品](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=source.yml) · [分享自己的作品](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=resource.yml) · [更正已有案例](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=correction.md)
 
 不熟悉代码时，提交案例链接和修改建议即可。修改文档前先确认维护源：
 
