@@ -1,79 +1,39 @@
-<h1 align="center">GPT Image 2.5 · Prompt Gallery + Agent Skills + CLI</h1>
+<h1 align="center">Awesome Image 2.5</h1>
 
-<p align="center">A category-first prompt and image reference repository for creative work.</p>
+<p align="center"><strong>Find an image you love. Read its prompt. Make it your own.</strong></p>
 
-[中文](README.md) · [English](README.en.md) · [分类导航](#gallery-index) · [安装](#installation) · [完整分类图谱](skills/image25/references/gallery.md)
+<p align="center"><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 
-![Validate](https://github.com/Fangx-AI/awesome-image2.5/actions/workflows/tests.yml/badge.svg) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue) ![Categories](https://img.shields.io/badge/Categories-31-35644a)
+<p align="center"><img src="https://github.com/Fangx-AI/awesome-image2.5/actions/workflows/tests.yml/badge.svg" alt="Tests"/> <img src="https://img.shields.io/badge/Categories-31-35644a" alt="31 categories"/> <img src="https://img.shields.io/badge/Agent_Skills-2-c96b32" alt="2 Agent Skills"/></p>
 
-![Original concept cover](assets/cover.png)
+![Awesome Image 2.5 — See it. Prompt it. Make it.](assets/hero-v2.png)
 
-[原创概念封面 · 生成来源 / Cover provenance](assets/PROVENANCE.md)
+<p align="center"><a href="#start-here">Start here</a> · <a href="#gallery-index">All categories</a> · <a href="#installation">Install & use</a> · <a href="docs/workflows.md">Editing workflows</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
 
-## At a glance
+**31 creative categories · image examples with sources · 2 Agent Skills · generation & editing CLI**
 
-| Surface | Content |
+| 🖼️ Find a visual direction | 📝 Get a usable prompt | 🛠️ Create with an agent |
 | --- | --- |
-| Gallery | 31 categories · 146 Image 2.5 source records |
-| Prompts | 31 new practice briefs · 14 original output demonstrations · 162 attributed legacy cases |
-| Agent Skills | image25 · image25-reverse-prompt |
-| CLI | Generate · Edit · Multi-reference · Mask · Batch · Dry run |
+| [Browse all categories](#gallery-index) | [Open the prompt atlas](skills/image25/references/gallery.md) | [Install a Skill](#installation) |
 
-Official samples, provider claims, author claims and unknown-model outputs are labeled separately. Most community records currently come from LaplaceYoung. Legacy GPT Image 2 images are never relabeled as 2.5.
+<a id="start-here"></a>
 
-## What this repository is for
+## Start with a complete example
 
-Find a deliverable below, inspect the images and expand the prompt. Use the full category file when drafting with an agent. The README is the selected showcase; the Skill atlas contains the complete collection.
+Open an image to read the full prompt, adaptation notes and observed limitations. These original demonstrations have no exact model ID from the host.
 
-<a id="installation"></a>
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/tea-campaign.md"><img src="assets/showcase/tea-campaign.png" width="100%" alt="Chinese poster · exact text"/></a><br/><strong>Chinese poster · exact text</strong><br/><a href="skills/image25/references/showcase/tea-campaign.md">Prompt & walkthrough</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/field-notes-ui.md"><img src="assets/showcase/field-notes-ui.png" width="100%" alt="Workspace UI · clear layout"/></a><br/><strong>Workspace UI · clear layout</strong><br/><a href="skills/image25/references/showcase/field-notes-ui.md">Prompt & walkthrough</a></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/coffee-packaging.md"><img src="assets/showcase/coffee-packaging.png" width="100%" alt="Packaging · consistent series"/></a><br/><strong>Packaging · consistent series</strong><br/><a href="skills/image25/references/showcase/coffee-packaging.md">Prompt & walkthrough</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/courier-character.md"><img src="assets/showcase/courier-character.png" width="100%" alt="Character sheet · three views"/></a><br/><strong>Character sheet · three views</strong><br/><a href="skills/image25/references/showcase/courier-character.md">Prompt & walkthrough</a></td>
+</tr>
+</table>
 
-## Installation
-
-<details><summary>Codex · Agent Skills</summary>
-
-~~~text
-$skill-installer
-Install this skill from GitHub:
-https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25
-
-# Optional: extract prompts from reference images
-https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25-reverse-prompt
-~~~
-
-[安装、配置和更新](docs/getting-started.md) · [Skill 运行说明](skills/image25/SKILL.md)
-
-</details>
-
-<details><summary>CLI · Python 3.10+</summary>
-
-~~~sh
-uv tool install git+https://github.com/Fangx-AI/awesome-image2.5
-image25 --prompt-file prompt.txt --model flare --dry-run
-image25 --prompt-file prompt.txt --model flare -o generated/result.png
-~~~
-
-`OPENAI_API_KEY` is read from the process environment. Live calls require API access.
-
-</details>
-
-## Quick usage and prompting fundamentals
-
-~~~text
-用 image25 参考“品牌系统与视觉识别”分类，为山间书店设计一套统一的视觉识别。
-用 image25-reverse-prompt 分析这张参考图，提取构图、材质、光线与媒介边界。
-编辑第 1 张图：只替换围巾颜色，保留身份、姿势、光线和背景。
-~~~
-
-[完整 CLI 参数](docs/getting-started.md#参数) · [Prompt Craft](skills/image25/references/craft.md) · [编辑工作流](docs/workflows.md)
-
-### Reference editing: input and result
-
-| Input / 参考图 | Output / 编辑结果 |
-| --- | --- |
-| ![Input](assets/showcase/pet-portrait.png) | ![Output](assets/showcase/pet-scarf.png) |
-
-**host-model-unknown** · [完整 Prompt 与实际观察](skills/image25/references/showcase/pet-scarf.md)
-
+[Explore Image 2.5 source examples →](docs/image25/README.md)
 <a id="gallery-index"></a>
 
 ## Selected prompt gallery
@@ -1504,14 +1464,14 @@ Create a contemplative widescreen film-frame concept of a lone traveler approach
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/ceramic-skincare.png" width="100%" alt="护肤精华 · 材质与留白"/></a><br/><strong>护肤精华 · 材质与留白</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/ceramic-skincare.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/ceramic-skincare.png" width="100%" alt="护肤精华 · 材质与留白"/></a><br/><strong>护肤精华 · 材质与留白</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
 </tr>
 </table>
 
 <details>
 <summary>Prompt · 护肤精华 · 材质与留白</summary>
 
-[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md) · **本项目生成 · 精确型号未知**
+[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/ceramic-skincare.md) · **本项目生成 · 精确型号未知**
 
 Generated: 2026-09-09 · Postprocessing: none
 
@@ -1637,6 +1597,64 @@ Create a vertical tattoo flash concept for a forearm placement, presented on off
 
 </details>
 
+<a id="installation"></a>
+
+## Installation
+
+<details><summary>Codex · Agent Skills</summary>
+
+~~~text
+$skill-installer
+Install this skill from GitHub:
+https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25
+
+# Optional: extract prompts from reference images
+https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25-reverse-prompt
+~~~
+
+[安装、配置和更新](docs/getting-started.md) · [Skill 运行说明](skills/image25/SKILL.md)
+
+</details>
+
+<details><summary>CLI · Python 3.10+</summary>
+
+~~~sh
+uv tool install git+https://github.com/Fangx-AI/awesome-image2.5
+image25 --prompt-file prompt.txt --model flare --dry-run
+image25 --prompt-file prompt.txt --model flare -o generated/result.png
+~~~
+
+`OPENAI_API_KEY` is read from the process environment. Live calls require API access.
+
+</details>
+
+## Quick usage and prompting fundamentals
+
+~~~text
+用 image25 参考“品牌系统与视觉识别”分类，为山间书店设计一套统一的视觉识别。
+用 image25-reverse-prompt 分析这张参考图，提取构图、材质、光线与媒介边界。
+编辑第 1 张图：只替换围巾颜色，保留身份、姿势、光线和背景。
+~~~
+
+[完整 CLI 参数](docs/getting-started.md#参数) · [Prompt Craft](skills/image25/references/craft.md) · [编辑工作流](docs/workflows.md)
+
+### Reference editing: input and result
+
+| Input / 参考图 | Output / 编辑结果 |
+| --- | --- |
+| ![Input](assets/showcase/pet-portrait.png) | ![Output](assets/showcase/pet-scarf.png) |
+
+**host-model-unknown** · [完整 Prompt 与实际观察](skills/image25/references/showcase/pet-scarf.md)
+
+<details><summary>Collection and provenance</summary>
+
+146 个 Image 2.5 带图来源条目 · 14 个本项目型号未知实图 · 162 个旧版学习案例 · 31 份新编练习 Prompt。
+
+来源声明不等于独立实测；新编练习提示词不冒充样图原始 Prompt。当前社区来源较集中于 LaplaceYoung。
+
+[来源与证据](docs/research.md) · [第三方许可](THIRD_PARTY_NOTICES.md) · [封面生成记录](assets/hero-v2.json)
+
+</details>
 ## Credits and contribution
 
 [Wuyoscar / GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) 提供了分类展示、按需读取的 Skill 图谱和旧版案例参考。上游 MIT 版权声明及外部作者署名保留。

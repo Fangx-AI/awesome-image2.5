@@ -165,14 +165,14 @@ add a raccoon scientist studying the chart thoughtfully
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/tea-lightbox.png" width="100%" alt="平面海报 → 灯箱样机"/></a><br/><strong>平面海报 → 灯箱样机</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/tea-lightbox.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/tea-lightbox.png" width="100%" alt="平面海报 → 灯箱样机"/></a><br/><strong>平面海报 → 灯箱样机</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
 </tr>
 </table>
 
 <details>
 <summary>Prompt · 平面海报 → 灯箱样机</summary>
 
-[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md) · **本项目生成 · 精确型号未知**
+[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/tea-lightbox.md) · **本项目生成 · 精确型号未知**
 
 Generated: 2026-09-09 · Postprocessing: none
 
@@ -188,14 +188,14 @@ Use this exact Chinese tea campaign poster as the artwork inside a realistic ver
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/pet-scarf.png" width="100%" alt="局部编辑：只增加围巾"/></a><br/><strong>局部编辑：只增加围巾</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/pet-scarf.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/pet-scarf.png" width="100%" alt="局部编辑：只增加围巾"/></a><br/><strong>局部编辑：只增加围巾</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
 </tr>
 </table>
 
 <details>
 <summary>Prompt · 局部编辑：只增加围巾</summary>
 
-[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md) · **本项目生成 · 精确型号未知**
+[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/pet-scarf.md) · **本项目生成 · 精确型号未知**
 
 Generated: 2026-09-09 · Postprocessing: none
 

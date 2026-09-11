@@ -368,14 +368,14 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/tea-campaign.png" width="100%" alt="山间冷泡 · 产品广告"/></a><br/><strong>山间冷泡 · 产品广告</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/tea-campaign.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/tea-campaign.png" width="100%" alt="山间冷泡 · 产品广告"/></a><br/><strong>山间冷泡 · 产品广告</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
 </tr>
 </table>
 
 <details>
 <summary>Prompt · 山间冷泡 · 产品广告</summary>
 
-[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md) · **本项目生成 · 精确型号未知**
+[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/tea-campaign.md) · **本项目生成 · 精确型号未知**
 
 Generated: 2026-09-09 · Postprocessing: none
 

@@ -45,14 +45,14 @@ Create a photorealistic architectural concept of a small neighborhood reading ro
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/rooftop-library.png" width="100%" alt="屋顶图书馆 · 空间叙事"/></a><br/><strong>屋顶图书馆 · 空间叙事</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/rooftop-library.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/rooftop-library.png" width="100%" alt="屋顶图书馆 · 空间叙事"/></a><br/><strong>屋顶图书馆 · 空间叙事</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
 </tr>
 </table>
 
 <details>
 <summary>Prompt · 屋顶图书馆 · 空间叙事</summary>
 
-[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md) · **本项目生成 · 精确型号未知**
+[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/rooftop-library.md) · **本项目生成 · 精确型号未知**
 
 Generated: 2026-09-09 · Postprocessing: none
 

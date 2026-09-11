@@ -140,14 +140,14 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/rainy-bookshop.png" width="100%" alt="雨夜书店 · 叙事插画"/></a><br/><strong>雨夜书店 · 叙事插画</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/rainy-bookshop.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/rainy-bookshop.png" width="100%" alt="雨夜书店 · 叙事插画"/></a><br/><strong>雨夜书店 · 叙事插画</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
 </tr>
 </table>
 
 <details>
 <summary>Prompt · 雨夜书店 · 叙事插画</summary>
 
-[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md) · **本项目生成 · 精确型号未知**
+[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/rainy-bookshop.md) · **本项目生成 · 精确型号未知**
 
 Generated: 2026-09-09 · Postprocessing: none
 

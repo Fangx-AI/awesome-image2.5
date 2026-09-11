@@ -56,7 +56,7 @@ def source_case(e):
 
 def own_case(e):
     return dict(id=e['id'],title=e['title'],image=RAW+'assets/showcase/'+e['id']+'.png',
-      tag='本项目生成 · 精确型号未知',author='Fangx-AI',source=REPO+'/blob/main/docs/showcase.md',
+      tag='本项目生成 · 精确型号未知',author='Fangx-AI',source=REPO+'/blob/main/skills/image25/references/showcase/'+e['id']+'.md',
       prompt=e['prompt'],note=e['check'],metadata='Generated: '+e['date']+' · Postprocessing: '+e['postprocessing'],kind='own')
 
 def legacy_case(e):
@@ -190,7 +190,48 @@ def readme(english=False):
       '[贡献指南](CONTRIBUTING.md) · [行为准则](CODE_OF_CONDUCT.md) · [支持说明](SUPPORT.md) · [安全政策](SECURITY.md) · [第三方许可](THIRD_PARTY_NOTICES.md)','',
       '[逐板块对照记录](docs/reference-study.md) · [项目结构](docs/architecture.md) · [自动更新机制](docs/automatic-updates.md)','',
       'Community project; not affiliated with OpenAI. Original content: CC0. Third-party content retains its original license.','']
-    return '\n'.join(lines)
+    # Keep the existing complete atlas, but lead with decisions and usable examples.
+    document='\n'.join(lines)
+    install_start=document.index('<a id="installation"></a>')
+    gallery_start=document.index('<a id="gallery-index"></a>')
+    credits_start=document.index('## '+('Credits and contribution' if english else '🙏 致谢与贡献'))
+    installation=document[install_start:gallery_start]
+    atlas=document[gallery_start:credits_start]
+    credits=document[credits_start:]
+    heading='Awesome Image 2.5'
+    subtitle=('Find an image you love. Read its prompt. Make it your own.' if english else '找到想做的图，读懂提示词，做出自己的作品。')
+    front=[f'<h1 align="center">{heading}</h1>','',f'<p align="center"><strong>{subtitle}</strong></p>','',
+       '<p align="center"><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>','',
+       '<p align="center"><img src="https://github.com/Fangx-AI/awesome-image2.5/actions/workflows/tests.yml/badge.svg" alt="Tests"/> <img src="https://img.shields.io/badge/Categories-31-35644a" alt="31 categories"/> <img src="https://img.shields.io/badge/Agent_Skills-2-c96b32" alt="2 Agent Skills"/></p>','',
+       '![Awesome Image 2.5 — See it. Prompt it. Make it.](assets/hero-v2.png)','',
+       ('<p align="center"><a href="#start-here">Start here</a> · <a href="#gallery-index">All categories</a> · <a href="#installation">Install & use</a> · <a href="docs/workflows.md">Editing workflows</a> · <a href="CONTRIBUTING.md">Contribute</a></p>' if english else '<p align="center"><a href="#start-here">精选案例</a> · <a href="#gallery-index">全部分类</a> · <a href="#installation">安装与使用</a> · <a href="docs/workflows.md">参考图编辑</a> · <a href="CONTRIBUTING.md">参与贡献</a></p>'),'',
+       ('**31 creative categories · image examples with sources · 2 Agent Skills · generation & editing CLI**' if english else '**31 类创作场景 · 带来源的效果图与提示词资料 · 2 个 Agent Skill · 生图与编辑 CLI**'),'',
+       '| '+('🖼️ Find a visual direction | 📝 Get a usable prompt | 🛠️ Create with an agent' if english else '🖼️ 我想找效果 | 📝 我想找提示词 | 🛠️ 我想让 Agent 帮我做')+' |','| --- | --- |',
+       ('| [Browse all categories](#gallery-index) | [Open the prompt atlas](skills/image25/references/gallery.md) | [Install a Skill](#installation) |' if english else '| [按分类看作品](#gallery-index)<br/>海报、动漫、摄影、UI、品牌… | [打开完整提示词图谱](skills/image25/references/gallery.md)<br/>看写法、替换内容、检查细节 | [安装生成或反推 Skill](#installation)<br/>直接描述目标，或提供参考图 |'),'',
+       '<a id="start-here"></a>','', '## '+('Start with a complete example' if english else '先从一个完整案例开始'),'',
+       ('Open an image to read the full prompt, adaptation notes and observed limitations. These original demonstrations have no exact model ID from the host.' if english else '点击图片进入完整案例：提示词、怎么改成自己的内容、生成后检查什么，都放在一起。以下为本项目实图，宿主未提供精确型号。'), '']
+    featured_ids=['tea-campaign','field-notes-ui','coffee-packaging','courier-character']
+    featured_titles=(['Chinese poster · exact text','Workspace UI · clear layout','Packaging · consistent series','Character sheet · three views'] if english else ['中文海报：文字与版式','产品界面：布局与层级','系列包装：统一的品牌感','角色三视图：外观一致性'])
+    front+=['<table>']
+    for offset in (0,2):
+        front+=['<tr>']
+        for i in range(offset,offset+2):
+            id=featured_ids[i];path='skills/image25/references/showcase/'+id+'.md'
+            front+=[f'<td width="50%" align="center" valign="top"><a href="{path}"><img src="assets/showcase/{id}.png" width="100%" alt="{featured_titles[i]}"/></a><br/><strong>{featured_titles[i]}</strong><br/><a href="{path}">'+('Prompt & walkthrough' if english else '查看完整提示词与拆解')+'</a></td>']
+        front+=['</tr>']
+    front+=['</table>','',
+       ('[Explore Image 2.5 source examples →](docs/image25/README.md)' if english else '[继续看 Image 2.5 官方与社区来源作品 →](docs/image25/README.md)'), '']
+    # Language labels and evidence remain clear without English inventories on the Chinese page.
+    if not english:
+        atlas=atlas.replace('完整 MD / Full atlas','全部案例与提示词').replace('[↑ Index]','[↑ 返回分类]').replace('完整分类 / Full atlas','查看完整分类')
+        atlas=atlas.replace(' · host-model-unknown: ',' · 型号未知实图：').replace(' · GPT Image 2: ',' · 旧版学习参考：').replace('**Image 2.5: ','**2.5 来源：')
+        atlas=atlas.replace('本类起始 Prompt / Original practice brief','展开本类练习提示词').replace('点击“完整 MD”','点击“全部案例与提示词”')
+        installation=installation.replace('`OPENAI_API_KEY` is read from the process environment. Live calls require API access.','CLI 从本机环境读取 `OPENAI_API_KEY`；实际调用需要自己的 API 访问权限。')
+    facts=['<details><summary>'+('Collection and provenance' if english else '收录范围与来源说明')+'</summary>','',
+        f'{len(current)} 个 Image 2.5 带图来源条目 · {len(own)} 个本项目型号未知实图 · {len(legacy["entries"])} 个旧版学习案例 · {len(taxonomy)} 份新编练习 Prompt。','',
+        '来源声明不等于独立实测；新编练习提示词不冒充样图原始 Prompt。当前社区来源较集中于 LaplaceYoung。','',
+        '[来源与证据](docs/research.md) · [第三方许可](THIRD_PARTY_NOTICES.md) · [封面生成记录](assets/hero-v2.json)','', '</details>','']
+    return '\n'.join(front)+atlas+installation+'\n'.join(facts)+credits
 
 (R/'README.md').write_text(readme(),encoding='utf-8')
 (R/'README.en.md').write_text(readme(True),encoding='utf-8')

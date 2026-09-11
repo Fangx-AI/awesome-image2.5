@@ -1,138 +1,98 @@
-<h1 align="center">GPT Image 2.5 · Prompt Gallery + Agent Skills + CLI</h1>
+<h1 align="center">Awesome Image 2.5</h1>
 
-<p align="center">按创作任务组织的提示词、效果图、Agent Skills 与生图工具。</p>
+<p align="center"><strong>找到想做的图，读懂提示词，做出自己的作品。</strong></p>
 
-[中文](README.md) · [English](README.en.md) · [分类导航](#gallery-index) · [安装](#installation) · [完整分类图谱](skills/image25/references/gallery.md)
+<p align="center"><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 
-![Validate](https://github.com/Fangx-AI/awesome-image2.5/actions/workflows/tests.yml/badge.svg) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue) ![Categories](https://img.shields.io/badge/Categories-31-35644a)
+<p align="center"><img src="https://github.com/Fangx-AI/awesome-image2.5/actions/workflows/tests.yml/badge.svg" alt="Tests"/> <img src="https://img.shields.io/badge/Categories-31-35644a" alt="31 categories"/> <img src="https://img.shields.io/badge/Agent_Skills-2-c96b32" alt="2 Agent Skills"/></p>
 
-![Original concept cover](assets/cover.png)
+![Awesome Image 2.5 — See it. Prompt it. Make it.](assets/hero-v2.png)
 
-[原创概念封面 · 生成来源 / Cover provenance](assets/PROVENANCE.md)
+<p align="center"><a href="#start-here">精选案例</a> · <a href="#gallery-index">全部分类</a> · <a href="#installation">安装与使用</a> · <a href="docs/workflows.md">参考图编辑</a> · <a href="CONTRIBUTING.md">参与贡献</a></p>
 
-## ✨ 一眼看懂
+**31 类创作场景 · 带来源的效果图与提示词资料 · 2 个 Agent Skill · 生图与编辑 CLI**
 
-| 板块 | 内容 |
+| 🖼️ 我想找效果 | 📝 我想找提示词 | 🛠️ 我想让 Agent 帮我做 |
 | --- | --- |
-| Gallery | 31 categories · 146 Image 2.5 source records |
-| Prompts | 31 new practice briefs · 14 original output demonstrations · 162 attributed legacy cases |
-| Agent Skills | image25 · image25-reverse-prompt |
-| CLI | Generate · Edit · Multi-reference · Mask · Batch · Dry run |
+| [按分类看作品](#gallery-index)<br/>海报、动漫、摄影、UI、品牌… | [打开完整提示词图谱](skills/image25/references/gallery.md)<br/>看写法、替换内容、检查细节 | [安装生成或反推 Skill](#installation)<br/>直接描述目标，或提供参考图 |
 
-官方样例、平台声明、作者声明和本项目型号未知输出分别标注。当前社区来源较集中于 LaplaceYoung；GPT Image 2 学习图不会改名充当 2.5 实测。
+<a id="start-here"></a>
 
-## 🔎 这个仓库适合什么场景
+## 先从一个完整案例开始
 
-做动漫分镜、游戏 HUD、中文海报、品牌系统、摄影、科研示意、UI、建筑或参考图编辑：先在下方找对应板块，看成组效果图，展开 Prompt，再进入同类完整资料。README 展示精选；Skill 分类文件保留完整案例。
+点击图片进入完整案例：提示词、怎么改成自己的内容、生成后检查什么，都放在一起。以下为本项目实图，宿主未提供精确型号。
 
-<a id="installation"></a>
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/tea-campaign.md"><img src="assets/showcase/tea-campaign.png" width="100%" alt="中文海报：文字与版式"/></a><br/><strong>中文海报：文字与版式</strong><br/><a href="skills/image25/references/showcase/tea-campaign.md">查看完整提示词与拆解</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/field-notes-ui.md"><img src="assets/showcase/field-notes-ui.png" width="100%" alt="产品界面：布局与层级"/></a><br/><strong>产品界面：布局与层级</strong><br/><a href="skills/image25/references/showcase/field-notes-ui.md">查看完整提示词与拆解</a></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/coffee-packaging.md"><img src="assets/showcase/coffee-packaging.png" width="100%" alt="系列包装：统一的品牌感"/></a><br/><strong>系列包装：统一的品牌感</strong><br/><a href="skills/image25/references/showcase/coffee-packaging.md">查看完整提示词与拆解</a></td>
+<td width="50%" align="center" valign="top"><a href="skills/image25/references/showcase/courier-character.md"><img src="assets/showcase/courier-character.png" width="100%" alt="角色三视图：外观一致性"/></a><br/><strong>角色三视图：外观一致性</strong><br/><a href="skills/image25/references/showcase/courier-character.md">查看完整提示词与拆解</a></td>
+</tr>
+</table>
 
-## 📥 安装
-
-<details><summary>Codex · Agent Skills</summary>
-
-~~~text
-$skill-installer
-Install this skill from GitHub:
-https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25
-
-# Optional: extract prompts from reference images
-https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25-reverse-prompt
-~~~
-
-[安装、配置和更新](docs/getting-started.md) · [Skill 运行说明](skills/image25/SKILL.md)
-
-</details>
-
-<details><summary>CLI · Python 3.10+</summary>
-
-~~~sh
-uv tool install git+https://github.com/Fangx-AI/awesome-image2.5
-image25 --prompt-file prompt.txt --model flare --dry-run
-image25 --prompt-file prompt.txt --model flare -o generated/result.png
-~~~
-
-`OPENAI_API_KEY` is read from the process environment. Live calls require API access.
-
-</details>
-
-## ⚡ 快速使用与提示词基础
-
-~~~text
-用 image25 参考“品牌系统与视觉识别”分类，为山间书店设计一套统一的视觉识别。
-用 image25-reverse-prompt 分析这张参考图，提取构图、材质、光线与媒介边界。
-编辑第 1 张图：只替换围巾颜色，保留身份、姿势、光线和背景。
-~~~
-
-[完整 CLI 参数](docs/getting-started.md#参数) · [Prompt Craft](skills/image25/references/craft.md) · [编辑工作流](docs/workflows.md)
-
-### 参考图编辑：输入与结果
-
-| Input / 参考图 | Output / 编辑结果 |
-| --- | --- |
-| ![Input](assets/showcase/pet-portrait.png) | ![Output](assets/showcase/pet-scarf.png) |
-
-**host-model-unknown** · [完整 Prompt 与实际观察](skills/image25/references/showcase/pet-scarf.md)
-
+[继续看 Image 2.5 官方与社区来源作品 →](docs/image25/README.md)
 <a id="gallery-index"></a>
 
 ## 🎨 提示词精选展示
 
-点击分类名称跳到本页样张；点击“完整 MD”读取该类全部作品、提示词、写法和检查要点。
+点击分类名称跳到本页样张；点击“全部案例与提示词”读取该类全部作品、提示词、写法和检查要点。
 
 <table>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-anime-and-manga">🎌 动漫与漫画</a></strong><br/><sub><a href="skills/image25/references/gallery-anime-and-manga.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-gaming">🎮 游戏与 HUD</a></strong><br/><sub><a href="skills/image25/references/gallery-gaming.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-retro-and-cyberpunk">🤖 复古与赛博朋克</a></strong><br/><sub><a href="skills/image25/references/gallery-retro-and-cyberpunk.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-anime-and-manga">🎌 动漫与漫画</a></strong><br/><sub><a href="skills/image25/references/gallery-anime-and-manga.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-gaming">🎮 游戏与 HUD</a></strong><br/><sub><a href="skills/image25/references/gallery-gaming.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-retro-and-cyberpunk">🤖 复古与赛博朋克</a></strong><br/><sub><a href="skills/image25/references/gallery-retro-and-cyberpunk.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-cinematic-and-animation">🎬 电影与动画</a></strong><br/><sub><a href="skills/image25/references/gallery-cinematic-and-animation.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-character-design">👤 角色设计与设定集</a></strong><br/><sub><a href="skills/image25/references/gallery-character-design.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-typography-and-posters">📝 排版与海报</a></strong><br/><sub><a href="skills/image25/references/gallery-typography-and-posters.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-cinematic-and-animation">🎬 电影与动画</a></strong><br/><sub><a href="skills/image25/references/gallery-cinematic-and-animation.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-character-design">👤 角色设计与设定集</a></strong><br/><sub><a href="skills/image25/references/gallery-character-design.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-typography-and-posters">📝 排版与海报</a></strong><br/><sub><a href="skills/image25/references/gallery-typography-and-posters.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-illustration">🎨 叙事与商业插画</a></strong><br/><sub><a href="skills/image25/references/gallery-illustration.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-watercolor">💧 水彩</a></strong><br/><sub><a href="skills/image25/references/gallery-watercolor.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-ink-and-chinese">🖌️ 水墨与国风</a></strong><br/><sub><a href="skills/image25/references/gallery-ink-and-chinese.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-illustration">🎨 叙事与商业插画</a></strong><br/><sub><a href="skills/image25/references/gallery-illustration.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-watercolor">💧 水彩</a></strong><br/><sub><a href="skills/image25/references/gallery-watercolor.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-ink-and-chinese">🖌️ 水墨与国风</a></strong><br/><sub><a href="skills/image25/references/gallery-ink-and-chinese.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-pixel-art">🕹️ 像素艺术</a></strong><br/><sub><a href="skills/image25/references/gallery-pixel-art.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-isometric">📐 等距与微缩</a></strong><br/><sub><a href="skills/image25/references/gallery-isometric.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-product-and-food">📦 产品与食品</a></strong><br/><sub><a href="skills/image25/references/gallery-product-and-food.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-pixel-art">🕹️ 像素艺术</a></strong><br/><sub><a href="skills/image25/references/gallery-pixel-art.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-isometric">📐 等距与微缩</a></strong><br/><sub><a href="skills/image25/references/gallery-isometric.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-product-and-food">📦 产品与食品</a></strong><br/><sub><a href="skills/image25/references/gallery-product-and-food.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-brand-systems-and-identity">🧩 品牌系统与视觉识别</a></strong><br/><sub><a href="skills/image25/references/gallery-brand-systems-and-identity.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-photography">📷 摄影与人像</a></strong><br/><sub><a href="skills/image25/references/gallery-photography.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-screen-photography">🖥️ 屏幕摄影</a></strong><br/><sub><a href="skills/image25/references/gallery-screen-photography.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-brand-systems-and-identity">🧩 品牌系统与视觉识别</a></strong><br/><sub><a href="skills/image25/references/gallery-brand-systems-and-identity.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-photography">📷 摄影与人像</a></strong><br/><sub><a href="skills/image25/references/gallery-photography.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-screen-photography">🖥️ 屏幕摄影</a></strong><br/><sub><a href="skills/image25/references/gallery-screen-photography.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-infographics-and-field-guides">📊 信息图与知识卡</a></strong><br/><sub><a href="skills/image25/references/gallery-infographics-and-field-guides.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-research-paper-figures">📚 科研论文图示</a></strong><br/><sub><a href="skills/image25/references/gallery-research-paper-figures.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-official-openai-cookbook-examples">🏢 官方示例与提示方法</a></strong><br/><sub><a href="skills/image25/references/gallery-official-openai-cookbook-examples.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-infographics-and-field-guides">📊 信息图与知识卡</a></strong><br/><sub><a href="skills/image25/references/gallery-infographics-and-field-guides.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-research-paper-figures">📚 科研论文图示</a></strong><br/><sub><a href="skills/image25/references/gallery-research-paper-figures.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-official-openai-cookbook-examples">🏢 官方示例与提示方法</a></strong><br/><sub><a href="skills/image25/references/gallery-official-openai-cookbook-examples.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-edit-endpoint-showcase">✨ 参考图编辑与多图合成</a></strong><br/><sub><a href="skills/image25/references/gallery-edit-endpoint-showcase.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-ui-ux-mockups">📱 UI / UX 与设计系统</a></strong><br/><sub><a href="skills/image25/references/gallery-ui-ux-mockups.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-data-visualization">📈 数据可视化</a></strong><br/><sub><a href="skills/image25/references/gallery-data-visualization.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-edit-endpoint-showcase">✨ 参考图编辑与多图合成</a></strong><br/><sub><a href="skills/image25/references/gallery-edit-endpoint-showcase.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-ui-ux-mockups">📱 UI / UX 与设计系统</a></strong><br/><sub><a href="skills/image25/references/gallery-ui-ux-mockups.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-data-visualization">📈 数据可视化</a></strong><br/><sub><a href="skills/image25/references/gallery-data-visualization.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-technical-illustration">⚙️ 技术剖面与爆炸图</a></strong><br/><sub><a href="skills/image25/references/gallery-technical-illustration.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-architecture-and-interior">🏛️ 建筑与室内</a></strong><br/><sub><a href="skills/image25/references/gallery-architecture-and-interior.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-scientific-and-educational">🔬 科学与教育</a></strong><br/><sub><a href="skills/image25/references/gallery-scientific-and-educational.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-technical-illustration">⚙️ 技术剖面与爆炸图</a></strong><br/><sub><a href="skills/image25/references/gallery-technical-illustration.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-architecture-and-interior">🏛️ 建筑与室内</a></strong><br/><sub><a href="skills/image25/references/gallery-architecture-and-interior.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-scientific-and-educational">🔬 科学与教育</a></strong><br/><sub><a href="skills/image25/references/gallery-scientific-and-educational.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-fashion-editorial">👗 时尚编辑</a></strong><br/><sub><a href="skills/image25/references/gallery-fashion-editorial.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-fine-art-painting">🎨 绘画与艺术语言</a></strong><br/><sub><a href="skills/image25/references/gallery-fine-art-painting.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-more-illustration-styles">✏️ 纸艺、3D 与材料风格</a></strong><br/><sub><a href="skills/image25/references/gallery-more-illustration-styles.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-fashion-editorial">👗 时尚编辑</a></strong><br/><sub><a href="skills/image25/references/gallery-fashion-editorial.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-fine-art-painting">🎨 绘画与艺术语言</a></strong><br/><sub><a href="skills/image25/references/gallery-fine-art-painting.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-more-illustration-styles">✏️ 纸艺、3D 与材料风格</a></strong><br/><sub><a href="skills/image25/references/gallery-more-illustration-styles.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-cinematic-film-references">🎥 电影镜头语言</a></strong><br/><sub><a href="skills/image25/references/gallery-cinematic-film-references.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-beauty-and-lifestyle">💄 美妆与生活方式</a></strong><br/><sub><a href="skills/image25/references/gallery-beauty-and-lifestyle.md">完整 MD / Full atlas</a></sub></td>
-<td align="center" width="33%"><strong><a href="#gallery-events-and-experience">🎟️ 活动、地图与导览</a></strong><br/><sub><a href="skills/image25/references/gallery-events-and-experience.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-cinematic-film-references">🎥 电影镜头语言</a></strong><br/><sub><a href="skills/image25/references/gallery-cinematic-film-references.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-beauty-and-lifestyle">💄 美妆与生活方式</a></strong><br/><sub><a href="skills/image25/references/gallery-beauty-and-lifestyle.md">全部案例与提示词</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-events-and-experience">🎟️ 活动、地图与导览</a></strong><br/><sub><a href="skills/image25/references/gallery-events-and-experience.md">全部案例与提示词</a></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><strong><a href="#gallery-tattoo-design">🖋️ 纹身设计</a></strong><br/><sub><a href="skills/image25/references/gallery-tattoo-design.md">完整 MD / Full atlas</a></sub></td>
+<td align="center" width="33%"><strong><a href="#gallery-tattoo-design">🖋️ 纹身设计</a></strong><br/><sub><a href="skills/image25/references/gallery-tattoo-design.md">全部案例与提示词</a></sub></td>
 </tr>
 </table>
 
@@ -140,9 +100,9 @@ image25 --prompt-file prompt.txt --model flare -o generated/result.png
 
 <h2 align="center">🎌 动漫与漫画</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-anime-and-manga.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-anime-and-manga.md)
 
-**Image 2.5: 6 · host-model-unknown: 0 · GPT Image 2: 12**
+**2.5 来源：6 · 型号未知实图：0 · 旧版学习参考：12**
 
 角色身份、镜头、动作、线条和分镜阅读顺序。锁定每格的发型与服装；检查手部和气泡归属。
 
@@ -175,7 +135,7 @@ image25 --prompt-file prompt.txt --model flare -o generated/result.png
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -189,9 +149,9 @@ Create a two-page monochrome manga spread about an original bicycle courier caug
 
 <h2 align="center">🎮 游戏与 HUD</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-gaming.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-gaming.md)
 
-**Image 2.5: 4 · host-model-unknown: 0 · GPT Image 2: 10**
+**2.5 来源：4 · 型号未知实图：0 · 旧版学习参考：10**
 
 玩家视角、场景动线、HUD 区域和可玩性。核对小地图、血条和场景对应；区分游戏画面与封面。
 
@@ -224,7 +184,7 @@ Create a two-page monochrome manga spread about an original bicycle courier caug
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -238,9 +198,9 @@ Create a 16:9 screenshot concept for an original third-person exploration game s
 
 <h2 align="center">🤖 复古与赛博朋克</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-retro-and-cyberpunk.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-retro-and-cyberpunk.md)
 
-**Image 2.5: 6 · host-model-unknown: 0 · GPT Image 2: 3**
+**2.5 来源：6 · 型号未知实图：0 · 旧版学习参考：3**
 
 年代技术、城市结构、材质和霓虹色彩层次。检查世界设定一致；不要把霓虹当作唯一风格线索。
 
@@ -273,7 +233,7 @@ Create a 16:9 screenshot concept for an original third-person exploration game s
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -287,9 +247,9 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 
 <h2 align="center">🎬 电影与动画</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-cinematic-and-animation.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-cinematic-and-animation.md)
 
-**Image 2.5: 5 · host-model-unknown: 0 · GPT Image 2: 5**
+**2.5 来源：5 · 型号未知实图：0 · 旧版学习参考：5**
 
 镜头组接、角色连续性、场景时间和灯光。检查轴线、视线、道具及场景光线是否连续。
 
@@ -322,7 +282,7 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -336,9 +296,9 @@ Create a six-panel storyboard in a 3 by 2 landscape grid for an original short f
 
 <h2 align="center">👤 角色设计与设定集</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-character-design.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-character-design.md)
 
-**Image 2.5: 8 · host-model-unknown: 1 · GPT Image 2: 2**
+**2.5 来源：8 · 型号未知实图：1 · 旧版学习参考：2**
 
 轮廓、比例、服饰结构、视图与表情。逐视图核对配饰位置、左右手和比例。
 
@@ -371,7 +331,7 @@ Create a six-panel storyboard in a 3 by 2 landscape grid for an original short f
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -385,9 +345,9 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <h2 align="center">📝 排版与海报</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-typography-and-posters.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-typography-and-posters.md)
 
-**Image 2.5: 18 · host-model-unknown: 1 · GPT Image 2: 13**
+**2.5 来源：18 · 型号未知实图：1 · 旧版学习参考：13**
 
 文案层级、网格、留白、主视觉和语言。逐字校对标题、日期和价格；禁止额外卖点。
 
@@ -420,7 +380,7 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -434,9 +394,9 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <h2 align="center">🎨 叙事与商业插画</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-illustration.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-illustration.md)
 
-**Image 2.5: 6 · host-model-unknown: 1 · GPT Image 2: 2**
+**2.5 来源：6 · 型号未知实图：1 · 旧版学习参考：2**
 
 故事动作、主体关系、轮廓和媒介边界。检查叙事是否成立；区分插画笔触和摄影质感。
 
@@ -469,7 +429,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -483,9 +443,9 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 <h2 align="center">💧 水彩</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-watercolor.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-watercolor.md)
 
-**Image 2.5: 1 · host-model-unknown: 0 · GPT Image 2: 2**
+**2.5 来源：1 · 型号未知实图：0 · 旧版学习参考：2**
 
 透明罩染、纸白、湿边和色素沉积。避免塑料般高光和统一模糊；保留边缘差异。
 
@@ -506,7 +466,7 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -520,9 +480,9 @@ Paint a quiet greenhouse after rain as a transparent watercolor illustration. Us
 
 <h2 align="center">🖌️ 水墨与国风</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-ink-and-chinese.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-ink-and-chinese.md)
 
-**Image 2.5: 0 · host-model-unknown: 0 · GPT Image 2: 2**
+**2.5 来源：0 · 型号未知实图：0 · 旧版学习参考：2**
 
 散点透视、墨色浓淡、留白和题款。题款字数与位置要明确；避免伪汉字。
 
@@ -561,7 +521,7 @@ Create a horizontal Chinese ink-and-wash handscroll scene of a Song dynasty rive
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -575,9 +535,9 @@ Create a long horizontal ink-and-light-color landscape on warm rice paper. Show 
 
 <h2 align="center">🕹️ 像素艺术</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-pixel-art.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-pixel-art.md)
 
-**Image 2.5: 2 · host-model-unknown: 0 · GPT Image 2: 2**
+**2.5 来源：2 · 型号未知实图：0 · 旧版学习参考：2**
 
 逻辑分辨率、调色板、像素簇和帧格。检查像素尺度统一；避免平滑渐变和插值。
 
@@ -610,7 +570,7 @@ Create a long horizontal ink-and-light-color landscape on warm rice paper. Show 
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -624,9 +584,9 @@ Create a pixel-art sprite sheet of an original delivery bicycle in eight directi
 
 <h2 align="center">📐 等距与微缩</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-isometric.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-isometric.md)
 
-**Image 2.5: 6 · host-model-unknown: 1 · GPT Image 2: 2**
+**2.5 来源：6 · 型号未知实图：1 · 旧版学习参考：2**
 
 轴测角度、比例、剖面和空间布局。平行线不应随意汇聚；检查楼层及通道相连。
 
@@ -659,7 +619,7 @@ Create a pixel-art sprite sheet of an original delivery bicycle in eight directi
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -673,9 +633,9 @@ Create an isometric cutaway of a two-story neighborhood tea shop on a square can
 
 <h2 align="center">📦 产品与食品</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-product-and-food.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-product-and-food.md)
 
-**Image 2.5: 13 · host-model-unknown: 2 · GPT Image 2: 4**
+**2.5 来源：13 · 型号未知实图：2 · 旧版学习参考：4**
 
 产品几何、材料、布光、接触阴影与食物状态。检查标签、器具结构、重力和食品质地。
 
@@ -708,7 +668,7 @@ Create an isometric cutaway of a two-story neighborhood tea shop on a square can
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -722,9 +682,9 @@ Create a 3:4 studio product photograph of a fictional ceramic tea canister with 
 
 <h2 align="center">🧩 品牌系统与视觉识别</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-brand-systems-and-identity.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-brand-systems-and-identity.md)
 
-**Image 2.5: 9 · host-model-unknown: 1 · GPT Image 2: 3**
+**2.5 来源：9 · 型号未知实图：1 · 旧版学习参考：3**
 
 标志、色板、字体、版式与跨触点一致性。同一标志重复出现时不可变形；品牌色和字号层级统一。
 
@@ -757,7 +717,7 @@ Create a 3:4 studio product photograph of a fictional ceramic tea canister with 
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -771,9 +731,9 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <h2 align="center">📷 摄影与人像</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-photography.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-photography.md)
 
-**Image 2.5: 18 · host-model-unknown: 1 · GPT Image 2: 4**
+**2.5 来源：18 · 型号未知实图：1 · 旧版学习参考：4**
 
 拍摄视角、光比、空间层次和自然细节。不凭画面猜真实设备参数；检查皮肤与反射。
 
@@ -806,7 +766,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -820,9 +780,9 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <h2 align="center">🖥️ 屏幕摄影</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-screen-photography.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-screen-photography.md)
 
-**Image 2.5: 3 · host-model-unknown: 0 · GPT Image 2: 2**
+**2.5 来源：3 · 型号未知实图：0 · 旧版学习参考：2**
 
 实体设备、拍摄角度、反光和屏幕内容。区分真实拍屏与截图；保持屏幕透视一致。
 
@@ -855,7 +815,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -869,9 +829,9 @@ Create a candid photograph of an open laptop on a wooden desk at night, viewed s
 
 <h2 align="center">📊 信息图与知识卡</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-infographics-and-field-guides.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-infographics-and-field-guides.md)
 
-**Image 2.5: 4 · host-model-unknown: 1 · GPT Image 2: 8**
+**2.5 来源：4 · 型号未知实图：1 · 旧版学习参考：8**
 
 知识分区、阅读路径、注释和图例。核对事实与数值；图像不能代替专业内容审阅。
 
@@ -904,7 +864,7 @@ Create a candid photograph of an open laptop on a wooden desk at night, viewed s
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -918,9 +878,9 @@ Design a vertical field-guide card about a fictional alpine flower named "Silver
 
 <h2 align="center">📚 科研论文图示</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-research-paper-figures.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-research-paper-figures.md)
 
-**Image 2.5: 2 · host-model-unknown: 0 · GPT Image 2: 21**
+**2.5 来源：2 · 型号未知实图：0 · 旧版学习参考：21**
 
 节点关系、图形语法、模块与数据依据。生成图仅作构思；正式结果图需用真实数据和绘图工具。
 
@@ -953,7 +913,7 @@ Design a vertical field-guide card about a fictional alpine flower named "Silver
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -967,9 +927,9 @@ Create a landscape conceptual method diagram for a fictional document retrieval 
 
 <h2 align="center">🏢 官方示例与提示方法</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-official-openai-cookbook-examples.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-official-openai-cookbook-examples.md)
 
-**Image 2.5: 12 · host-model-unknown: 0 · GPT Image 2: 4**
+**2.5 来源：12 · 型号未知实图：0 · 旧版学习参考：4**
 
 官方样例、原始出处与可复用约束。区分官方展示、指南与可执行参数。
 
@@ -1002,7 +962,7 @@ Create a landscape conceptual method diagram for a fictional document retrieval 
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1016,9 +976,9 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <h2 align="center">✨ 参考图编辑与多图合成</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-edit-endpoint-showcase.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-edit-endpoint-showcase.md)
 
-**Image 2.5: 7 · host-model-unknown: 2 · GPT Image 2: 2**
+**2.5 来源：7 · 型号未知实图：2 · 旧版学习参考：2**
 
 输入编号、修改范围、不可变项与蒙版。对照输入检查身份、文字、布局及边界变化。
 
@@ -1051,7 +1011,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1065,9 +1025,9 @@ Edit image 1 by changing only the scarf to a mustard-yellow knitted scarf. Prese
 
 <h2 align="center">📱 UI / UX 与设计系统</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-ui-ux-mockups.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-ui-ux-mockups.md)
 
-**Image 2.5: 4 · host-model-unknown: 1 · GPT Image 2: 5**
+**2.5 来源：4 · 型号未知实图：1 · 旧版学习参考：5**
 
 屏幕规格、信息架构、组件、状态和数据。检查对齐、中文可读性和组件一致性；设计图不等于可运行界面。
 
@@ -1100,7 +1060,7 @@ Edit image 1 by changing only the scarf to a mustard-yellow knitted scarf. Prese
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1114,9 +1074,9 @@ Design a front-facing desktop workspace UI for a fictional research app called "
 
 <h2 align="center">📈 数据可视化</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-data-visualization.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-data-visualization.md)
 
-**Image 2.5: 0 · host-model-unknown: 0 · GPT Image 2: 5**
+**2.5 来源：0 · 型号未知实图：0 · 旧版学习参考：5**
 
 数据表、视觉编码、坐标、图例与不确定性。核对数值和比例；有真实数据时优先确定性绘图。
 
@@ -1155,7 +1115,7 @@ Generate a sophisticated network graph visualization on a dark charcoal canvas s
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1169,9 +1129,9 @@ Create a conceptual data-visualization style board with three clearly labeled ch
 
 <h2 align="center">⚙️ 技术剖面与爆炸图</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-technical-illustration.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-technical-illustration.md)
 
-**Image 2.5: 0 · host-model-unknown: 0 · GPT Image 2: 5**
+**2.5 来源：0 · 型号未知实图：0 · 旧版学习参考：5**
 
 部件顺序、装配轴、连接关系和标注。核对部件是否可装配；概念图不能作为生产图纸。
 
@@ -1210,7 +1170,7 @@ Generate a highly detailed vertical cutaway illustration of a fictional two-stag
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1224,9 +1184,9 @@ Create an exploded-view concept illustration of a fictional mechanical desk time
 
 <h2 align="center">🏛️ 建筑与室内</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-architecture-and-interior.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-architecture-and-interior.md)
 
-**Image 2.5: 1 · host-model-unknown: 1 · GPT Image 2: 5**
+**2.5 来源：1 · 型号未知实图：1 · 旧版学习参考：5**
 
 空间功能、尺度、消失点、材料与光向。检查门窗、楼梯和家具尺度；效果图不等于施工设计。
 
@@ -1247,7 +1207,7 @@ Create an exploded-view concept illustration of a fictional mechanical desk time
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1261,9 +1221,9 @@ Create a photorealistic architectural concept of a small neighborhood reading ro
 
 <h2 align="center">🔬 科学与教育</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-scientific-and-educational.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-scientific-and-educational.md)
 
-**Image 2.5: 1 · host-model-unknown: 0 · GPT Image 2: 7**
+**2.5 来源：1 · 型号未知实图：0 · 旧版学习参考：7**
 
 对象结构、标注精度、图例与教学顺序。科学内容由可靠资料提供；避免生成伪知识。
 
@@ -1284,7 +1244,7 @@ Create a photorealistic architectural concept of a small neighborhood reading ro
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1298,9 +1258,9 @@ Create an educational layout study explaining the water cycle in a simple landsc
 
 <h2 align="center">👗 时尚编辑</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-fashion-editorial.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-fashion-editorial.md)
 
-**Image 2.5: 3 · host-model-unknown: 0 · GPT Image 2: 7**
+**2.5 来源：3 · 型号未知实图：0 · 旧版学习参考：7**
 
 服装轮廓、面料、姿势和场景叙事。核对服装结构、手部和配饰连续性。
 
@@ -1333,7 +1293,7 @@ Create an educational layout study explaining the water cycle in a simple landsc
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1347,9 +1307,9 @@ Create a full-length fashion editorial photograph of an adult model wearing a sc
 
 <h2 align="center">🎨 绘画与艺术语言</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-fine-art-painting.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-fine-art-painting.md)
 
-**Image 2.5: 2 · host-model-unknown: 0 · GPT Image 2: 5**
+**2.5 来源：2 · 型号未知实图：0 · 旧版学习参考：5**
 
 构图、笔触、颜料层、色彩关系和底材。区分厚涂、薄涂与数码滤镜；避免只堆风格词。
 
@@ -1382,7 +1342,7 @@ Create a full-length fashion editorial photograph of an adult model wearing a sc
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1396,9 +1356,9 @@ Paint a riverside evening scene with visible broken-color brushwork and thin ove
 
 <h2 align="center">✏️ 纸艺、3D 与材料风格</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-more-illustration-styles.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-more-illustration-styles.md)
 
-**Image 2.5: 10 · host-model-unknown: 0 · GPT Image 2: 6**
+**2.5 来源：10 · 型号未知实图：0 · 旧版学习参考：6**
 
 材质机制、形体、接触阴影和风格边界。同一对象材质规律统一；防止只换贴图。
 
@@ -1431,7 +1391,7 @@ Paint a riverside evening scene with visible broken-color brushwork and thin ove
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1445,9 +1405,9 @@ Create a square illustration of a small fox reading under a mushroom, built enti
 
 <h2 align="center">🎥 电影镜头语言</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-cinematic-film-references.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-cinematic-film-references.md)
 
-**Image 2.5: 3 · host-model-unknown: 0 · GPT Image 2: 6**
+**2.5 来源：3 · 型号未知实图：0 · 旧版学习参考：6**
 
 景别、机位、镜头秩序、环境尺度和调色。电影感由空间与灯光建立；不把调色当作全部。
 
@@ -1480,7 +1440,7 @@ Create a square illustration of a small fox reading under a mushroom, built enti
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1494,9 +1454,9 @@ Create a contemplative widescreen film-frame concept of a lone traveler approach
 
 <h2 align="center">💄 美妆与生活方式</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-beauty-and-lifestyle.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-beauty-and-lifestyle.md)
 
-**Image 2.5: 0 · host-model-unknown: 1 · GPT Image 2: 2**
+**2.5 来源：0 · 型号未知实图：1 · 旧版学习参考：2**
 
 日常场景、产品材料、皮肤与柔光。避免虚构功效或配方；核对标签与瓶盖结构。
 
@@ -1504,14 +1464,14 @@ Create a contemplative widescreen film-frame concept of a lone traveler approach
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/ceramic-skincare.png" width="100%" alt="护肤精华 · 材质与留白"/></a><br/><strong>护肤精华 · 材质与留白</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/ceramic-skincare.md"><img src="https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/ceramic-skincare.png" width="100%" alt="护肤精华 · 材质与留白"/></a><br/><strong>护肤精华 · 材质与留白</strong><br/><sub>本项目生成 · 精确型号未知 · Fangx-AI</sub></td>
 </tr>
 </table>
 
 <details>
 <summary>Prompt · 护肤精华 · 材质与留白</summary>
 
-[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/showcase.md) · **本项目生成 · 精确型号未知**
+[Fangx-AI · 原始出处](https://github.com/Fangx-AI/awesome-image2.5/blob/main/skills/image25/references/showcase/ceramic-skincare.md) · **本项目生成 · 精确型号未知**
 
 Generated: 2026-09-09 · Postprocessing: none
 
@@ -1523,7 +1483,7 @@ Create a premium skincare campaign photograph in landscape 3:2. One tall frosted
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1537,9 +1497,9 @@ Create a vertical lifestyle photograph of an unlabeled amber glass skincare bott
 
 <h2 align="center">🎟️ 活动、地图与导览</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-events-and-experience.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-events-and-experience.md)
 
-**Image 2.5: 4 · host-model-unknown: 0 · GPT Image 2: 2**
+**2.5 来源：4 · 型号未知实图：0 · 旧版学习参考：2**
 
 入口、区域、动线、地标与图例。动线必须连通；虚构地图不可冒充实际导航。
 
@@ -1572,7 +1532,7 @@ Create a vertical lifestyle photograph of an unlabeled amber glass skincare bott
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1586,9 +1546,9 @@ Design a landscape visitor map for a fictional riverside book festival called "R
 
 <h2 align="center">🖋️ 纹身设计</h2>
 
-[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/gallery-tattoo-design.md)
+[↑ 返回分类](#gallery-index) · [查看完整分类](skills/image25/references/gallery-tattoo-design.md)
 
-**Image 2.5: 0 · host-model-unknown: 0 · GPT Image 2: 4**
+**2.5 来源：0 · 型号未知实图：0 · 旧版学习参考：4**
 
 身体位置、线条粗细、负空间与可转印结构。检查细节是否适合实际尺寸；保留皮肤呼吸空间。
 
@@ -1627,7 +1587,7 @@ Create a colorful neo-traditional tattoo flash poster. Central subject: a clever
 
 </details>
 
-<details><summary>本类起始 Prompt / Original practice brief</summary>
+<details><summary>展开本类练习提示词</summary>
 
 **prompt-only** · 本项目编写，尚未出图；不是上方示例图的原始 Prompt。
 
@@ -1637,6 +1597,64 @@ Create a vertical tattoo flash concept for a forearm placement, presented on off
 
 </details>
 
+<a id="installation"></a>
+
+## 📥 安装
+
+<details><summary>Codex · Agent Skills</summary>
+
+~~~text
+$skill-installer
+Install this skill from GitHub:
+https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25
+
+# Optional: extract prompts from reference images
+https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25-reverse-prompt
+~~~
+
+[安装、配置和更新](docs/getting-started.md) · [Skill 运行说明](skills/image25/SKILL.md)
+
+</details>
+
+<details><summary>CLI · Python 3.10+</summary>
+
+~~~sh
+uv tool install git+https://github.com/Fangx-AI/awesome-image2.5
+image25 --prompt-file prompt.txt --model flare --dry-run
+image25 --prompt-file prompt.txt --model flare -o generated/result.png
+~~~
+
+CLI 从本机环境读取 `OPENAI_API_KEY`；实际调用需要自己的 API 访问权限。
+
+</details>
+
+## ⚡ 快速使用与提示词基础
+
+~~~text
+用 image25 参考“品牌系统与视觉识别”分类，为山间书店设计一套统一的视觉识别。
+用 image25-reverse-prompt 分析这张参考图，提取构图、材质、光线与媒介边界。
+编辑第 1 张图：只替换围巾颜色，保留身份、姿势、光线和背景。
+~~~
+
+[完整 CLI 参数](docs/getting-started.md#参数) · [Prompt Craft](skills/image25/references/craft.md) · [编辑工作流](docs/workflows.md)
+
+### 参考图编辑：输入与结果
+
+| Input / 参考图 | Output / 编辑结果 |
+| --- | --- |
+| ![Input](assets/showcase/pet-portrait.png) | ![Output](assets/showcase/pet-scarf.png) |
+
+**host-model-unknown** · [完整 Prompt 与实际观察](skills/image25/references/showcase/pet-scarf.md)
+
+<details><summary>收录范围与来源说明</summary>
+
+146 个 Image 2.5 带图来源条目 · 14 个本项目型号未知实图 · 162 个旧版学习案例 · 31 份新编练习 Prompt。
+
+来源声明不等于独立实测；新编练习提示词不冒充样图原始 Prompt。当前社区来源较集中于 LaplaceYoung。
+
+[来源与证据](docs/research.md) · [第三方许可](THIRD_PARTY_NOTICES.md) · [封面生成记录](assets/hero-v2.json)
+
+</details>
 ## 🙏 致谢与贡献
 
 [Wuyoscar / GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) 提供了分类展示、按需读取的 Skill 图谱和旧版案例参考。上游 MIT 版权声明及外部作者署名保留。
