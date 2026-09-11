@@ -1,14 +1,22 @@
 # 📱 UI / UX 与设计系统
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 4 · 本项目型号未知实图 1 · 旧版学习参考 5
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 屏幕规格、信息架构、组件、状态和数据
 
 检查：检查对齐、中文可读性和组件一致性；设计图不等于可运行界面
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 4 · 本项目型号未知实图 1 · 旧版学习参考 5
 Design a front-facing desktop workspace UI for a fictional research app called "FIELD NOTES" on a 16:10 canvas. Allocate a narrow left navigation rail, a central document list and a right reading panel. Use an eight-point spacing rhythm, clear selected states and a calm ivory-and-sage palette. Include the exact navigation labels "Library", "Projects" and "Archive". Keep rows aligned and avoid decorative device frames or impossible interactive controls.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 虚构推文截图
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/045-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/045-imported-.png" width="100%" alt="虚构推文截图"/></a><br/><strong>虚构推文截图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-045-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/045-imported-.png" width="100%" alt="虚构推文截图"/></a><br/><strong>虚构推文截图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Design a front-facing desktop workspace UI for a fictional research app called "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/140-x-open-source-ai-index.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/140-x-open-source-ai-index.png" width="100%" alt="X Open Source AI Index UI"/></a><br/><strong>X Open Source AI Index UI</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-140-x-open-source-ai-index.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/140-x-open-source-ai-index.png" width="100%" alt="X Open Source AI Index UI"/></a><br/><strong>X Open Source AI Index UI</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Design a front-facing desktop workspace UI for a fictional research app called "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/141-feishu-collaboration-ui.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/141-feishu-collaboration-ui.png" width="100%" alt="Feishu Collaboration UI"/></a><br/><strong>Feishu Collaboration UI</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-141-feishu-collaboration-ui.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/141-feishu-collaboration-ui.png" width="100%" alt="Feishu Collaboration UI"/></a><br/><strong>Feishu Collaboration UI</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Design a front-facing desktop workspace UI for a fictional research app called "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/17-canvas-forge-ui.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/17-canvas-forge-ui.jpg" width="100%" alt="Canvas Forge UI Screenshot"/></a><br/><strong>Canvas Forge UI Screenshot</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-17-canvas-forge-ui.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/17-canvas-forge-ui.jpg" width="100%" alt="Canvas Forge UI Screenshot"/></a><br/><strong>Canvas Forge UI Screenshot</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -120,6 +130,8 @@ Create a highly polished desktop app interface design mockup for an original rea
 实际观察：这是图像概念，交互、响应式和可访问性须在实现中验证。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -231,4 +243,6 @@ Create a refined mobile health tracking app screen for a fictional wellness prod
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

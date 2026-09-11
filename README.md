@@ -13,7 +13,7 @@
 **31 类创作场景 · 带来源的效果图与提示词资料 · 2 个 Agent Skill · 生图与编辑 CLI**
 
 | 🖼️ 我想找效果 | 📝 我想找提示词 | 🛠️ 我想让 Agent 帮我做 |
-| --- | --- |
+| --- | --- | --- |
 | [按分类看作品](#gallery-index)<br/>海报、动漫、摄影、UI、品牌… | [打开完整提示词图谱](skills/image25/references/gallery.md)<br/>看写法、替换内容、检查细节 | [安装生成或反推 Skill](#installation)<br/>直接描述目标，或提供参考图 |
 
 <a id="start-here"></a>
@@ -34,6 +34,8 @@
 </table>
 
 [继续看 Image 2.5 官方与社区来源作品 →](docs/image25/README.md)
+
+**第一次来？** [怎样复制和改写提示词](docs/prompts.md) · [文档导航](docs/README.md) · [常见问题](docs/troubleshooting.md)。只浏览和复制提示词无需安装。
 <a id="gallery-index"></a>
 
 ## 🎨 提示词精选展示
@@ -108,8 +110,8 @@
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/071-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/071-imported-.png" width="100%" alt="动漫贴纸集合"/></a><br/><strong>动漫贴纸集合</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/081-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/081-imported-.png" width="100%" alt="讽刺漫画生成"/></a><br/><strong>讽刺漫画生成</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-071-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/071-imported-.png" width="100%" alt="动漫贴纸集合"/></a><br/><strong>动漫贴纸集合</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-081-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/081-imported-.png" width="100%" alt="讽刺漫画生成"/></a><br/><strong>讽刺漫画生成</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -157,8 +159,8 @@ Create a two-page monochrome manga spread about an original bicycle courier caug
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/040-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/040-imported-3d.png" width="100%" alt="超写实3D游戏角色怀旧场景"/></a><br/><strong>超写实3D游戏角色怀旧场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/062-imported-rpg.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/062-imported-rpg.png" width="100%" alt="RPG 风格角色卡片制作"/></a><br/><strong>RPG 风格角色卡片制作</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-040-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/040-imported-3d.png" width="100%" alt="超写实3D游戏角色怀旧场景"/></a><br/><strong>超写实3D游戏角色怀旧场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-062-imported-rpg.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/062-imported-rpg.png" width="100%" alt="RPG 风格角色卡片制作"/></a><br/><strong>RPG 风格角色卡片制作</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -206,8 +208,8 @@ Create a 16:9 screenshot concept for an original third-person exploration game s
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="复古未来城市"/></a><br/><strong>复古未来城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5siUce5uMdk0FxOA5opjoB/fcfb4452b13c144108f7786a9412f982/cyberpunk.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="赛博朋克城市"/></a><br/><strong>赛博朋克城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-retrofuturism.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="复古未来城市"/></a><br/><strong>复古未来城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-cyberpunk.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5siUce5uMdk0FxOA5opjoB/fcfb4452b13c144108f7786a9412f982/cyberpunk.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="赛博朋克城市"/></a><br/><strong>赛博朋克城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -255,8 +257,8 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/085-imported-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/085-imported-q.png" width="100%" alt="Q版求婚场景"/></a><br/><strong>Q版求婚场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/087-imported-3d-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/087-imported-3d-q.png" width="100%" alt="3D Q版风格场景"/></a><br/><strong>3D Q版风格场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-085-imported-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/085-imported-q.png" width="100%" alt="Q版求婚场景"/></a><br/><strong>Q版求婚场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-087-imported-3d-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/087-imported-3d-q.png" width="100%" alt="3D Q版风格场景"/></a><br/><strong>3D Q版风格场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -304,8 +306,8 @@ Create a six-panel storyboard in a 3 by 2 landscape grid for an original short f
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-character-turnaround.webp" width="100%" alt="角色三视图"/></a><br/><strong>角色三视图</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/061-imported-3d-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/061-imported-3d-q.png" width="100%" alt="3D Q版大学拟人化形象"/></a><br/><strong>3D Q版大学拟人化形象</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-character-turnaround.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-character-turnaround.webp" width="100%" alt="角色三视图"/></a><br/><strong>角色三视图</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-061-imported-3d-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/061-imported-3d-q.png" width="100%" alt="3D Q版大学拟人化形象"/></a><br/><strong>3D Q版大学拟人化形象</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -353,8 +355,8 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="现代主义海报组"/></a><br/><strong>现代主义海报组</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-exhibition-poster.webp" width="100%" alt="展览文字海报"/></a><br/><strong>展览文字海报</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-mid-century-modern-posters.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="现代主义海报组"/></a><br/><strong>现代主义海报组</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-exhibition-poster.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-exhibition-poster.webp" width="100%" alt="展览文字海报"/></a><br/><strong>展览文字海报</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -402,8 +404,8 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://x.com/BlackthorneAI/status/2097447432757887207"><img src="https://pbs.twimg.com/media/HRuhTWLbsAAne5Y.jpg?name=orig" width="100%" alt="节日主题系列"/></a><br/><strong>节日主题系列</strong><br/><sub>Image 2.5 · X 作者声明 · @BlackthorneAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/028-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/028-imported-.png" width="100%" alt="超现实交互场景"/></a><br/><strong>超现实交互场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/x-2097447432757887207.md"><img src="https://pbs.twimg.com/media/HRuhTWLbsAAne5Y.jpg?name=orig" width="100%" alt="节日主题系列"/></a><br/><strong>节日主题系列</strong><br/><sub>Image 2.5 · X 作者声明 · @BlackthorneAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-028-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/028-imported-.png" width="100%" alt="超现实交互场景"/></a><br/><strong>超现实交互场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -451,7 +453,7 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/109-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/109-imported-.png" width="100%" alt="富士山水彩风格转换"/></a><br/><strong>富士山水彩风格转换</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-109-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/109-imported-.png" width="100%" alt="富士山水彩风格转换"/></a><br/><strong>富士山水彩风格转换</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -543,8 +545,8 @@ Create a long horizontal ink-and-light-color landscape on warm rice paper. Show 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/049-imported-8.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/049-imported-8.png" width="100%" alt="8位像素图标"/></a><br/><strong>8位像素图标</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/058-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/058-imported-3d.png" width="100%" alt="体素风格 3D 图标"/></a><br/><strong>体素风格 3D 图标</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-049-imported-8.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/049-imported-8.png" width="100%" alt="8位像素图标"/></a><br/><strong>8位像素图标</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-058-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/058-imported-3d.png" width="100%" alt="体素风格 3D 图标"/></a><br/><strong>体素风格 3D 图标</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -592,8 +594,8 @@ Create a pixel-art sprite sheet of an original delivery bicycle in eight directi
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-isometric-diorama.webp" width="100%" alt="等距建筑剖面"/></a><br/><strong>等距建筑剖面</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/033-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/033-imported-.png" width="100%" alt="乐高城市景观"/></a><br/><strong>乐高城市景观</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-isometric-diorama.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-isometric-diorama.webp" width="100%" alt="等距建筑剖面"/></a><br/><strong>等距建筑剖面</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-033-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/033-imported-.png" width="100%" alt="乐高城市景观"/></a><br/><strong>乐高城市景观</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -641,8 +643,8 @@ Create an isometric cutaway of a two-story neighborhood tea shop on a square can
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-ceramic-caddy.webp" width="100%" alt="陶瓷收纳器"/></a><br/><strong>陶瓷收纳器</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/019-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/019-imported-.png" width="100%" alt="实物与手绘涂鸦创意广告"/></a><br/><strong>实物与手绘涂鸦创意广告</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-ceramic-caddy.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-ceramic-caddy.webp" width="100%" alt="陶瓷收纳器"/></a><br/><strong>陶瓷收纳器</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-019-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/019-imported-.png" width="100%" alt="实物与手绘涂鸦创意广告"/></a><br/><strong>实物与手绘涂鸦创意广告</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -690,8 +692,8 @@ Create a 3:4 studio product photograph of a fictional ceramic tea canister with 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/4M5M3sRxcgnYl8Q2M8DZ3y/bc3773f82ae0e68d025e2dca3d5b8f43/vintage-national-park-stamps.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="国家公园邮票"/></a><br/><strong>国家公园邮票</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5jpsVIXTvhsaamMRBBygyj/59a740665177515836747b400f52e3fc/stickers.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="贴纸设计"/></a><br/><strong>贴纸设计</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-vintage-national-park-stamps.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/4M5M3sRxcgnYl8Q2M8DZ3y/bc3773f82ae0e68d025e2dca3d5b8f43/vintage-national-park-stamps.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="国家公园邮票"/></a><br/><strong>国家公园邮票</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-stickers.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5jpsVIXTvhsaamMRBBygyj/59a740665177515836747b400f52e3fc/stickers.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="贴纸设计"/></a><br/><strong>贴纸设计</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -739,8 +741,8 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="八十年代肖像"/></a><br/><strong>八十年代肖像</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-night-studio.webp" width="100%" alt="夜间工作室"/></a><br/><strong>夜间工作室</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-80s-headshot.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="八十年代肖像"/></a><br/><strong>八十年代肖像</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-night-studio.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-night-studio.webp" width="100%" alt="夜间工作室"/></a><br/><strong>夜间工作室</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -788,8 +790,8 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-desk-mockup.webp" width="100%" alt="显示器界面样机"/></a><br/><strong>显示器界面样机</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-phone-in-hand.webp" width="100%" alt="手机屏幕文字"/></a><br/><strong>手机屏幕文字</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-desk-mockup.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-desk-mockup.webp" width="100%" alt="显示器界面样机"/></a><br/><strong>显示器界面样机</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-phone-in-hand.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-phone-in-hand.webp" width="100%" alt="手机屏幕文字"/></a><br/><strong>手机屏幕文字</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -837,8 +839,8 @@ Create a candid photograph of an open laptop on a wooden desk at night, viewed s
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/025-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/025-imported-.png" width="100%" alt="儿童涂色页插画"/></a><br/><strong>儿童涂色页插画</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/031-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/031-imported-.png" width="100%" alt="特色城市天气预报"/></a><br/><strong>特色城市天气预报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-025-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/025-imported-.png" width="100%" alt="儿童涂色页插画"/></a><br/><strong>儿童涂色页插画</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-031-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/031-imported-.png" width="100%" alt="特色城市天气预报"/></a><br/><strong>特色城市天气预报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -886,8 +888,8 @@ Design a vertical field-guide card about a fictional alpine flower named "Silver
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/4IPoFYxHjVAfoZ4ZmKO1VX/25a75228d3dcaf8ae9369467a06a5281/presentation-image.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="演示文稿视觉"/></a><br/><strong>演示文稿视觉</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/09-presentation-image.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/09-presentation-image.jpg" width="100%" alt="Science Deck Screenshot"/></a><br/><strong>Science Deck Screenshot</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-presentation-image.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/4IPoFYxHjVAfoZ4ZmKO1VX/25a75228d3dcaf8ae9369467a06a5281/presentation-image.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="演示文稿视觉"/></a><br/><strong>演示文稿视觉</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-09-presentation-image.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/09-presentation-image.jpg" width="100%" alt="Science Deck Screenshot"/></a><br/><strong>Science Deck Screenshot</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -935,8 +937,8 @@ Create a landscape conceptual method diagram for a fictional document retrieval 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="复古未来城市"/></a><br/><strong>复古未来城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="现代主义海报组"/></a><br/><strong>现代主义海报组</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-retrofuturism.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="复古未来城市"/></a><br/><strong>复古未来城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-mid-century-modern-posters.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="现代主义海报组"/></a><br/><strong>现代主义海报组</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -984,8 +986,8 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/31fyboLGIlu5roN22tlEHK/9be57d84b3b7bbf22e7aa7f74b5af102/baby-portrait-after.webp" width="100%" alt="人物服装编辑"/></a><br/><strong>人物服装编辑</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-label-edit.webp" width="100%" alt="产品标签编辑"/></a><br/><strong>产品标签编辑</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-baby-portrait-after.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/31fyboLGIlu5roN22tlEHK/9be57d84b3b7bbf22e7aa7f74b5af102/baby-portrait-after.webp" width="100%" alt="人物服装编辑"/></a><br/><strong>人物服装编辑</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-label-edit.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-label-edit.webp" width="100%" alt="产品标签编辑"/></a><br/><strong>产品标签编辑</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -1033,8 +1035,8 @@ Edit image 1 by changing only the scarf to a mustard-yellow knitted scarf. Prese
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/045-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/045-imported-.png" width="100%" alt="虚构推文截图"/></a><br/><strong>虚构推文截图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/140-x-open-source-ai-index.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/140-x-open-source-ai-index.png" width="100%" alt="X Open Source AI Index UI"/></a><br/><strong>X Open Source AI Index UI</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-045-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/045-imported-.png" width="100%" alt="虚构推文截图"/></a><br/><strong>虚构推文截图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-140-x-open-source-ai-index.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/140-x-open-source-ai-index.png" width="100%" alt="X Open Source AI Index UI"/></a><br/><strong>X Open Source AI Index UI</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -1192,7 +1194,7 @@ Create an exploded-view concept illustration of a fictional mechanical desk time
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/083-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/083-imported-.png" width="100%" alt="个性化房间设计"/></a><br/><strong>个性化房间设计</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-083-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/083-imported-.png" width="100%" alt="个性化房间设计"/></a><br/><strong>个性化房间设计</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -1229,7 +1231,7 @@ Create a photorealistic architectural concept of a small neighborhood reading ro
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/030-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/030-imported-.png" width="100%" alt="发光线条解剖图"/></a><br/><strong>发光线条解剖图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-030-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/030-imported-.png" width="100%" alt="发光线条解剖图"/></a><br/><strong>发光线条解剖图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -1266,8 +1268,8 @@ Create an educational layout study explaining the water cycle in a simple landsc
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/073-imported-ootd.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/073-imported-ootd.png" width="100%" alt="名画人物 OOTD"/></a><br/><strong>名画人物 OOTD</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/099-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/099-imported-.png" width="100%" alt="双色调摄影棚时尚肖像"/></a><br/><strong>双色调摄影棚时尚肖像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-073-imported-ootd.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/073-imported-ootd.png" width="100%" alt="名画人物 OOTD"/></a><br/><strong>名画人物 OOTD</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-099-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/099-imported-.png" width="100%" alt="双色调摄影棚时尚肖像"/></a><br/><strong>双色调摄影棚时尚肖像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -1315,8 +1317,8 @@ Create a full-length fashion editorial photograph of an adult model wearing a sc
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/521YOTFHRC1SBj5llj4HkY/15d00909f0f73cf0af06b7de524d1d33/impressionist-cityscape.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="印象派街景"/></a><br/><strong>印象派街景</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/11-impressionist-cityscape.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/11-impressionist-cityscape-a.jpg" width="100%" alt="Impressionist Cityscape"/></a><br/><strong>Impressionist Cityscape</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-impressionist-cityscape.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/521YOTFHRC1SBj5llj4HkY/15d00909f0f73cf0af06b7de524d1d33/impressionist-cityscape.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="印象派街景"/></a><br/><strong>印象派街景</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-11-impressionist-cityscape.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/11-impressionist-cityscape-a.jpg" width="100%" alt="Impressionist Cityscape"/></a><br/><strong>Impressionist Cityscape</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -1364,8 +1366,8 @@ Paint a riverside evening scene with visible broken-color brushwork and thin ove
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/3GALloAIN7Jn0P7wbvHPEB/0d02422440dfb3a001ff125cf37f7de4/mosaic.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="马赛克风格"/></a><br/><strong>马赛克风格</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/041-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/041-imported-.png" width="100%" alt="创意丝绸宇宙"/></a><br/><strong>创意丝绸宇宙</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-mosaic.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/3GALloAIN7Jn0P7wbvHPEB/0d02422440dfb3a001ff125cf37f7de4/mosaic.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="马赛克风格"/></a><br/><strong>马赛克风格</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-041-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/041-imported-.png" width="100%" alt="创意丝绸宇宙"/></a><br/><strong>创意丝绸宇宙</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -1413,8 +1415,8 @@ Create a square illustration of a small fox reading under a mushroom, built enti
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/Oe7BObgTAVCWhUe8Xsxy6/ef835be62240562b3ae4be70d404d61d/sci-fi-surrealism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="科幻超现实"/></a><br/><strong>科幻超现实</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/072-imported-35mm.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/072-imported-35mm.png" width="100%" alt="35mm 胶片风格飞岛"/></a><br/><strong>35mm 胶片风格飞岛</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-sci-fi-surrealism.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/Oe7BObgTAVCWhUe8Xsxy6/ef835be62240562b3ae4be70d404d61d/sci-fi-surrealism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="科幻超现实"/></a><br/><strong>科幻超现实</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-072-imported-35mm.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/072-imported-35mm.png" width="100%" alt="35mm 胶片风格飞岛"/></a><br/><strong>35mm 胶片风格飞岛</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -1505,8 +1507,8 @@ Create a vertical lifestyle photograph of an unlabeled amber glass skincare bott
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/4j4NxMqYjew5nrW2nqo7Yq/dd05b405739b3fb9f0f3cb56a196889b/wedding-invitation.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="婚礼邀请函"/></a><br/><strong>婚礼邀请函</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/07-vintage-national-park-stamps.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/07-vintage-national-park-stamps.jpg" width="100%" alt="National Park Stamps"/></a><br/><strong>National Park Stamps</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-wedding-invitation.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/4j4NxMqYjew5nrW2nqo7Yq/dd05b405739b3fb9f0f3cb56a196889b/wedding-invitation.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="婚礼邀请函"/></a><br/><strong>婚礼邀请函</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-07-vintage-national-park-stamps.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/07-vintage-national-park-stamps.jpg" width="100%" alt="National Park Stamps"/></a><br/><strong>National Park Stamps</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -1620,9 +1622,10 @@ https://github.com/Fangx-AI/awesome-image2.5/tree/main/skills/image25-reverse-pr
 
 ~~~sh
 uv tool install git+https://github.com/Fangx-AI/awesome-image2.5
-image25 --prompt-file prompt.txt --model flare --dry-run
-image25 --prompt-file prompt.txt --model flare -o generated/result.png
+image25 -p "A small ceramic fox on a pale green background" --model flare --dry-run
 ~~~
+
+这条预检命令无需密钥或准备文件；实际生成见安装指南。
 
 CLI 从本机环境读取 `OPENAI_API_KEY`；实际调用需要自己的 API 访问权限。
 

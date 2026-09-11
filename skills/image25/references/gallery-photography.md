@@ -1,14 +1,22 @@
 # 📷 摄影与人像
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 18 · 本项目型号未知实图 1 · 旧版学习参考 4
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 拍摄视角、光比、空间层次和自然细节
 
 检查：不凭画面猜真实设备参数；检查皮肤与反射
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 18 · 本项目型号未知实图 1 · 旧版学习参考 4
 Create an environmental portrait of an adult bookbinder beside a workshop window on an overcast morning. Frame from the waist up, with the person slightly right of center and a workbench in the foreground. Use soft side light, natural skin texture, gently compressed perspective and a modest depth of field that keeps the tools recognizable. Include worn linen, paper dust and small hand imperfections. Avoid beauty-filter skin and overly cinematic neon lighting.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 八十年代肖像
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="八十年代肖像"/></a><br/><strong>八十年代肖像</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-80s-headshot.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="八十年代肖像"/></a><br/><strong>八十年代肖像</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-night-studio.webp" width="100%" alt="夜间工作室"/></a><br/><strong>夜间工作室</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-night-studio.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-night-studio.webp" width="100%" alt="夜间工作室"/></a><br/><strong>夜间工作室</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://x.com/BubbleBrain/status/2097513469172129825"><img src="https://pbs.twimg.com/media/HRvdLStaoAAAkSy.jpg?name=orig" width="100%" alt="柔光旗袍肖像"/></a><br/><strong>柔光旗袍肖像</strong><br/><sub>Image 2.5 · X 作者声明 · @BubbleBrain</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/x-2097513469172129825.md"><img src="https://pbs.twimg.com/media/HRvdLStaoAAAkSy.jpg?name=orig" width="100%" alt="柔光旗袍肖像"/></a><br/><strong>柔光旗袍肖像</strong><br/><sub>Image 2.5 · X 作者声明 · @BubbleBrain</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://x.com/mark_k/status/2097411028510179759"><img src="https://pbs.twimg.com/media/HRt_pW_XEAAYiCE.jpg?name=orig" width="100%" alt="树林细节与噪点测试"/></a><br/><strong>树林细节与噪点测试</strong><br/><sub>Image 2.5 · X 作者声明 · @mark_k</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/x-2097411028510179759.md"><img src="https://pbs.twimg.com/media/HRt_pW_XEAAYiCE.jpg?name=orig" width="100%" alt="树林细节与噪点测试"/></a><br/><strong>树林细节与噪点测试</strong><br/><sub>Image 2.5 · X 作者声明 · @mark_k</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/020-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/020-imported-.png" width="100%" alt="黑白肖像艺术"/></a><br/><strong>黑白肖像艺术</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-020-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/020-imported-.png" width="100%" alt="黑白肖像艺术"/></a><br/><strong>黑白肖像艺术</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -119,7 +129,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/021-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/021-imported-.png" width="100%" alt="磨砂玻璃后的虚实对比剪影"/></a><br/><strong>磨砂玻璃后的虚实对比剪影</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-021-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/021-imported-.png" width="100%" alt="磨砂玻璃后的虚实对比剪影"/></a><br/><strong>磨砂玻璃后的虚实对比剪影</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -138,7 +148,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/022-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/022-imported-.png" width="100%" alt="三只动物与地标自拍"/></a><br/><strong>三只动物与地标自拍</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-022-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/022-imported-.png" width="100%" alt="三只动物与地标自拍"/></a><br/><strong>三只动物与地标自拍</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -157,7 +167,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/027-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/027-imported-.png" width="100%" alt="双重曝光"/></a><br/><strong>双重曝光</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-027-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/027-imported-.png" width="100%" alt="双重曝光"/></a><br/><strong>双重曝光</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -176,7 +186,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/038-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/038-imported-.png" width="100%" alt="剪影艺术"/></a><br/><strong>剪影艺术</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-038-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/038-imported-.png" width="100%" alt="剪影艺术"/></a><br/><strong>剪影艺术</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -195,7 +205,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/052-imported-iphone.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/052-imported-iphone.png" width="100%" alt="“极其平凡”的iPhone自拍"/></a><br/><strong>“极其平凡”的iPhone自拍</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-052-imported-iphone.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/052-imported-iphone.png" width="100%" alt="“极其平凡”的iPhone自拍"/></a><br/><strong>“极其平凡”的iPhone自拍</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -214,7 +224,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/100-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/100-imported-.png" width="100%" alt="巨型月亮下的夜色剪影"/></a><br/><strong>巨型月亮下的夜色剪影</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-100-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/100-imported-.png" width="100%" alt="巨型月亮下的夜色剪影"/></a><br/><strong>巨型月亮下的夜色剪影</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -233,7 +243,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/103-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/103-imported-.png" width="100%" alt="黄金时刻电影感男性肖像"/></a><br/><strong>黄金时刻电影感男性肖像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-103-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/103-imported-.png" width="100%" alt="黄金时刻电影感男性肖像"/></a><br/><strong>黄金时刻电影感男性肖像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -252,7 +262,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/104-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/104-imported-.png" width="100%" alt="佩戴骷髅戒指的忧郁肖像"/></a><br/><strong>佩戴骷髅戒指的忧郁肖像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-104-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/104-imported-.png" width="100%" alt="佩戴骷髅戒指的忧郁肖像"/></a><br/><strong>佩戴骷髅戒指的忧郁肖像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -271,7 +281,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/105-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/105-imported-.png" width="100%" alt="电影感黑白影棚肖像"/></a><br/><strong>电影感黑白影棚肖像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-105-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/105-imported-.png" width="100%" alt="电影感黑白影棚肖像"/></a><br/><strong>电影感黑白影棚肖像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -290,7 +300,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/108-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/108-imported-.png" width="100%" alt="电影感雨中欧洲街道人像"/></a><br/><strong>电影感雨中欧洲街道人像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-108-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/108-imported-.png" width="100%" alt="电影感雨中欧洲街道人像"/></a><br/><strong>电影感雨中欧洲街道人像</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -309,7 +319,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/116-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/116-imported-.png" width="100%" alt="爱因斯坦手写论文风格"/></a><br/><strong>爱因斯坦手写论文风格</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-116-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/116-imported-.png" width="100%" alt="爱因斯坦手写论文风格"/></a><br/><strong>爱因斯坦手写论文风格</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -328,7 +338,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/119-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/119-imported-.png" width="100%" alt="冬日暮色中的灯笼摄影"/></a><br/><strong>冬日暮色中的灯笼摄影</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-119-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/119-imported-.png" width="100%" alt="冬日暮色中的灯笼摄影"/></a><br/><strong>冬日暮色中的灯笼摄影</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -347,7 +357,7 @@ Create an environmental portrait of an adult bookbinder beside a workshop window
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/15-80s-headshot.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/15-80s-headshot-alt.jpg" width="100%" alt="1980s Studio Headshot"/></a><br/><strong>1980s Studio Headshot</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-15-80s-headshot.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/15-80s-headshot-alt.jpg" width="100%" alt="1980s Studio Headshot"/></a><br/><strong>1980s Studio Headshot</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -386,6 +396,8 @@ Create a photorealistic editorial portrait of one fictional adult domestic cat, 
 实际观察：耳部花纹与初始描述不完全一致。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -482,4 +494,6 @@ Lighting: late-afternoon golden hour, warm directional backlight through the can
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

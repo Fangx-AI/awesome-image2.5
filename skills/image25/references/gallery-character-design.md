@@ -1,14 +1,22 @@
 # 👤 角色设计与设定集
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 8 · 本项目型号未知实图 1 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 轮廓、比例、服饰结构、视图与表情
 
 检查：逐视图核对配饰位置、左右手和比例
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 8 · 本项目型号未知实图 1 · 旧版学习参考 2
 Create a character reference sheet for an original mountain postal worker. Arrange front, side and back orthographic views on one shared baseline, with four small facial expressions underneath. The worker has a short navy jacket, orange scarf, square canvas satchel and sturdy boots. Preserve exact garment construction, body proportions and the satchel's side in every view. Use clean linework and flat color, a pale background and no dramatic perspective.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 角色三视图
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-character-turnaround.webp" width="100%" alt="角色三视图"/></a><br/><strong>角色三视图</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-character-turnaround.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-character-turnaround.webp" width="100%" alt="角色三视图"/></a><br/><strong>角色三视图</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/061-imported-3d-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/061-imported-3d-q.png" width="100%" alt="3D Q版大学拟人化形象"/></a><br/><strong>3D Q版大学拟人化形象</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-061-imported-3d-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/061-imported-3d-q.png" width="100%" alt="3D Q版大学拟人化形象"/></a><br/><strong>3D Q版大学拟人化形象</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/076-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/076-imported-.png" width="100%" alt="手办与真人同框"/></a><br/><strong>手办与真人同框</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-076-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/076-imported-.png" width="100%" alt="手办与真人同框"/></a><br/><strong>手办与真人同框</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/089-imported-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/089-imported-q.png" width="100%" alt="Q版角色表情包"/></a><br/><strong>Q版角色表情包</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-089-imported-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/089-imported-q.png" width="100%" alt="Q版角色表情包"/></a><br/><strong>Q版角色表情包</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/090-imported-funko-pop.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/090-imported-funko-pop.png" width="100%" alt="Funko Pop 公仔包装"/></a><br/><strong>Funko Pop 公仔包装</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-090-imported-funko-pop.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/090-imported-funko-pop.png" width="100%" alt="Funko Pop 公仔包装"/></a><br/><strong>Funko Pop 公仔包装</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -119,7 +129,7 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/092-imported-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/092-imported-q.png" width="100%" alt="Q版可爱俄罗斯套娃"/></a><br/><strong>Q版可爱俄罗斯套娃</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-092-imported-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/092-imported-q.png" width="100%" alt="Q版可爱俄罗斯套娃"/></a><br/><strong>Q版可爱俄罗斯套娃</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -138,7 +148,7 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/097-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/097-imported-.png" width="100%" alt="自拍生成摇头娃娃"/></a><br/><strong>自拍生成摇头娃娃</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-097-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/097-imported-.png" width="100%" alt="自拍生成摇头娃娃"/></a><br/><strong>自拍生成摇头娃娃</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -157,7 +167,7 @@ Create a character reference sheet for an original mountain postal worker. Arran
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/098-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/098-imported-.png" width="100%" alt="定制动漫手办"/></a><br/><strong>定制动漫手办</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-098-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/098-imported-.png" width="100%" alt="定制动漫手办"/></a><br/><strong>定制动漫手办</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -196,6 +206,8 @@ A polished animation character model sheet, landscape 3:2, on a clean warm off-w
 实际观察：三视图的主色、背包、裤脚与鞋底基本呼应；正面肘部补丁的位置偏外，侧面背包厚度仍需人工定稿。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -250,4 +262,6 @@ Create a fantasy concept art sketchbook page centered on a mystical elven archer
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

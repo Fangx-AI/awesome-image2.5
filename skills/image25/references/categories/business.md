@@ -1,6 +1,6 @@
 # 商业与演示视觉 · Business & presentation
 
-[返回总览](../gallery.md)
+[返回实验区](../prompt-lab-index.md) · [实图分类](../gallery.md)
 
 所有条目均未经过指定模型出图验证。以“变体”标记的条目共享同一基础场景。
 

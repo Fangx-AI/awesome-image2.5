@@ -40,7 +40,7 @@ python -m unittest discover -s tests -v
 
 ## 更新实图案例
 
-将原始 PNG、完整 TXT 提示词及 JSON 生成记录放入 assets/showcase/；在 catalog/showcase-notes.json 写入实际观察。在 build_showcase.py 的分类路由中登记案例 ID，然后运行 python scripts/build_showcase.py。首页、搜索画廊与 Skill 参考页从同一份资料生成。不要直接修改生成页。生成记录中模型未知时保留 null，不推断具体模型。
+将原始 PNG、完整 TXT 提示词及 JSON 生成记录放入 assets/showcase/；在 catalog/showcase-notes.json 写入实际观察。在 build_showcase.py 的分类路由与 build_repository.py 的 own_groups 中登记案例 ID，然后运行 `python scripts/build_all.py`。首页、搜索画廊与 Skill 参考页从同一份资料生成。不要直接修改生成页。生成记录中模型未知时保留 null，不推断具体模型。
 
 ## 使用边界
 

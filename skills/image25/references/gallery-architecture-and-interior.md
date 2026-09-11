@@ -1,14 +1,22 @@
 # 🏛️ 建筑与室内
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 1 · 本项目型号未知实图 1 · 旧版学习参考 5
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 空间功能、尺度、消失点、材料与光向
 
 检查：检查门窗、楼梯和家具尺度；效果图不等于施工设计
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 1 · 本项目型号未知实图 1 · 旧版学习参考 5
 Create a photorealistic architectural concept of a small neighborhood reading room in a renovated brick building. Use a level eye-height view, one clear vanishing point and soft afternoon light entering from the left. Include a long oak table, wall shelves and an accessible uncluttered aisle. Show brick, linen and matte plaster distinctly. Keep furniture at plausible scale and avoid stairs, doors or windows that lead nowhere.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 个性化房间设计
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/083-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/083-imported-.png" width="100%" alt="个性化房间设计"/></a><br/><strong>个性化房间设计</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-083-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/083-imported-.png" width="100%" alt="个性化房间设计"/></a><br/><strong>个性化房间设计</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -63,6 +73,8 @@ Architectural visualization of a small public rooftop library at blue hour, land
 实际观察：入口路径、阅览区与屋顶花园关系可读；效果图不能证明结构、安全或无障碍合规。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -174,4 +186,6 @@ Render a majestic Gothic cathedral interior in photorealistic architectural styl
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

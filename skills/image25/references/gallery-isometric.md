@@ -1,14 +1,22 @@
 # 📐 等距与微缩
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 6 · 本项目型号未知实图 1 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 轴测角度、比例、剖面和空间布局
 
 检查：平行线不应随意汇聚；检查楼层及通道相连
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 6 · 本项目型号未知实图 1 · 旧版学习参考 2
 Create an isometric cutaway of a two-story neighborhood tea shop on a square canvas. Use consistent parallel axes and a fixed elevated view. The ground floor contains a counter, brewing station and four seats; the upper floor contains a small reading room reached by a visible staircase. Use warm wood, pale plaster and restrained green details. Keep walls cut away cleanly and furniture at a consistent scale, with no impossible connections.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 等距建筑剖面
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-isometric-diorama.webp" width="100%" alt="等距建筑剖面"/></a><br/><strong>等距建筑剖面</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-isometric-diorama.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-isometric-diorama.webp" width="100%" alt="等距建筑剖面"/></a><br/><strong>等距建筑剖面</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create an isometric cutaway of a two-story neighborhood tea shop on a square can
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/033-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/033-imported-.png" width="100%" alt="乐高城市景观"/></a><br/><strong>乐高城市景观</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-033-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/033-imported-.png" width="100%" alt="乐高城市景观"/></a><br/><strong>乐高城市景观</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create an isometric cutaway of a two-story neighborhood tea shop on a square can
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/050-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/050-imported-3d.png" width="100%" alt="迷你 3D 建筑"/></a><br/><strong>迷你 3D 建筑</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-050-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/050-imported-3d.png" width="100%" alt="迷你 3D 建筑"/></a><br/><strong>迷你 3D 建筑</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Create an isometric cutaway of a two-story neighborhood tea shop on a square can
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/059-imported-esc.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/059-imported-esc.png" width="100%" alt="键盘ESC键帽微型立体模型"/></a><br/><strong>键盘ESC键帽微型立体模型</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-059-imported-esc.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/059-imported-esc.png" width="100%" alt="键盘ESC键帽微型立体模型"/></a><br/><strong>键盘ESC键帽微型立体模型</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Create an isometric cutaway of a two-story neighborhood tea shop on a square can
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/063-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/063-imported-.png" width="100%" alt="微型立体场景（西游主题）"/></a><br/><strong>微型立体场景（西游主题）</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-063-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/063-imported-.png" width="100%" alt="微型立体场景（西游主题）"/></a><br/><strong>微型立体场景（西游主题）</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -119,7 +129,7 @@ Create an isometric cutaway of a two-story neighborhood tea shop on a square can
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/077-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/077-imported-.png" width="100%" alt="玩具盒中的国家立体模型"/></a><br/><strong>玩具盒中的国家立体模型</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-077-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/077-imported-.png" width="100%" alt="玩具盒中的国家立体模型"/></a><br/><strong>玩具盒中的国家立体模型</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -158,6 +168,8 @@ Create a beautifully crafted isometric cutaway illustration of a tiny contempora
 实际观察：检查桌椅尺度、楼梯连接及人物数量；微缩风格不代表工程可施工。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -206,4 +218,6 @@ Create a vibrant isometric fantasy village map with a clean grid-based layout us
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

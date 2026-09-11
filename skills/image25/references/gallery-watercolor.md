@@ -1,14 +1,22 @@
 # 💧 水彩
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 1 · 本项目型号未知实图 0 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 透明罩染、纸白、湿边和色素沉积
 
 检查：避免塑料般高光和统一模糊；保留边缘差异
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 1 · 本项目型号未知实图 0 · 旧版学习参考 2
 Paint a quiet greenhouse after rain as a transparent watercolor illustration. Use a landscape frame with a stone path leading toward a small open door. Leave paper white for wet leaves and window reflections. Combine soft wet-on-wet foliage with a few crisp dry-brush edges on pots. Use granulating ultramarine shadows and diluted yellow-green washes. Keep pencil construction faintly visible; avoid photographic sharpness, heavy oil impasto and glossy 3D surfaces.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 富士山水彩风格转换
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/109-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/109-imported-.png" width="100%" alt="富士山水彩风格转换"/></a><br/><strong>富士山水彩风格转换</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-109-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/109-imported-.png" width="100%" alt="富士山水彩风格转换"/></a><br/><strong>富士山水彩风格转换</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -38,6 +48,8 @@ Paint a quiet greenhouse after rain as a transparent watercolor illustration. Us
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -86,4 +98,6 @@ Create a delicate watercolor illustration of a rainy botanical greenhouse in ear
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

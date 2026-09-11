@@ -1,5 +1,16 @@
 # Cover provenance
 
+## Current README banner
+
+- File: [hero-v2.png](hero-v2.png)
+- Created: 2026-09-11
+- Record: [hero-v2.json](hero-v2.json)
+- Source: original generation using the Codex built-in image tool; exact backend model was not exposed.
+- Purpose: decorative project identity. It is not an Image 2.5 benchmark case.
+- Postprocessing: none.
+
+## Previous concept cover
+
 - File: [cover.png](cover.png)
 - Created: 2026-09-09
 - Source: original generation through the Codex built-in image generation tool.

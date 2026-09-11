@@ -1,6 +1,6 @@
 # 讽刺漫画生成
 
-[全部分类](../README.md)
+[来源索引](../README.md) · [31 类创作图谱](../../../skills/image25/references/gallery.md) · [如何使用提示词](../../prompts.md)
 
 作者：LaplaceYoung · 分类：插画与艺术
 
@@ -21,3 +21,5 @@
 [原始出处](https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/081-imported-.md)
 
 Images linked to publisher; underlying third-party rights not reassigned
+
+[继续浏览来源作品](../README.md) · [反馈图片或来源错误](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=correction.md)

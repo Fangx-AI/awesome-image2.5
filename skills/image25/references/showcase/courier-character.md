@@ -1,4 +1,6 @@
-### 快递员角色 · 三视图一致性
+# 快递员角色 · 三视图一致性
+
+[全部实图案例](../visual-gallery.md) · [31 类图谱](../gallery.md) · [安装与使用](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/getting-started.md)
 
 ![快递员角色 · 三视图一致性](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/courier-character.png)
 
@@ -16,12 +18,17 @@
 A polished animation character model sheet, landscape 3:2, on a clean warm off-white background. Exactly three equal-scale full-body views of the same adult female bicycle courier: front view, strict side profile facing right, and back view, aligned along a single baseline and generously separated. She has a short curly dark-brown bob, a mustard yellow cropped rain jacket with dark navy elbow patches, navy cuffed trousers, white high-top sneakers with orange soles, and a small square teal delivery backpack with one centered orange reflective strip. All three views must preserve the identical jacket construction, sleeve length, trouser cuffs, shoe design, backpack proportions and colors. Relaxed neutral standing pose, hands visible at sides, no bicycle or props. Stylish hand-painted 2D animation development art, expressive but restrained proportions, clear readable silhouettes, subtle soft shading, no photorealism, no labels, no arrows, no extra views, no cropped feet.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/courier-character.txt --model flare -o generated/courier-character.png --dry-run
 image25 --prompt-file assets/showcase/courier-character.txt --model flare -o generated/courier-character.png
 ~~~
 
 [下载提示词](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/courier-character.txt) · [来源与生成记录](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/courier-character.json)
 
 </details>
+
+[继续看其他案例](../visual-gallery.md)

@@ -1,14 +1,22 @@
 # 📈 数据可视化
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 0 · 本项目型号未知实图 0 · 旧版学习参考 5
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 数据表、视觉编码、坐标、图例与不确定性
 
 检查：核对数值和比例；有真实数据时优先确定性绘图
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,9 +26,13 @@ Image 2.5 来源 0 · 本项目型号未知实图 0 · 旧版学习参考 5
 Create a conceptual data-visualization style board with three clearly labeled chart placeholders: "Monthly trend", "Category share" and "Regional comparison". Use consistent typography, a white background, restrained blue accents and accessible contrast. Leave numeric values and plotted results blank for real data. Show clear axis and legend positions. Mark the board "LAYOUT STUDY"; do not fabricate measurements or suggest this is an actual analysis.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 当前尚无归入本类的 Image 2.5 来源实图；下方保留明确标注的其他学习资料。
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -132,4 +144,6 @@ Produce a polished geographic choropleth map infographic of a fictional agricult
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

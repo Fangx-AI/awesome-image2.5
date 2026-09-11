@@ -38,12 +38,12 @@ def build():
              f"{len(entries)} 条完整提示词 · {len(categories)} 个分类 · {original} 个基础案例 + {len(entries)-original} 个任务侧重变体。",
              "", "变体共享基础场景，分别强调边缘、材质、版式、可辨识性或编辑保真；不视为独立出图实测。",
              "全部条目的验证状态目前为 prompt-only。", "",
-             "[仓库首页](../../../README.md) · [离线搜索画廊](../../../docs/prompt-lab.html) · [JSON](../../../catalog/recipes.json) · [CSV](../../../catalog/recipes.csv)", "",
+             "[实图分类](gallery.md) · [仓库首页](https://github.com/Fangx-AI/awesome-image2.5) · [JSON](https://github.com/Fangx-AI/awesome-image2.5/blob/main/catalog/recipes.json) · [CSV](https://github.com/Fangx-AI/awesome-image2.5/blob/main/catalog/recipes.csv)", "",
              "| 分类 | 条目数 | 基础案例 |", "| :--- | ---: | ---: |"]
     for cid, cat in categories.items():
         group = [e for e in entries if e["category"] == cid]
         index.append(f"| [{cat['title']} / {cat['en']}](categories/{cid}.md) | {len(group)} | {sum(e['kind']=='original' for e in group)} |")
-        page = [f"# {cat['title']} · {cat['en']}", "", "[返回总览](../gallery.md)", "",
+        page = [f"# {cat['title']} · {cat['en']}", "", "[返回实验区](../prompt-lab-index.md) · [实图分类](../gallery.md)", "",
                 "所有条目均未经过指定模型出图验证。以“变体”标记的条目共享同一基础场景。", ""]
         for e in group:
             label = "基础案例" if e["kind"] == "original" else "任务侧重变体"

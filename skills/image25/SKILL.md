@@ -13,7 +13,7 @@ Start with the bundled [31-category atlas](references/gallery.md). Choose by the
 
 The category files distinguish current Image 2.5 source claims, our host-model-unknown demonstrations, original prompt-only practice briefs and GPT Image 2 references. Preserve those distinctions. Some authors disclose no complete prompt or only a repository-level model claim; do not invent missing settings or attach a practice prompt to an unrelated image as its original prompt.
 
-For a visual task, start with [the real-output gallery](references/visual-gallery.md). Select a case by the user's deliverable, read its complete prompt, and identify the composition rules to preserve versus the subject/text/colors to replace. For packaging preserve the shared layout; for menus inventory all text; for edits enumerate reference invariants. Read the case's observed limitations before reusing it. Use the prompt-only catalog below only if no real-output case fits.
+When a task matches one of our demonstrations, use [the real-output case index](references/visual-gallery.md) to find its complete prompt and observed limitations. Preserve composition rules while adapting subject, text and colors. For edits inspect the linked input as well as the result. This is an optional companion to the category atlas, not a second mandatory starting point.
 
 - Prompt-only request: return a tailored prompt without running generation.
 - Generation: set canvas and layout, then subject, medium, light, exact text and targeted exclusions. Read [craft notes](references/craft.md) for dense text, UI, multi-panel consistency, technical diagrams or prompt repair. Use the [prompt-only lab](references/prompt-lab-index.md) when no actual case fits; its variants are not independently generated examples.
@@ -22,7 +22,7 @@ For a visual task, start with [the real-output gallery](references/visual-galler
 
 ## CLI route
 
-The separately installed `image25` command calls the official Images API. Read [API and CLI notes](references/api.md) before execution. Check whether the command is installed; do not silently install packages or overwrite existing skill folders.
+The separately installed `image25` command calls the official Images API. Read [API and CLI notes](references/api.md) before execution. Check whether the command is installed. Installing this Skill does not install the CLI or download repository assets: examples using `assets/` paths assume a repository checkout. Otherwise save the prompt and references into the user's working directory and use those actual paths. Respect existing installation authorization and preserve user changes.
 
 Use `flare` for an unspecified model. Preserve an explicit `sunburst` choice. For precision-heavy edits, offer Sunburst when the user has not chosen a model; do not replace their choice automatically.
 

@@ -1,14 +1,22 @@
 # 🔬 科学与教育
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 1 · 本项目型号未知实图 0 · 旧版学习参考 7
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 对象结构、标注精度、图例与教学顺序
 
 检查：科学内容由可靠资料提供；避免生成伪知识
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 1 · 本项目型号未知实图 0 · 旧版学习参考 7
 Create an educational layout study explaining the water cycle in a simple landscape diagram. Place ocean at left, mountains at right and clouds above. Use four large exact labels: "Evaporation", "Condensation", "Precipitation" and "Collection", each attached to an appropriate directed arrow. Keep land and water layers visually distinct and the reading path clear. Avoid decorative equations, unsupported statistics and confusing arrow directions.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 发光线条解剖图
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/030-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/030-imported-.png" width="100%" alt="发光线条解剖图"/></a><br/><strong>发光线条解剖图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-030-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/030-imported-.png" width="100%" alt="发光线条解剖图"/></a><br/><strong>发光线条解剖图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -38,6 +48,8 @@ Create an educational layout study explaining the water cycle in a simple landsc
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -191,4 +203,6 @@ Produce a detailed geological cross-section poster of layered earth strata cutti
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

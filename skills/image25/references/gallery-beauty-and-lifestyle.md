@@ -1,14 +1,22 @@
 # 💄 美妆与生活方式
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 0 · 本项目型号未知实图 1 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 日常场景、产品材料、皮肤与柔光
 
 检查：避免虚构功效或配方；核对标签与瓶盖结构
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -17,6 +25,8 @@ Image 2.5 来源 0 · 本项目型号未知实图 1 · 旧版学习参考 2
 ~~~text
 Create a vertical lifestyle photograph of an unlabeled amber glass skincare bottle on a travertine bathroom shelf beside a folded linen towel. Use diffused morning light through frosted glass, subtle reflections and a realistic contact shadow. Include a single small branch as a secondary element. Keep bottle geometry plausible and the scene quiet, without invented medical claims, ingredient labels or impossible liquid effects.
 ~~~
+
+<a id="sources"></a>
 
 ## Image 2.5 来源作品
 
@@ -46,6 +56,8 @@ Create a premium skincare campaign photograph in landscape 3:2. One tall frosted
 实际观察：逐字检查瓶身文字；查看滴管、瓶盖、接触阴影与玻璃边缘。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -94,4 +106,6 @@ Create a portrait-oriented premium beauty and lifestyle editorial image for a bo
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

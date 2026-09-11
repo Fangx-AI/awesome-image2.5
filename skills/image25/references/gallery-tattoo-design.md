@@ -1,14 +1,22 @@
 # 🖋️ 纹身设计
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 0 · 本项目型号未知实图 0 · 旧版学习参考 4
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 身体位置、线条粗细、负空间与可转印结构
 
 检查：检查细节是否适合实际尺寸；保留皮肤呼吸空间
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,9 +26,13 @@ Image 2.5 来源 0 · 本项目型号未知实图 0 · 旧版学习参考 4
 Create a vertical tattoo flash concept for a forearm placement, presented on off-white paper with no real body. Arrange a moth above two fern fronds in a balanced tapered silhouette. Use crisp black linework, limited stippling and generous negative-space gaps. Keep tiny details subordinate to the overall shape and include a small simplified stencil version beside it. Avoid dense muddy shading and lines too fine to remain distinct at the intended scale.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 当前尚无归入本类的 Image 2.5 来源实图；下方保留明确标注的其他学习资料。
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -111,4 +123,6 @@ Create a dark surrealist tattoo design sheet in portrait format. Subject: a gian
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

@@ -1,14 +1,22 @@
 # 📝 排版与海报
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 18 · 本项目型号未知实图 1 · 旧版学习参考 13
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 文案层级、网格、留白、主视觉和语言
 
 检查：逐字校对标题、日期和价格；禁止额外卖点
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 18 · 本项目型号未知实图 1 · 旧版学习参考 13
 Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间植物馆" in large dark-green type across the upper third. Place a single cyanotype fern image in the middle, with generous negative space. At the bottom, align the exact text "NIGHT BOTANICALS" and "09.18 — 10.12" on a strict two-column grid. Use one small vermilion accent. Keep all text legible, without extra slogans or invented sponsor logos.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 现代主义海报组
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="现代主义海报组"/></a><br/><strong>现代主义海报组</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-mid-century-modern-posters.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="现代主义海报组"/></a><br/><strong>现代主义海报组</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-exhibition-poster.webp" width="100%" alt="展览文字海报"/></a><br/><strong>展览文字海报</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-exhibition-poster.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-exhibition-poster.webp" width="100%" alt="展览文字海报"/></a><br/><strong>展览文字海报</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/01-images2point5_16-9.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/01-images2point5_16-9.jpg" width="100%" alt="Launch Wordmark"/></a><br/><strong>Launch Wordmark</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-01-images2point5_16-9.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/01-images2point5_16-9.jpg" width="100%" alt="Launch Wordmark"/></a><br/><strong>Launch Wordmark</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/026-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/026-imported-.png" width="100%" alt="字母与单词含义融合"/></a><br/><strong>字母与单词含义融合</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-026-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/026-imported-.png" width="100%" alt="字母与单词含义融合"/></a><br/><strong>字母与单词含义融合</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/035-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/035-imported-.png" width="100%" alt="怀旧动漫风格电影海报"/></a><br/><strong>怀旧动漫风格电影海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-035-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/035-imported-.png" width="100%" alt="怀旧动漫风格电影海报"/></a><br/><strong>怀旧动漫风格电影海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -119,7 +129,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/047-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/047-imported-.png" width="100%" alt="彩色矢量艺术海报"/></a><br/><strong>彩色矢量艺术海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-047-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/047-imported-.png" width="100%" alt="彩色矢量艺术海报"/></a><br/><strong>彩色矢量艺术海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -138,7 +148,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/057-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/057-imported-.png" width="100%" alt="时尚杂志封面风格"/></a><br/><strong>时尚杂志封面风格</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-057-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/057-imported-.png" width="100%" alt="时尚杂志封面风格"/></a><br/><strong>时尚杂志封面风格</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -157,7 +167,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/06-mid-century-modern-posters.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/06-mid-century-modern-posters-b.jpg" width="100%" alt="Mid-century Poster Grid"/></a><br/><strong>Mid-century Poster Grid</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-06-mid-century-modern-posters.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/06-mid-century-modern-posters-b.jpg" width="100%" alt="Mid-century Poster Grid"/></a><br/><strong>Mid-century Poster Grid</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -176,7 +186,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/075-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/075-imported-.png" width="100%" alt="小红书封面"/></a><br/><strong>小红书封面</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-075-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/075-imported-.png" width="100%" alt="小红书封面"/></a><br/><strong>小红书封面</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -195,7 +205,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/079-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/079-imported-.png" width="100%" alt="讽刺海报生成"/></a><br/><strong>讽刺海报生成</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-079-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/079-imported-.png" width="100%" alt="讽刺海报生成"/></a><br/><strong>讽刺海报生成</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -214,7 +224,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/082-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/082-imported-.png" width="100%" alt="极简未来主义海报"/></a><br/><strong>极简未来主义海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-082-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/082-imported-.png" width="100%" alt="极简未来主义海报"/></a><br/><strong>极简未来主义海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -233,7 +243,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/084-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/084-imported-.png" width="100%" alt="复古宣传海报"/></a><br/><strong>复古宣传海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-084-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/084-imported-.png" width="100%" alt="复古宣传海报"/></a><br/><strong>复古宣传海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -252,7 +262,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/111-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/111-imported-.png" width="100%" alt="现代艺术活动海报"/></a><br/><strong>现代艺术活动海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-111-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/111-imported-.png" width="100%" alt="现代艺术活动海报"/></a><br/><strong>现代艺术活动海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -271,7 +281,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/112-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/112-imported-.png" width="100%" alt="英文社论报纸排版"/></a><br/><strong>英文社论报纸排版</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-112-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/112-imported-.png" width="100%" alt="英文社论报纸排版"/></a><br/><strong>英文社论报纸排版</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -290,7 +300,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/113-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/113-imported-.png" width="100%" alt="定制地标旅行海报模板"/></a><br/><strong>定制地标旅行海报模板</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-113-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/113-imported-.png" width="100%" alt="定制地标旅行海报模板"/></a><br/><strong>定制地标旅行海报模板</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -309,7 +319,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/115-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/115-imported-.png" width="100%" alt="复古植物学勿忘我海报"/></a><br/><strong>复古植物学勿忘我海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-115-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/115-imported-.png" width="100%" alt="复古植物学勿忘我海报"/></a><br/><strong>复古植物学勿忘我海报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -328,7 +338,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/117-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/117-imported-.png" width="100%" alt="电影感沙漠“火之环”专辑封面"/></a><br/><strong>电影感沙漠“火之环”专辑封面</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-117-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/117-imported-.png" width="100%" alt="电影感沙漠“火之环”专辑封面"/></a><br/><strong>电影感沙漠“火之环”专辑封面</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -347,7 +357,7 @@ Design a 3:4 exhibition poster on warm ivory paper. Set the exact title "夜间�
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/120-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/120-imported-.png" width="100%" alt="海盗放克播放列表封面"/></a><br/><strong>海盗放克播放列表封面</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-120-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/120-imported-.png" width="100%" alt="海盗放克播放列表封面"/></a><br/><strong>海盗放克播放列表封面</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -386,6 +396,8 @@ Create a finished premium vertical Chinese beverage campaign poster, aspect rati
 实际观察：主标题、副标题与瓶标逐字检查。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -715,4 +727,6 @@ Cinematic portrait poster of fictional athlete Aya Navarro showing her full jour
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

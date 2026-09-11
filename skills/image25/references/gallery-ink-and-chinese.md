@@ -1,14 +1,22 @@
 # 🖌️ 水墨与国风
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 0 · 本项目型号未知实图 0 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 散点透视、墨色浓淡、留白和题款
 
 检查：题款字数与位置要明确；避免伪汉字
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,9 +26,13 @@ Image 2.5 来源 0 · 本项目型号未知实图 0 · 旧版学习参考 2
 Create a long horizontal ink-and-light-color landscape on warm rice paper. Show a river ferry approaching a village beneath distant mountains. Build depth with three overlapping layers, progressively lighter ink and generous untouched paper for mist. Use dry-brush texture for roof tiles and sparse cinnabar accents on lanterns. Reserve a small blank inscription area at the upper right. Keep the brushwork varied and avoid photographic perspective or decorative fake calligraphy.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 当前尚无归入本类的 Image 2.5 来源实图；下方保留明确标注的其他学习资料。
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -69,4 +81,6 @@ Create a horizontal Chinese ink-and-wash handscroll scene of a Song dynasty rive
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

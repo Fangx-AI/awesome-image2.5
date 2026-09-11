@@ -25,10 +25,15 @@ def detail(e,prefix):
  '<details><summary>完整提示词与复现命令</summary>','','~~~text',e['prompt'],'~~~','']
  inputs=e.get('input_images',[])
  if not inputs and e.get('input'):inputs=[e['input']+'.png']
+ if inputs:
+  s += ['**输入参考（按命令顺序）：**','']
+  for i,inp in enumerate(inputs,1):
+   s += [f"![参考图 {i}]({prefix}assets/showcase/{Path(inp).name})",'']
  command='image25 --prompt-file assets/showcase/'+e['id']+'.txt'
  for inp in inputs:command+=' -i assets/showcase/'+Path(inp).name
  command+=' --model '+('sunburst' if inputs else 'flare')+' -o generated/'+e['id']+'.png'
- s += ['以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。','','~~~sh',command,'~~~','',
+ s += ['以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。', '',
+ '以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。','','~~~sh',command+' --dry-run',command,'~~~','',
  f"[下载提示词]({prefix}assets/showcase/{e['id']}.txt) · [来源与生成记录]({prefix}assets/showcase/{e['id']}.json)",'','</details>','']
  return s
 header=['<h1 align="center">Awesome Image 2.5</h1>','',
@@ -76,7 +81,11 @@ ref=['# 实图案例路由','','按用户目标选择一个案例，读取对应
 for e in entries:
  ref += [f"## {e['title']}",'',e['use'],'',f"[完整案例](showcase/{e['id']}.md)",'']
  out=R/'skills/image25/references/showcase'/f"{e['id']}.md";out.parent.mkdir(exist_ok=True)
- out.write_text('\n'.join(detail(e,'https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/')),encoding='utf-8')
+ content=detail(e,'https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/')
+ content[0]='# '+e['title']
+ content[2:2]=['[全部实图案例](../visual-gallery.md) · [31 类图谱](../gallery.md) · [安装与使用](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/getting-started.md)','']
+ content+=['[继续看其他案例](../visual-gallery.md)','']
+ out.write_text('\n'.join(content),encoding='utf-8')
 (R/'skills/image25/references/visual-gallery.md').write_text('\n'.join(ref),encoding='utf-8')
 print('Built visual gallery:',len(entries),'cases')
 showcase=['# 实图案例与编辑工作流','','[返回首页](../README.md) · [搜索画廊](gallery.html)','','所有输出均标注 host-model-unknown；实际观察与提示词意图分别记录。','']

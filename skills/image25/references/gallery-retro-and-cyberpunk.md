@@ -1,14 +1,22 @@
 # 🤖 复古与赛博朋克
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 6 · 本项目型号未知实图 0 · 旧版学习参考 3
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 年代技术、城市结构、材质和霓虹色彩层次
 
 检查：检查世界设定一致；不要把霓虹当作唯一风格线索
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 6 · 本项目型号未知实图 0 · 旧版学习参考 3
 Create a 16:9 concept board for an original retro-futurist harbor city. Divide it into a large street scene on the left and three stacked detail studies on the right: public phone, transit ticket and raincoat. Use rounded analog controls, enamel signs, copper wiring and weathered glass. Restrict light accents to amber and cyan against charcoal architecture. Repeat the same visual language in all four regions. No borrowed franchise logos or unreadable decorative lettering.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 复古未来城市
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="复古未来城市"/></a><br/><strong>复古未来城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-retrofuturism.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="复古未来城市"/></a><br/><strong>复古未来城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5siUce5uMdk0FxOA5opjoB/fcfb4452b13c144108f7786a9412f982/cyberpunk.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="赛博朋克城市"/></a><br/><strong>赛博朋克城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-cyberpunk.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5siUce5uMdk0FxOA5opjoB/fcfb4452b13c144108f7786a9412f982/cyberpunk.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="赛博朋克城市"/></a><br/><strong>赛博朋克城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/037-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/037-imported-.png" width="100%" alt="迷你赛博朋克移轴景观"/></a><br/><strong>迷你赛博朋克移轴景观</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-037-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/037-imported-.png" width="100%" alt="迷你赛博朋克移轴景观"/></a><br/><strong>迷你赛博朋克移轴景观</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/118-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/118-imported-.png" width="100%" alt="赛博朋克犬耳女剑客"/></a><br/><strong>赛博朋克犬耳女剑客</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-118-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/118-imported-.png" width="100%" alt="赛博朋克犬耳女剑客"/></a><br/><strong>赛博朋克犬耳女剑客</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/12-cyberpunk.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/12-cyberpunk.jpg" width="100%" alt="Restrained Cyberpunk City"/></a><br/><strong>Restrained Cyberpunk City</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-12-cyberpunk.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/12-cyberpunk.jpg" width="100%" alt="Restrained Cyberpunk City"/></a><br/><strong>Restrained Cyberpunk City</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -119,7 +129,7 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/13-retrofuturism.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/13-retrofuturism.jpg" width="100%" alt="Orbital Colony Retrofuturism"/></a><br/><strong>Orbital Colony Retrofuturism</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-13-retrofuturism.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/13-retrofuturism.jpg" width="100%" alt="Orbital Colony Retrofuturism"/></a><br/><strong>Orbital Colony Retrofuturism</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -133,6 +143,8 @@ Create a 16:9 concept board for an original retro-futurist harbor city. Divide i
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -202,4 +214,6 @@ Create a square cyberpunk alien nightclub catalog sheet called "SYNTH MOON CREW"
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

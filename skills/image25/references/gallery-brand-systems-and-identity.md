@@ -1,14 +1,22 @@
 # 🧩 品牌系统与视觉识别
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 9 · 本项目型号未知实图 1 · 旧版学习参考 3
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 标志、色板、字体、版式与跨触点一致性
 
 检查：同一标志重复出现时不可变形；品牌色和字号层级统一
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 9 · 本项目型号未知实图 1 · 旧版学习参考 3
 Create a square identity board for a fictional neighborhood bakery called "NORTH CRUMB". Use a modular grid containing a wordmark, three color swatches, a paper bag, a business card and one social announcement. Repeat the same rounded lettering, navy-and-butter palette and wheat motif across all applications. Keep packaging folds realistic and text sparse. Make the logo shape consistent at every scale; avoid unrelated mockups or additional brand names.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 国家公园邮票
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/4M5M3sRxcgnYl8Q2M8DZ3y/bc3773f82ae0e68d025e2dca3d5b8f43/vintage-national-park-stamps.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="国家公园邮票"/></a><br/><strong>国家公园邮票</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-vintage-national-park-stamps.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/4M5M3sRxcgnYl8Q2M8DZ3y/bc3773f82ae0e68d025e2dca3d5b8f43/vintage-national-park-stamps.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="国家公园邮票"/></a><br/><strong>国家公园邮票</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5jpsVIXTvhsaamMRBBygyj/59a740665177515836747b400f52e3fc/stickers.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="贴纸设计"/></a><br/><strong>贴纸设计</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-stickers.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5jpsVIXTvhsaamMRBBygyj/59a740665177515836747b400f52e3fc/stickers.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="贴纸设计"/></a><br/><strong>贴纸设计</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-sticker-transparent.webp" width="100%" alt="透明贴纸"/></a><br/><strong>透明贴纸</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-sticker-transparent.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-sticker-transparent.webp" width="100%" alt="透明贴纸"/></a><br/><strong>透明贴纸</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/024-imported-emoji.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/024-imported-emoji.png" width="100%" alt="镀铬emoji徽章"/></a><br/><strong>镀铬emoji徽章</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-024-imported-emoji.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/024-imported-emoji.png" width="100%" alt="镀铬emoji徽章"/></a><br/><strong>镀铬emoji徽章</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/032-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/032-imported-.png" width="100%" alt="代码风格名片"/></a><br/><strong>代码风格名片</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-032-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/032-imported-.png" width="100%" alt="代码风格名片"/></a><br/><strong>代码风格名片</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -119,7 +129,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/036-imported-logo.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/036-imported-logo.png" width="100%" alt="Logo 形状创意书架"/></a><br/><strong>Logo 形状创意书架</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-036-imported-logo.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/036-imported-logo.png" width="100%" alt="Logo 形状创意书架"/></a><br/><strong>Logo 形状创意书架</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -138,7 +148,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/039-imported-logo.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/039-imported-logo.png" width="100%" alt="未来主义 Logo 交易卡"/></a><br/><strong>未来主义 Logo 交易卡</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-039-imported-logo.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/039-imported-logo.png" width="100%" alt="未来主义 Logo 交易卡"/></a><br/><strong>未来主义 Logo 交易卡</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -157,7 +167,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/055-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/055-imported-.png" width="100%" alt="护照入境印章"/></a><br/><strong>护照入境印章</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-055-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/055-imported-.png" width="100%" alt="护照入境印章"/></a><br/><strong>护照入境印章</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -176,7 +186,7 @@ Create a square identity board for a fictional neighborhood bakery called "NORTH
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/093-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/093-imported-.png" width="100%" alt="可爱珐琅别针"/></a><br/><strong>可爱珐琅别针</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-093-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/093-imported-.png" width="100%" alt="可爱珐琅别针"/></a><br/><strong>可爱珐琅别针</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -215,6 +225,8 @@ Create a sophisticated brand packaging presentation for a fictional coffee roast
 实际观察：三袋版式和配色系统清楚，但模型额外加入了 SPECIALTY COFFEE ROASTERS 小字，未完全遵循只使用指定文字的要求。不是印刷刀模。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -284,4 +296,6 @@ Playful brand kit for "Mochi Metro", bold colors, fun typography, modern layout,
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

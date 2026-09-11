@@ -1,4 +1,6 @@
-### FIELD NOTES · 阅读工作台
+# FIELD NOTES · 阅读工作台
+
+[全部实图案例](../visual-gallery.md) · [31 类图谱](../gallery.md) · [安装与使用](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/getting-started.md)
 
 ![FIELD NOTES · 阅读工作台](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/field-notes-ui.png)
 
@@ -16,12 +18,17 @@
 Create a highly polished desktop app interface design mockup for an original reading and knowledge application named FIELD NOTES, landscape 3:2. This is a fictional UI concept, use only the exact text strings provided. Straight-on full application canvas with no device frame or perspective. Warm off-white background, ink black typography, forest green accent, thin warm gray separators, generous spacing, elegant editorial design. Three clear columns: narrow left navigation, main reading list, right reading preview. Top left wordmark FIELD NOTES. Left navigation text Library, Highlights, Collections, Archive. Main heading Your reading room with small button Add article. Three carefully designed article cards with abstract paper-texture thumbnails, headlines The art of paying attention; Building a quieter workspace; A notebook for every idea. Small category pills Design, Work, Writing. Right preview panel shows a large botanical photograph-style thumbnail then heading The art of paying attention, followed by three short readable lines exactly: Notice the small things. Make room for reflection. Keep what matters. Bottom right button Open article. At bottom left a compact user avatar with label Alex. Consistent baseline grid, crisp legible text, aligned cards and icons, thoughtful visual hierarchy, no meaningless placeholder paragraph text, no charts, fake metrics, watermarks or extraneous copy. Make it feel like an exceptionally well-crafted editorial software interface.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/field-notes-ui.txt --model flare -o generated/field-notes-ui.png --dry-run
 image25 --prompt-file assets/showcase/field-notes-ui.txt --model flare -o generated/field-notes-ui.png
 ~~~
 
 [下载提示词](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/field-notes-ui.txt) · [来源与生成记录](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/field-notes-ui.json)
 
 </details>
+
+[继续看其他案例](../visual-gallery.md)

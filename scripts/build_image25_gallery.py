@@ -30,7 +30,7 @@ def summary(e,prefix=''):
  f"[图片、提示词与来源详情]({prefix}cases/{e['id']}.md) · [原始出处]({e['source_url']})",'']
 dest=R/'docs/image25';(dest/'cases').mkdir(parents=True,exist_ok=True)
 for e in entries:
- page=['# '+e['title'],'','[全部分类](../README.md)','',
+ page=['# '+e['title'],'','[来源索引](../README.md) · [31 类创作图谱](../../../skills/image25/references/gallery.md) · [如何使用提示词](../../prompts.md)','',
  f"作者：{e['author']} · 分类：{e['category']}",'',f"模型依据：{e['model_claim']} · {labels[e['verification']]}",'',
  e.get('note','作者声明使用 Image 2.5；此记录不代表本项目独立测试。'),'']
  for i,p in enumerate(e['images'],1):page+=[f"![{e['title']} · {i}]({p['url']})",'']
@@ -41,7 +41,8 @@ for e in entries:
  f"[查看原页及已公开的提示词资料]({e['prompt_url']})",'',
  '原页未公开完整提示词或参数时，不补造“原始 Prompt”。参考图编辑需要作者公开的输入图，或使用你自己的参考图。','']
  if e.get('prompt_excerpt'):page+=['已公开的简短指令：','','~~~text',e['prompt_excerpt'],'~~~','']
- page+=['## 来源记录','',f"[原始出处]({e['source_url']})",'',e['rights'],'']
+ page+=['## 来源记录','',f"[原始出处]({e['source_url']})",'',e['rights'],'',
+        '[继续浏览来源作品](../README.md) · [反馈图片或来源错误](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=correction.md)','']
  (dest/'cases'/f"{e['id']}.md").write_text('\n'.join(page),encoding='utf-8')
  title=html.escape(e['title'])
  body='<a href="../../gallery.html">返回搜索图库</a><h1>'+title+'</h1><p>'+html.escape(e['author']+' · '+labels[e['verification']]+' · '+e['model_claim'])+'</p>'
@@ -55,7 +56,8 @@ for e in entries:
  shell='<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+'</title><style>body{max-width:1100px;margin:40px auto;padding:0 24px;background:#f4f2ec;color:#243127;font:17px/1.8 system-ui}img{display:block;max-width:100%;max-height:85vh;margin:24px auto}a{color:#35644a}</style>'+body+'</html>'
  (dest/'cases'/f"{e['id']}.html").write_text(shell,encoding='utf-8')
 index=['# Image 2.5 来源图库','',f'{len(entries)} 个带图来源条目。官方、平台及社区作者声明分别标注；作者声明不等于本项目独立实测。','',
- '[项目首页](../../README.md) · [搜索图库](../gallery.html)','',
+ '[项目首页](../../README.md) · [31 类创作图谱](../../skills/image25/references/gallery.md) · [怎样使用提示词](../prompts.md)','',
+ '本页按较宽的来源分组浏览。需要水彩、纹身、分镜等细分创作方向，请使用 31 类创作图谱。','',
  '| 分类 | 条目 |','| --- | ---: |']
 for n,(cat,group) in enumerate(groups.items(),1):
  name=f'category-{n:02d}.md'

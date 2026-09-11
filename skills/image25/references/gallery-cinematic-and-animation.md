@@ -1,14 +1,22 @@
 # 🎬 电影与动画
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 5 · 本项目型号未知实图 0 · 旧版学习参考 5
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 镜头组接、角色连续性、场景时间和灯光
 
 检查：检查轴线、视线、道具及场景光线是否连续
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 5 · 本项目型号未知实图 0 · 旧版学习参考 5
 Create a six-panel storyboard in a 3 by 2 landscape grid for an original short film: a night-shift baker discovers a small bird in the shop. Show exterior, doorway, medium interaction, hand close-up, reverse angle and final wide shot. Keep the same apron, counter and warm window light in every panel. Use readable pencil-and-marker drawings, equal gutters and small panel numbers 1 through 6. Preserve screen direction and leave captions empty.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### Q版求婚场景
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/085-imported-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/085-imported-q.png" width="100%" alt="Q版求婚场景"/></a><br/><strong>Q版求婚场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-085-imported-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/085-imported-q.png" width="100%" alt="Q版求婚场景"/></a><br/><strong>Q版求婚场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create a six-panel storyboard in a 3 by 2 landscape grid for an original short f
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/087-imported-3d-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/087-imported-3d-q.png" width="100%" alt="3D Q版风格场景"/></a><br/><strong>3D Q版风格场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-087-imported-3d-q.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/087-imported-3d-q.png" width="100%" alt="3D Q版风格场景"/></a><br/><strong>3D Q版风格场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create a six-panel storyboard in a 3 by 2 landscape grid for an original short f
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/088-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/088-imported-3d.png" width="100%" alt="皮克斯3D风格原创角色"/></a><br/><strong>皮克斯3D风格原创角色</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-088-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/088-imported-3d.png" width="100%" alt="皮克斯3D风格原创角色"/></a><br/><strong>皮克斯3D风格原创角色</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Create a six-panel storyboard in a 3 by 2 landscape grid for an original short f
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/106-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/106-imported-.png" width="100%" alt="幼儿快餐喜剧剧照"/></a><br/><strong>幼儿快餐喜剧剧照</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-106-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/106-imported-.png" width="100%" alt="幼儿快餐喜剧剧照"/></a><br/><strong>幼儿快餐喜剧剧照</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Create a six-panel storyboard in a 3 by 2 landscape grid for an original short f
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/139-adrevival-storyboard.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/139-adrevival-storyboard.png" width="100%" alt="AdRevival Private Management Storyboard"/></a><br/><strong>AdRevival Private Management Storyboard</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-139-adrevival-storyboard.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/139-adrevival-storyboard.png" width="100%" alt="AdRevival Private Management Storyboard"/></a><br/><strong>AdRevival Private Management Storyboard</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -114,6 +124,8 @@ Create a six-panel storyboard in a 3 by 2 landscape grid for an original short f
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -248,4 +260,6 @@ Create a chaotic security-camera still from a 1990s grocery store. A man in full
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

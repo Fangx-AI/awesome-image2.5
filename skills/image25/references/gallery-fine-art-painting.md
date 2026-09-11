@@ -1,14 +1,22 @@
 # 🎨 绘画与艺术语言
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 2 · 本项目型号未知实图 0 · 旧版学习参考 5
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 构图、笔触、颜料层、色彩关系和底材
 
 检查：区分厚涂、薄涂与数码滤镜；避免只堆风格词
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 2 · 本项目型号未知实图 0 · 旧版学习参考 5
 Paint a riverside evening scene with visible broken-color brushwork and thin overlapping oil layers. Use a low horizon, a broad reflective river and a small warm-lit boat as the focal point. Let violet shadows and muted gold highlights interact without hard outlines. Vary edge sharpness and leave subtle canvas texture visible. Keep the result clearly a painting, not a photograph with a texture filter.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 印象派街景
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/521YOTFHRC1SBj5llj4HkY/15d00909f0f73cf0af06b7de524d1d33/impressionist-cityscape.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="印象派街景"/></a><br/><strong>印象派街景</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-impressionist-cityscape.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/521YOTFHRC1SBj5llj4HkY/15d00909f0f73cf0af06b7de524d1d33/impressionist-cityscape.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="印象派街景"/></a><br/><strong>印象派街景</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Paint a riverside evening scene with visible broken-color brushwork and thin ove
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/11-impressionist-cityscape.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/11-impressionist-cityscape-a.jpg" width="100%" alt="Impressionist Cityscape"/></a><br/><strong>Impressionist Cityscape</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-11-impressionist-cityscape.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/11-impressionist-cityscape-a.jpg" width="100%" alt="Impressionist Cityscape"/></a><br/><strong>Impressionist Cityscape</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -57,6 +67,8 @@ Paint a riverside evening scene with visible broken-color brushwork and thin ove
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -168,4 +180,6 @@ A grand-scale public mural in the lineage of early 20th-century social realism a
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

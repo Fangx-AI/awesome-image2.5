@@ -1,14 +1,22 @@
 # 📊 信息图与知识卡
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 4 · 本项目型号未知实图 1 · 旧版学习参考 8
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 知识分区、阅读路径、注释和图例
 
 检查：核对事实与数值；图像不能代替专业内容审阅
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 4 · 本项目型号未知实图 1 · 旧版学习参考 8
 Design a vertical field-guide card about a fictional alpine flower named "Silver Bell". Use four clear regions: title, large labeled specimen, habitat sketch and three care notes. Draw thin leader lines to leaf, stem and blossom without crossings. Keep the palette restrained and use large readable labels. Clearly mark the card "FICTIONAL SPECIMEN". Leave data fields blank for supplied facts rather than inventing biological claims.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 儿童涂色页插画
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/025-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/025-imported-.png" width="100%" alt="儿童涂色页插画"/></a><br/><strong>儿童涂色页插画</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-025-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/025-imported-.png" width="100%" alt="儿童涂色页插画"/></a><br/><strong>儿童涂色页插画</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Design a vertical field-guide card about a fictional alpine flower named "Silver
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/031-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/031-imported-.png" width="100%" alt="特色城市天气预报"/></a><br/><strong>特色城市天气预报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-031-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/031-imported-.png" width="100%" alt="特色城市天气预报"/></a><br/><strong>特色城市天气预报</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Design a vertical field-guide card about a fictional alpine flower named "Silver
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/065-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/065-imported-.png" width="100%" alt="手绘信息图卡片（深度工作）"/></a><br/><strong>手绘信息图卡片（深度工作）</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-065-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/065-imported-.png" width="100%" alt="手绘信息图卡片（深度工作）"/></a><br/><strong>手绘信息图卡片（深度工作）</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Design a vertical field-guide card about a fictional alpine flower named "Silver
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/069-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/069-imported-.png" width="100%" alt="手绘信息图卡片（熬夜护肝）"/></a><br/><strong>手绘信息图卡片（熬夜护肝）</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-069-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/069-imported-.png" width="100%" alt="手绘信息图卡片（熬夜护肝）"/></a><br/><strong>手绘信息图卡片（熬夜护肝）</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -120,6 +130,8 @@ Create an exquisite botanical field-guide plate about the rosemary plant, landsc
 实际观察：主图、三个细节框及标签齐全；植物结构尚未经专业核验，不能直接用作鉴定依据。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -325,4 +337,6 @@ Create a visually rich infographic in Chinese about an endangered animal. Start 
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

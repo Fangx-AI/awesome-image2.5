@@ -1,14 +1,22 @@
 # 🎥 电影镜头语言
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 3 · 本项目型号未知实图 0 · 旧版学习参考 6
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 景别、机位、镜头秩序、环境尺度和调色
 
 检查：电影感由空间与灯光建立；不把调色当作全部
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 3 · 本项目型号未知实图 0 · 旧版学习参考 6
 Create a contemplative widescreen film-frame concept of a lone traveler approaching a desert observatory at dawn. Place the traveler small in the lower third and the observatory as a simple monumental shape on the horizon. Use long soft shadows, dusty blue air and one muted warm window. Let empty space carry the mood. Keep detail sparse and avoid excessive lens flare or random futuristic ornaments.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 科幻超现实
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/Oe7BObgTAVCWhUe8Xsxy6/ef835be62240562b3ae4be70d404d61d/sci-fi-surrealism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="科幻超现实"/></a><br/><strong>科幻超现实</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-sci-fi-surrealism.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/Oe7BObgTAVCWhUe8Xsxy6/ef835be62240562b3ae4be70d404d61d/sci-fi-surrealism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="科幻超现实"/></a><br/><strong>科幻超现实</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create a contemplative widescreen film-frame concept of a lone traveler approach
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/072-imported-35mm.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/072-imported-35mm.png" width="100%" alt="35mm 胶片风格飞岛"/></a><br/><strong>35mm 胶片风格飞岛</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-072-imported-35mm.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/072-imported-35mm.png" width="100%" alt="35mm 胶片风格飞岛"/></a><br/><strong>35mm 胶片风格飞岛</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create a contemplative widescreen film-frame concept of a lone traveler approach
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/18-desert-observatory-keyframe.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/18-desert-observatory-keyframe.png" width="100%" alt="Desert Observatory Keyframe"/></a><br/><strong>Desert Observatory Keyframe</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-18-desert-observatory-keyframe.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/18-desert-observatory-keyframe.png" width="100%" alt="Desert Observatory Keyframe"/></a><br/><strong>Desert Observatory Keyframe</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -76,6 +86,8 @@ Create a contemplative widescreen film-frame concept of a lone traveler approach
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -208,4 +220,6 @@ A dramatic cinematic wide frame inspired by German Expressionist noir and early 
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

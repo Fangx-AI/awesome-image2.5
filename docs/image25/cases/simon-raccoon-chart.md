@@ -1,6 +1,6 @@
 # 图表中加入浣熊科学家
 
-[全部分类](../README.md)
+[来源索引](../README.md) · [31 类创作图谱](../../../skills/image25/references/gallery.md) · [如何使用提示词](../../prompts.md)
 
 作者：Simon Willison · 分类：参考图编辑
 
@@ -31,3 +31,5 @@ add a raccoon scientist studying the chart thoughtfully
 [原始出处](https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/)
 
 Original author; brief excerpt and external image reference
+
+[继续浏览来源作品](../README.md) · [反馈图片或来源错误](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=correction.md)

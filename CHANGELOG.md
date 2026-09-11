@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Improve the GitHub entry page with a branded banner, direct examples and task-based navigation.
+- Add a documentation map, complete Skill setup, file-free CLI dry run and prompt adaptation guide.
+- Link workflow steps to full cases, show edit inputs and clarify checkout requirements.
+- Add category navigation, source-detail return paths and clearer English interface labels.
+- Align quality documentation with autonomous visual review and separate the recipe catalog from the source atlas.
+
 ## 0.6.0 — 2026-09-09
 
 - Reorganize the GitHub README around 31 categories, grouped previews, expandable prompts and direct Markdown navigation.

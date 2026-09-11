@@ -1,14 +1,22 @@
 # ✨ 参考图编辑与多图合成
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 7 · 本项目型号未知实图 2 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 输入编号、修改范围、不可变项与蒙版
 
 检查：对照输入检查身份、文字、布局及边界变化
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 7 · 本项目型号未知实图 2 · 旧版学习参考 2
 Edit image 1 by changing only the scarf to a mustard-yellow knitted scarf. Preserve the subject's face, pose, fur or hair, clothing, background, framing and light direction. Match the scarf's shadows and folds to the existing scene. Do not add accessories, crop the image or alter text. Treat any supplied mask as the intended edit region, then inspect the entire result for unintended changes.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 人物服装编辑
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/31fyboLGIlu5roN22tlEHK/9be57d84b3b7bbf22e7aa7f74b5af102/baby-portrait-after.webp" width="100%" alt="人物服装编辑"/></a><br/><strong>人物服装编辑</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-baby-portrait-after.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/31fyboLGIlu5roN22tlEHK/9be57d84b3b7bbf22e7aa7f74b5af102/baby-portrait-after.webp" width="100%" alt="人物服装编辑"/></a><br/><strong>人物服装编辑</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Edit image 1 by changing only the scarf to a mustard-yellow knitted scarf. Prese
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-label-edit.webp" width="100%" alt="产品标签编辑"/></a><br/><strong>产品标签编辑</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-label-edit.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-label-edit.webp" width="100%" alt="产品标签编辑"/></a><br/><strong>产品标签编辑</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Edit image 1 by changing only the scarf to a mustard-yellow knitted scarf. Prese
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://reely.art/models/gpt-image-2-5-sunburst"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-lab-composite.webp" width="100%" alt="多参考图合成"/></a><br/><strong>多参考图合成</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/reely-sunburst-lab-composite.md"><img src="https://cdn.reely.art/models/gpt-image-2-5/sunburst-lab-composite.webp" width="100%" alt="多参考图合成"/></a><br/><strong>多参考图合成</strong><br/><sub>Image 2.5 · 平台声明 · ReelyArt</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Edit image 1 by changing only the scarf to a mustard-yellow knitted scarf. Prese
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/"><img src="https://static.simonwillison.net/static/2026/racoon-chart.webp" width="100%" alt="图表中加入浣熊科学家"/></a><br/><strong>图表中加入浣熊科学家</strong><br/><sub>Image 2.5 · 作者附命令 · Simon Willison</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/simon-raccoon-chart.md"><img src="https://static.simonwillison.net/static/2026/racoon-chart.webp" width="100%" alt="图表中加入浣熊科学家"/></a><br/><strong>图表中加入浣熊科学家</strong><br/><sub>Image 2.5 · 作者附命令 · Simon Willison</sub></td>
 </tr>
 </table>
 
@@ -106,7 +116,7 @@ add a raccoon scientist studying the chart thoughtfully
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://x.com/nanyuan0412/status/2097486896750338125"><img src="https://pbs.twimg.com/media/HRu3ie-bwAATJ-v.jpg?name=orig" width="100%" alt="摄影参考保持与角色重设计"/></a><br/><strong>摄影参考保持与角色重设计</strong><br/><sub>Image 2.5 · X 作者声明 · @nanyuan0412</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/x-2097486896750338125.md"><img src="https://pbs.twimg.com/media/HRu3ie-bwAATJ-v.jpg?name=orig" width="100%" alt="摄影参考保持与角色重设计"/></a><br/><strong>摄影参考保持与角色重设计</strong><br/><sub>Image 2.5 · X 作者声明 · @nanyuan0412</sub></td>
 </tr>
 </table>
 
@@ -125,7 +135,7 @@ add a raccoon scientist studying the chart thoughtfully
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/094-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/094-imported-.png" width="100%" alt="半透明玻璃质感变换"/></a><br/><strong>半透明玻璃质感变换</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-094-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/094-imported-.png" width="100%" alt="半透明玻璃质感变换"/></a><br/><strong>半透明玻璃质感变换</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -144,7 +154,7 @@ add a raccoon scientist studying the chart thoughtfully
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/095-imported-json.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/095-imported-json.png" width="100%" alt="玻璃材质重塑（JSON）"/></a><br/><strong>玻璃材质重塑（JSON）</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-095-imported-json.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/095-imported-json.png" width="100%" alt="玻璃材质重塑（JSON）"/></a><br/><strong>玻璃材质重塑（JSON）</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -207,6 +217,8 @@ Edit this exact cat photograph. Add only a small mustard-yellow knitted scarf wr
 
 </details>
 
+<a id="legacy"></a>
+
 ## GPT Image 2 学习图谱
 
 **以下是旧版模型作品；保留原作者与 MIT 许可，不计入 Image 2.5 来源数量。**
@@ -254,4 +266,6 @@ Transform the provided tea poster into a realistic metro-station lightbox mockup
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

@@ -1,6 +1,6 @@
 # 现代主义海报组
 
-[全部分类](../README.md)
+[来源索引](../README.md) · [31 类创作图谱](../../../skills/image25/references/gallery.md) · [如何使用提示词](../../prompts.md)
 
 作者：OpenAI · 分类：海报与文字
 
@@ -21,3 +21,5 @@
 [原始出处](https://openai.com/index/introducing-chatgpt-images-2-5/)
 
 Original publisher; external image reference
+
+[继续浏览来源作品](../README.md) · [反馈图片或来源错误](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=correction.md)

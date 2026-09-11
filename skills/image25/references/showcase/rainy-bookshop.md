@@ -1,4 +1,6 @@
-### 雨夜书店 · 叙事插画
+# 雨夜书店 · 叙事插画
+
+[全部实图案例](../visual-gallery.md) · [31 类图谱](../gallery.md) · [安装与使用](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/getting-started.md)
 
 ![雨夜书店 · 叙事插画](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/rainy-bookshop.png)
 
@@ -16,12 +18,17 @@
 Create an original richly detailed cinematic editorial illustration in landscape 3:2. A tiny independent bookshop on a quiet rainy street at blue hour. The shop occupies the right two-thirds; a single original adult character in a mustard raincoat stands on the left under an umbrella, leaning slightly toward a warm window display. Inside the window: neatly layered books, one small lamp, a cat curled on a stool, a few leafy plants. No readable signage or text anywhere. Painted 2D illustration with fine controlled linework, subtle paper grain and expressive but restrained brush edges, clearly not a photograph or generic 3D render. Strong contrast between warm amber interior and deep teal rainy exterior. Wet pavement reflects only the light sources actually present. Rain is fine and understated. Clear foreground puddle, midground person and shop, background quiet silhouettes. Carefully observed perspective, convincing umbrella grip, visible character silhouette, intimate human scale. Mood: a place to slow down and feel at home. Sophisticated art direction, excellent composition, narrative detail without visual clutter. No existing characters, logos or watermarks.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/rainy-bookshop.txt --model flare -o generated/rainy-bookshop.png --dry-run
 image25 --prompt-file assets/showcase/rainy-bookshop.txt --model flare -o generated/rainy-bookshop.png
 ~~~
 
 [下载提示词](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/rainy-bookshop.txt) · [来源与生成记录](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/rainy-bookshop.json)
 
 </details>
+
+[继续看其他案例](../visual-gallery.md)

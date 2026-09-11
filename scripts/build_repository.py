@@ -9,6 +9,7 @@ R = Path(__file__).resolve().parents[1]
 REPO = 'https://github.com/Fangx-AI/awesome-image2.5'
 RAW = 'https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/'
 taxonomy = json.loads((R/'catalog/taxonomy.json').read_text(encoding='utf-8'))
+english_notes = json.loads((R/'catalog/category-notes.en.json').read_text(encoding='utf-8'))
 current = json.loads((R/'catalog/image25-index.json').read_text(encoding='utf-8'))['entries']
 legacy = json.loads((R/'catalog/reference-atlas.json').read_text(encoding='utf-8'))
 own = json.loads((R/'catalog/showcase.json').read_text(encoding='utf-8'))
@@ -52,7 +53,7 @@ labels = {'official-sample':'官方示例','provider-reported':'平台声明','a
 def source_case(e):
     return dict(id=e['id'],title=e['title'],image=e['images'][0]['url'],
       tag='Image 2.5 · '+labels[e['verification']],author=e['author'],source=e['source_url'],
-      prompt=e.get('prompt_excerpt'),prompt_url=e['prompt_url'],kind='source')
+      prompt=e.get('prompt_excerpt'),prompt_url=e['prompt_url'],detail_url=REPO+'/blob/main/docs/image25/cases/'+e['id']+'.md',kind='source')
 
 def own_case(e):
     return dict(id=e['id'],title=e['title'],image=RAW+'assets/showcase/'+e['id']+'.png',
@@ -68,7 +69,7 @@ def preview(cases):
     for start in range(0,len(cases),2):
         lines.append('<tr>')
         for e in cases[start:start+2]:
-            lines.append('<td width="50%" align="center" valign="top"><a href="'+html.escape(e['source'],quote=True)+'"><img src="'+html.escape(e['image'],quote=True)+'" width="100%" alt="'+html.escape(e['title'],quote=True)+'"/></a><br/><strong>'+html.escape(e['title'])+'</strong><br/><sub>'+html.escape(e['tag']+' · '+e['author'])+'</sub></td>')
+            lines.append('<td width="50%" align="center" valign="top"><a href="'+html.escape(e.get('detail_url',e['source']),quote=True)+'"><img src="'+html.escape(e['image'],quote=True)+'" width="100%" alt="'+html.escape(e['title'],quote=True)+'"/></a><br/><strong>'+html.escape(e['title'])+'</strong><br/><sub>'+html.escape(e['tag']+' · '+e['author'])+'</sub></td>')
         lines.append('</tr>')
     lines.extend(['</table>',''])
     return lines
@@ -100,22 +101,27 @@ for c in taxonomy:
     selected=recent[:2]
     if not selected: selected=originals[:2] or [legacy_case(e) for e in old[:2]]
     c.update(file=filename,current_count=len(recent),own_count=len(originals),legacy_count=len(old),selected=selected)
-    page=['# '+c['title'],'','[分类索引](gallery.md) · [Prompt Craft](craft.md)','',
+    page=['# '+c['title'],'','[分类索引](gallery.md) · [写法与检查](craft.md)','',
           f"Image 2.5 来源 {len(recent)} · 本项目型号未知实图 {len(originals)} · 旧版学习参考 {len(old)}",'',
+          '[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)','',
+          '找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。','',
+          '<a id="writing"></a>','',
           '## 本类怎样写','',c['schema'],'','检查：'+c['check'],'',
+          '<a id="practice"></a>','',
           '## 可改写的起始 Prompt','',
           '**本项目新编写的练习 Prompt，尚未出图；不是下方来源作品的原始提示词。**','',
           '~~~text',c['prompt'],'~~~','',
-          '## Image 2.5 来源作品','']
+          '<a id="sources"></a>','','## Image 2.5 来源作品','']
     if not recent: page+=['当前尚无归入本类的 Image 2.5 来源实图；下方保留明确标注的其他学习资料。','']
     for e in recent: page+=['### '+e['title'],'']+preview([e])+details(e)
     if originals:
         page+=['## 本项目实图：精确型号未知','']
         for e in originals: page+=['### '+e['title'],'']+preview([e])+details(e)
-    page+=['## GPT Image 2 学习图谱','',
+    page+=['<a id="legacy"></a>','','## GPT Image 2 学习图谱','',
            '**以下是旧版模型作品；保留原作者与 MIT 许可，不计入 Image 2.5 来源数量。**','',
            '[上游许可与第三方声明]('+REPO+'/blob/main/THIRD_PARTY_NOTICES.md)','']
     for e in old: page+=['### '+e['title'],'']+preview([legacy_case(e)])+details(legacy_case(e))
+    page+=['[↑ 本类写法](#writing) · [选择其他分类](gallery.md)','']
     (refs/filename).write_text('\n'.join(page)+'\n',encoding='utf-8')
     catalog.append({k:v for k,v in c.items() if k not in ['prompt','selected']})
 router=['# Image 2.5 分类图谱','',
@@ -151,8 +157,8 @@ def readme(english=False):
       '[安装、配置和更新](docs/getting-started.md) · [Skill 运行说明](skills/image25/SKILL.md)','', '</details>','',
       '<details><summary>CLI · Python 3.10+</summary>','',
       '~~~sh','uv tool install git+https://github.com/Fangx-AI/awesome-image2.5',
-      'image25 --prompt-file prompt.txt --model flare --dry-run',
-      'image25 --prompt-file prompt.txt --model flare -o generated/result.png','~~~','',
+      'image25 -p "A small ceramic fox on a pale green background" --model flare --dry-run','~~~','',
+      ('The dry run needs no API key or input files. See the setup guide for a live request.' if english else '这条预检命令无需密钥或准备文件；实际生成见安装指南。'),'',
       '`OPENAI_API_KEY` is read from the process environment. Live calls require API access.','', '</details>','',
       '## '+('Quick usage and prompting fundamentals' if english else '⚡ 快速使用与提示词基础'),'',
       '~~~text','用 image25 参考“品牌系统与视觉识别”分类，为山间书店设计一套统一的视觉识别。',
@@ -177,7 +183,7 @@ def readme(english=False):
         lines += [f'<a id="gallery-{c["slug"]}"></a>','',f'<h2 align="center">{name}</h2>','',
           f'[↑ Index](#gallery-index) · [完整分类 / Full atlas](skills/image25/references/{c["file"]})','',
           f"**Image 2.5: {c['current_count']} · host-model-unknown: {c['own_count']} · GPT Image 2: {c['legacy_count']}**",'',
-          c['schema']+'。'+c['check']+'。','']
+          (english_notes[c['slug']] if english else c['schema']+'。'+c['check']+'。'),'']
         if not c['current_count']: lines+=['> 本类暂缺 Image 2.5 来源作品；以下样张的真实型号状态已逐图标注。','']
         lines+=preview(c['selected'])
         for e in c['selected']: lines+=details(e)
@@ -206,7 +212,7 @@ def readme(english=False):
        '![Awesome Image 2.5 — See it. Prompt it. Make it.](assets/hero-v2.png)','',
        ('<p align="center"><a href="#start-here">Start here</a> · <a href="#gallery-index">All categories</a> · <a href="#installation">Install & use</a> · <a href="docs/workflows.md">Editing workflows</a> · <a href="CONTRIBUTING.md">Contribute</a></p>' if english else '<p align="center"><a href="#start-here">精选案例</a> · <a href="#gallery-index">全部分类</a> · <a href="#installation">安装与使用</a> · <a href="docs/workflows.md">参考图编辑</a> · <a href="CONTRIBUTING.md">参与贡献</a></p>'),'',
        ('**31 creative categories · image examples with sources · 2 Agent Skills · generation & editing CLI**' if english else '**31 类创作场景 · 带来源的效果图与提示词资料 · 2 个 Agent Skill · 生图与编辑 CLI**'),'',
-       '| '+('🖼️ Find a visual direction | 📝 Get a usable prompt | 🛠️ Create with an agent' if english else '🖼️ 我想找效果 | 📝 我想找提示词 | 🛠️ 我想让 Agent 帮我做')+' |','| --- | --- |',
+       '| '+('🖼️ Find a visual direction | 📝 Get a usable prompt | 🛠️ Create with an agent' if english else '🖼️ 我想找效果 | 📝 我想找提示词 | 🛠️ 我想让 Agent 帮我做')+' |','| --- | --- | --- |',
        ('| [Browse all categories](#gallery-index) | [Open the prompt atlas](skills/image25/references/gallery.md) | [Install a Skill](#installation) |' if english else '| [按分类看作品](#gallery-index)<br/>海报、动漫、摄影、UI、品牌… | [打开完整提示词图谱](skills/image25/references/gallery.md)<br/>看写法、替换内容、检查细节 | [安装生成或反推 Skill](#installation)<br/>直接描述目标，或提供参考图 |'),'',
        '<a id="start-here"></a>','', '## '+('Start with a complete example' if english else '先从一个完整案例开始'),'',
        ('Open an image to read the full prompt, adaptation notes and observed limitations. These original demonstrations have no exact model ID from the host.' if english else '点击图片进入完整案例：提示词、怎么改成自己的内容、生成后检查什么，都放在一起。以下为本项目实图，宿主未提供精确型号。'), '']
@@ -221,6 +227,7 @@ def readme(english=False):
         front+=['</tr>']
     front+=['</table>','',
        ('[Explore Image 2.5 source examples →](docs/image25/README.md)' if english else '[继续看 Image 2.5 官方与社区来源作品 →](docs/image25/README.md)'), '']
+    front += [('**New here?** [How to use the prompts](docs/prompts.md) · [Documentation map](docs/README.md) · [FAQ](docs/troubleshooting.md). Supporting guides and original case titles are currently primarily in Chinese; prompt blocks can be reused directly.' if english else '**第一次来？** [怎样复制和改写提示词](docs/prompts.md) · [文档导航](docs/README.md) · [常见问题](docs/troubleshooting.md)。只浏览和复制提示词无需安装。'),'']
     # Language labels and evidence remain clear without English inventories on the Chinese page.
     if not english:
         atlas=atlas.replace('完整 MD / Full atlas','全部案例与提示词').replace('[↑ Index]','[↑ 返回分类]').replace('完整分类 / Full atlas','查看完整分类')
@@ -231,7 +238,38 @@ def readme(english=False):
         f'{len(current)} 个 Image 2.5 带图来源条目 · {len(own)} 个本项目型号未知实图 · {len(legacy["entries"])} 个旧版学习案例 · {len(taxonomy)} 份新编练习 Prompt。','',
         '来源声明不等于独立实测；新编练习提示词不冒充样图原始 Prompt。当前社区来源较集中于 LaplaceYoung。','',
         '[来源与证据](docs/research.md) · [第三方许可](THIRD_PARTY_NOTICES.md) · [封面生成记录](assets/hero-v2.json)','', '</details>','']
-    return '\n'.join(front)+atlas+installation+'\n'.join(facts)+credits
+    result='\n'.join(front)+atlas+installation+'\n'.join(facts)+credits
+    if english:
+        # Translate the interface; preserve quoted source titles and original prompt text.
+        translations={
+          '完整 MD / Full atlas':'All cases & prompts','完整分类 / Full atlas':'Full category',
+          '本类起始 Prompt / Original practice brief':'Adaptable practice prompt',
+          '本项目编写，尚未出图；不是上方示例图的原始 Prompt。':'Written for this project; not yet rendered and not the original prompt for the images above.',
+          '本类暂缺 Image 2.5 来源作品；以下样张的真实型号状态已逐图标注。':'No Image 2.5 source image is assigned here yet. Each example below retains its actual model status.',
+          '原始出处':'Original source','原作者提示词与生成条件':'Author prompt & generation conditions',
+          '原页署名作者':'authors credited on the source page',
+          '原页公开的短指令；完整条件以作者原页为准。':'A short instruction disclosed by the source; consult the original page for full conditions.',
+          '未在本仓库转载完整 Prompt；原页未公开的参数不补造。':'The full prompt is not reproduced here. Undisclosed settings remain unknown.',
+          '本项目生成 · 精确型号未知':'Project output · exact model unknown',
+          'GPT Image 2 · 旧版学习参考':'GPT Image 2 · legacy reference',
+          '社区作者声明':'Community author claim','官方示例':'Official sample','平台声明':'Provider claim','作者附命令':'Author with command','X 作者声明':'X author claim',
+          '实际观察：':'Observed limitation (original Chinese notes): ',
+          '[安装、配置和更新]':'[Setup and updates (Chinese)]','[Skill 运行说明]':'[Skill instructions]',
+          '[完整 CLI 参数]':'[CLI parameter table (Chinese)]','[编辑工作流]':'[Editing workflows (Chinese)]',
+          '[完整 Prompt 与实际观察]':'[Full prompt and observed limitations]',
+          '| Input / 参考图 | Output / 编辑结果 |':'| Input reference | Edited result |',
+          '用 image25 参考“品牌系统与视觉识别”分类，为山间书店设计一套统一的视觉识别。':'Use image25 and the brand identity category to design a coherent identity for a mountain bookstore.',
+          '用 image25-reverse-prompt 分析这张参考图，提取构图、材质、光线与媒介边界。':'Use image25-reverse-prompt to extract composition, materials, lighting and medium from this reference.',
+          '编辑第 1 张图：只替换围巾颜色，保留身份、姿势、光线和背景。':'Edit image 1: change only the scarf color; preserve identity, pose, lighting and background.',
+          '来源声明不等于独立实测；新编练习提示词不冒充样图原始 Prompt。当前社区来源较集中于 LaplaceYoung。':'Source claims are not independent tests. Practice briefs are not the original prompts of source images. Community records are currently concentrated in LaplaceYoung.',
+          '[来源与证据]':'[Source evidence]','[第三方许可]':'[Third-party licenses]','[封面生成记录]':'[Banner provenance]',
+          '[贡献指南]':'[Contributing]','[行为准则]':'[Code of conduct]','[支持说明]':'[Support]','[安全政策]':'[Security]',
+          '[逐板块对照记录]':'[Reference study]','[项目结构]':'[Architecture]','[自动更新机制]':'[Automatic updates]',
+          '提供了分类展示、按需读取的 Skill 图谱和旧版案例参考。上游 MIT 版权声明及外部作者署名保留。':'inspired the category presentation and on-demand Skill atlas and supplied the legacy reference cases. Upstream MIT notices and author attribution are preserved.',
+        }
+        for a,b in translations.items(): result=result.replace(a,b)
+        result=result.replace(f'{len(current)} 个 Image 2.5 带图来源条目 · {len(own)} 个本项目型号未知实图 · {len(legacy["entries"])} 个旧版学习案例 · {len(taxonomy)} 份新编练习 Prompt。',f'{len(current)} Image 2.5 source records · {len(own)} unknown-model project outputs · {len(legacy["entries"])} legacy cases · {len(taxonomy)} practice prompts.')
+    return result
 
 (R/'README.md').write_text(readme(),encoding='utf-8')
 (R/'README.en.md').write_text(readme(True),encoding='utf-8')

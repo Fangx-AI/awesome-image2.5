@@ -1,14 +1,22 @@
 # 🎟️ 活动、地图与导览
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 4 · 本项目型号未知实图 0 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 入口、区域、动线、地标与图例
 
 检查：动线必须连通；虚构地图不可冒充实际导航
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 4 · 本项目型号未知实图 0 · 旧版学习参考 2
 Design a landscape visitor map for a fictional riverside book festival called "RIVER READS". Mark one entrance, three tent zones, a reading lawn, restrooms and an information desk. Connect them with a clear continuous walking route and include a concise legend. Use friendly flat illustration and large readable labels. Keep the map schematic and explicitly label it "FICTIONAL EVENT MAP".
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 婚礼邀请函
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/4j4NxMqYjew5nrW2nqo7Yq/dd05b405739b3fb9f0f3cb56a196889b/wedding-invitation.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="婚礼邀请函"/></a><br/><strong>婚礼邀请函</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-wedding-invitation.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/4j4NxMqYjew5nrW2nqo7Yq/dd05b405739b3fb9f0f3cb56a196889b/wedding-invitation.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="婚礼邀请函"/></a><br/><strong>婚礼邀请函</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Design a landscape visitor map for a fictional riverside book festival called "R
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/07-vintage-national-park-stamps.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/07-vintage-national-park-stamps.jpg" width="100%" alt="National Park Stamps"/></a><br/><strong>National Park Stamps</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-07-vintage-national-park-stamps.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/07-vintage-national-park-stamps.jpg" width="100%" alt="National Park Stamps"/></a><br/><strong>National Park Stamps</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Design a landscape visitor map for a fictional riverside book festival called "R
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/08-wedding-invitation.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/08-wedding-invitation.jpg" width="100%" alt="Wedding Invitation Flat-lay"/></a><br/><strong>Wedding Invitation Flat-lay</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-08-wedding-invitation.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/08-wedding-invitation.jpg" width="100%" alt="Wedding Invitation Flat-lay"/></a><br/><strong>Wedding Invitation Flat-lay</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Design a landscape visitor map for a fictional riverside book festival called "R
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/096-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/096-imported-.png" width="100%" alt="古代藏宝图"/></a><br/><strong>古代藏宝图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-096-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/096-imported-.png" width="100%" alt="古代藏宝图"/></a><br/><strong>古代藏宝图</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -95,6 +105,8 @@ Design a landscape visitor map for a fictional riverside book festival called "R
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -143,4 +155,6 @@ Design a polished Chinese 5A scenic-area visitor navigation map for Huashan, tit
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

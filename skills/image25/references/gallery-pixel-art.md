@@ -1,14 +1,22 @@
 # 🕹️ 像素艺术
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 2 · 本项目型号未知实图 0 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 逻辑分辨率、调色板、像素簇和帧格
 
 检查：检查像素尺度统一；避免平滑渐变和插值
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 2 · 本项目型号未知实图 0 · 旧版学习参考 2
 Create a pixel-art sprite sheet of an original delivery bicycle in eight directional views. Arrange the views in a 4 by 2 grid with equal 64 by 64 logical-pixel cells and consistent wheel size. Use a restricted sixteen-color palette, crisp nearest-neighbor edges and deliberate pixel clusters. Center every sprite on its cell baseline. Keep the background a flat light gray and avoid antialiasing, blur and continuous gradients.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 8位像素图标
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/049-imported-8.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/049-imported-8.png" width="100%" alt="8位像素图标"/></a><br/><strong>8位像素图标</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-049-imported-8.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/049-imported-8.png" width="100%" alt="8位像素图标"/></a><br/><strong>8位像素图标</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create a pixel-art sprite sheet of an original delivery bicycle in eight directi
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/058-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/058-imported-3d.png" width="100%" alt="体素风格 3D 图标"/></a><br/><strong>体素风格 3D 图标</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-058-imported-3d.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/058-imported-3d.png" width="100%" alt="体素风格 3D 图标"/></a><br/><strong>体素风格 3D 图标</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -57,6 +67,8 @@ Create a pixel-art sprite sheet of an original delivery bicycle in eight directi
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -105,4 +117,6 @@ Create a nostalgic pixel-art breakfast still life. Show a tall stack of fluffy g
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

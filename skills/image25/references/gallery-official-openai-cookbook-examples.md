@@ -1,14 +1,22 @@
 # 🏢 官方示例与提示方法
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 12 · 本项目型号未知实图 0 · 旧版学习参考 4
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 官方样例、原始出处与可复用约束
 
 检查：区分官方展示、指南与可执行参数
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 12 · 本项目型号未知实图 0 · 旧版学习参考 4
 Create a clean logo exploration sheet for an original plant-care service named "STEM ROOM". Present three distinct concepts in one horizontal row, each combining a simple leaf symbol with the same exact wordmark. Use dark green on an ivory background and maintain equal visual scale. Keep shapes readable at small sizes and avoid gradients. This is an original practice prompt, not a quoted official prompt.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 复古未来城市
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="复古未来城市"/></a><br/><strong>复古未来城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-retrofuturism.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5vY4gdGrJFxuwV8l6GBU03/94befc05806eb290e786473975b3b22b/retrofuturism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="复古未来城市"/></a><br/><strong>复古未来城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="现代主义海报组"/></a><br/><strong>现代主义海报组</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-mid-century-modern-posters.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/47GTXbcPJQKPxvuNfyQo5V/1faeee99e4c10ea3042941c7312837b0/mid-century-modern-posters.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="现代主义海报组"/></a><br/><strong>现代主义海报组</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/521YOTFHRC1SBj5llj4HkY/15d00909f0f73cf0af06b7de524d1d33/impressionist-cityscape.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="印象派街景"/></a><br/><strong>印象派街景</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-impressionist-cityscape.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/521YOTFHRC1SBj5llj4HkY/15d00909f0f73cf0af06b7de524d1d33/impressionist-cityscape.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="印象派街景"/></a><br/><strong>印象派街景</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/4j4NxMqYjew5nrW2nqo7Yq/dd05b405739b3fb9f0f3cb56a196889b/wedding-invitation.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="婚礼邀请函"/></a><br/><strong>婚礼邀请函</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-wedding-invitation.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/4j4NxMqYjew5nrW2nqo7Yq/dd05b405739b3fb9f0f3cb56a196889b/wedding-invitation.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="婚礼邀请函"/></a><br/><strong>婚礼邀请函</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/Oe7BObgTAVCWhUe8Xsxy6/ef835be62240562b3ae4be70d404d61d/sci-fi-surrealism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="科幻超现实"/></a><br/><strong>科幻超现实</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-sci-fi-surrealism.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/Oe7BObgTAVCWhUe8Xsxy6/ef835be62240562b3ae4be70d404d61d/sci-fi-surrealism.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="科幻超现实"/></a><br/><strong>科幻超现实</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -119,7 +129,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/4M5M3sRxcgnYl8Q2M8DZ3y/bc3773f82ae0e68d025e2dca3d5b8f43/vintage-national-park-stamps.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="国家公园邮票"/></a><br/><strong>国家公园邮票</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-vintage-national-park-stamps.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/4M5M3sRxcgnYl8Q2M8DZ3y/bc3773f82ae0e68d025e2dca3d5b8f43/vintage-national-park-stamps.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="国家公园邮票"/></a><br/><strong>国家公园邮票</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -138,7 +148,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/4IPoFYxHjVAfoZ4ZmKO1VX/25a75228d3dcaf8ae9369467a06a5281/presentation-image.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="演示文稿视觉"/></a><br/><strong>演示文稿视觉</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-presentation-image.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/4IPoFYxHjVAfoZ4ZmKO1VX/25a75228d3dcaf8ae9369467a06a5281/presentation-image.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="演示文稿视觉"/></a><br/><strong>演示文稿视觉</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -157,7 +167,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/3GALloAIN7Jn0P7wbvHPEB/0d02422440dfb3a001ff125cf37f7de4/mosaic.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="马赛克风格"/></a><br/><strong>马赛克风格</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-mosaic.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/3GALloAIN7Jn0P7wbvHPEB/0d02422440dfb3a001ff125cf37f7de4/mosaic.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="马赛克风格"/></a><br/><strong>马赛克风格</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -176,7 +186,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5jpsVIXTvhsaamMRBBygyj/59a740665177515836747b400f52e3fc/stickers.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="贴纸设计"/></a><br/><strong>贴纸设计</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-stickers.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5jpsVIXTvhsaamMRBBygyj/59a740665177515836747b400f52e3fc/stickers.webp?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="贴纸设计"/></a><br/><strong>贴纸设计</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -195,7 +205,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/5siUce5uMdk0FxOA5opjoB/fcfb4452b13c144108f7786a9412f982/cyberpunk.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="赛博朋克城市"/></a><br/><strong>赛博朋克城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-cyberpunk.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/5siUce5uMdk0FxOA5opjoB/fcfb4452b13c144108f7786a9412f982/cyberpunk.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="赛博朋克城市"/></a><br/><strong>赛博朋克城市</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -214,7 +224,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="八十年代肖像"/></a><br/><strong>八十年代肖像</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-80s-headshot.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/1oUEzmNEwhlktfQMqWLwTO/cde41dc57991caa0d6b22b35b2d8c70c/80s-headshot.png?w=3840&amp;q=90&amp;fm=webp" width="100%" alt="八十年代肖像"/></a><br/><strong>八十年代肖像</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -233,7 +243,7 @@ Create a clean logo exploration sheet for an original plant-care service named "
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://openai.com/index/introducing-chatgpt-images-2-5/"><img src="https://images.ctfassets.net/kftzwdyauwt9/31fyboLGIlu5roN22tlEHK/9be57d84b3b7bbf22e7aa7f74b5af102/baby-portrait-after.webp" width="100%" alt="人物服装编辑"/></a><br/><strong>人物服装编辑</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/official-baby-portrait-after.md"><img src="https://images.ctfassets.net/kftzwdyauwt9/31fyboLGIlu5roN22tlEHK/9be57d84b3b7bbf22e7aa7f74b5af102/baby-portrait-after.webp" width="100%" alt="人物服装编辑"/></a><br/><strong>人物服装编辑</strong><br/><sub>Image 2.5 · 官方示例 · OpenAI</sub></td>
 </tr>
 </table>
 
@@ -247,6 +257,8 @@ Create a clean logo exploration sheet for an original plant-care service named "
 未在本仓库转载完整 Prompt；原页未公开的参数不补造。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -350,4 +362,6 @@ Panel 4: The door opens. The pet is seated perfectly by the entrance, alert and 
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

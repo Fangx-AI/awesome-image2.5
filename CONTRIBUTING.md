@@ -2,6 +2,22 @@
 
 欢迎完善 Image 2.5 提示词、真实出图案例、Skills 与 CLI。
 
+[文档导航](docs/README.md) · [提交新资源](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=resource.yml) · [更正已有案例](https://github.com/Fangx-AI/awesome-image2.5/issues/new?template=correction.md)
+
+不熟悉代码时，提交案例链接和修改建议即可。修改文档前先确认维护源：
+
+| 想修改什么 | 编辑哪里 |
+| --- | --- |
+| 中英 README、31 类页面的公共结构 | `scripts/build_repository.py` |
+| 分类写法、检查点、练习提示词 | `catalog/taxonomy.json` |
+| 英文首页的分类说明 | `catalog/category-notes.en.json` |
+| 本项目案例的观察记录 | `catalog/showcase-notes.json` |
+| 本项目案例的公共展示结构 | `scripts/build_showcase.py` |
+| 外部来源详情页的公共结构 | `scripts/build_image25_gallery.py` |
+| 安装、工作流、FAQ | 对应的 `docs/*.md` |
+
+修改生成器或维护源后统一运行 `python scripts/build_all.py`，再检查生成的差异。只修改生成后的 README 会被下次构建覆盖。
+
 ## 提交提示词或案例
 
 优先选择明确场景，说明它解决的具体问题。新增实验提示词维护在 `catalog/recipes.json`，然后运行 `python scripts/build_all.py`；不要直接编辑生成的画廊或 Skill 提示词文件。

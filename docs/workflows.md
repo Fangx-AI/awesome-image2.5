@@ -13,7 +13,7 @@
 3. 扩展画幅：以已确认广告作编辑目标，扩展环境。不要直接拉伸原图。
 4. 对照实物逐字检查标签、容量、形状和颜色。生成图只是视觉素材，不能替代商品信息核验。
 
-**起点：** `product-skincare`、`local-edits-remove-object`、`compositing-product-scene`。
+**起点：** [护肤品实图与提示词](../skills/image25/references/showcase/ceramic-skincare.md) · [产品与食品分类](../skills/image25/references/gallery-product-and-food.md)。
 **常见失败：** 瓶盖变形、标签错字、同一商品在不同图中结构不一致。
 **修正方式：** 回到干净实物图，缩小编辑范围，保留不变量；不要让错误图作为后续唯一参考。
 
@@ -26,7 +26,7 @@
 3. 再以确认后的海报作参考，放入灯箱、杂志或墙面相框。
 4. 对照平面稿检查内容是否保持，区分玻璃反光和实际文字变化。
 
-**起点：** `chinese-poster`、`posters-exhibition`、`localization-poster-title`。
+**起点：** [平面海报](../skills/image25/references/showcase/tea-campaign.md) → [灯箱编辑结果与输入](../skills/image25/references/showcase/tea-lightbox.md)。
 **成品标准：** 文案准确、主视觉清楚、画幅适用；用于印刷前另做出血、色彩和分辨率检查。
 
 ## 3. 角色设定 → 多张叙事画面
@@ -38,7 +38,7 @@
 3. 每个场景分别描述动作和环境，同时重述必须保留的特征。
 4. 将结果并排检查；服装口袋、配饰数量、脸型漂移需要单独修正。
 
-**起点：** `character-sheet`、`characters-mascot-cloud`。
+**起点：** [快递员三视图](../skills/image25/references/showcase/courier-character.md) · [完整角色分类](../skills/image25/references/gallery-character-design.md)。
 **不承诺：** 单次生成自动实现完全一致的人物；需要对照与迭代。
 
 ## 4. 宠物照片 → 轻量配饰编辑
@@ -50,8 +50,7 @@
 3. 配饰附近边缘有问题时收紧修改区域；若身份漂移，从原图重新编辑。
 4. 保存原图、编辑提示词与最终图，便于其他人理解改动范围。
 
-**起点：** `pet-costume`、`identity-edits-pet-accessory`。
-**示例：** [编辑前后展示](showcase.md)。
+**起点：** [猫咪参考图](../skills/image25/references/showcase/pet-portrait.md) → [围巾编辑与完整提示词](../skills/image25/references/showcase/pet-scarf.md)。
 
 ## 5. UI 概念 → 设计交接
 
@@ -62,7 +61,7 @@
 3. 检查标签与布局，用图解释视觉方向和内容层级。
 4. 在 Figma 或代码中重新实现可交互界面，验证响应式、键盘操作、对比度和真实数据。
 
-**起点：** `app-mockup`、`ui-dashboard`、`ui-onboarding`。
+**起点：** [Field Notes 界面实图](../skills/image25/references/showcase/field-notes-ui.md) · [UI / UX 分类](../skills/image25/references/gallery-ui-ux-mockups.md)。
 **交付边界：** 图片不会自动成为可点击产品，不是经过可用性测试的设计系统。
 
 ## 6. 教学与信息图 → 可核验内容
@@ -74,7 +73,7 @@
 3. 对照原始资料检查每个标签、关系和数字。
 4. 需要精确图表时用代码或矢量工具重绘，用实际数据生成。
 
-**起点：** `diagrams-workflow`、`education-water-cycle`。
+**起点：** [植物图鉴实图](../skills/image25/references/showcase/botanical-fieldguide.md) · [信息图分类](../skills/image25/references/gallery-infographics-and-field-guides.md)。
 **检查优先级：** 正确性先于视觉复杂度。
 
 ## 7. 大批量探索 → 少量精选交付
@@ -85,4 +84,6 @@
 4. 顺序执行，任何任务失败就停止。保留已成功输出，不自动重复计费请求。
 5. 逐张检查，从结果中选出满足要求的图，记录选取原因。
 
-[批量清单样例](../examples/batch.json)。
+[批量清单样例](../examples/batch.json) · [可运行命令与路径说明](getting-started.md#离线检索与批量任务)。`catalog` 返回的基础案例属于尚未出图的提示词实验区。
+
+[返回文档导航](README.md) · [生成后的质量检查](quality.md)

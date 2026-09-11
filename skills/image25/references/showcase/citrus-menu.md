@@ -1,4 +1,6 @@
-### 餐饮菜单 · 信息层级
+# 餐饮菜单 · 信息层级
+
+[全部实图案例](../visual-gallery.md) · [31 类图谱](../gallery.md) · [安装与使用](https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/getting-started.md)
 
 ![餐饮菜单 · 信息层级](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/citrus-menu.png)
 
@@ -16,12 +18,17 @@
 Design a refined single-page summer cafe menu as a flat full-bleed graphic design, portrait 2:3, not a photographed paper mockup. Warm ivory paper texture, deep forest-green typography, small orange accent rules. At top exact title 'CITRUS CLUB', below 'SUMMER MENU'. Right bottom quadrant contains one beautifully painted watercolor illustration of a sparkling orange drink with ice and a slice of orange, with plenty of clear space around the text. Three left-aligned menu entries with right-aligned prices in a clear generous grid: 'ORANGE ESPRESSO' price '6.50', next line smaller 'Espresso / orange / ice'; 'YUZU SODA' price '5.50', next line smaller 'Yuzu / soda / mint'; 'COLD BREW' price '5.00', next line smaller 'Slow steeped / smooth / cold'. Footer exact 'TAKE A LITTLE SUNSHINE'. Sophisticated serif headline, readable sans-serif menu labels, careful spacing, editorial restraint. Reproduce only the specified English text, no extra items, no logos, no watermark.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/citrus-menu.txt --model flare -o generated/citrus-menu.png --dry-run
 image25 --prompt-file assets/showcase/citrus-menu.txt --model flare -o generated/citrus-menu.png
 ~~~
 
 [下载提示词](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/citrus-menu.txt) · [来源与生成记录](https://raw.githubusercontent.com/Fangx-AI/awesome-image2.5/main/assets/showcase/citrus-menu.json)
 
 </details>
+
+[继续看其他案例](../visual-gallery.md)

@@ -1,14 +1,22 @@
 # 🎨 叙事与商业插画
 
-[分类索引](gallery.md) · [Prompt Craft](craft.md)
+[分类索引](gallery.md) · [写法与检查](craft.md)
 
 Image 2.5 来源 6 · 本项目型号未知实图 1 · 旧版学习参考 2
+
+[怎样写](#writing) · [练习提示词](#practice) · [2.5 作品](#sources) · [旧版参考](#legacy)
+
+找具体作品可使用页面搜索（Ctrl+F / ⌘F）；展开作品下方的 Prompt 查看文本或作者入口。
+
+<a id="writing"></a>
 
 ## 本类怎样写
 
 故事动作、主体关系、轮廓和媒介边界
 
 检查：检查叙事是否成立；区分插画笔触和摄影质感
+
+<a id="practice"></a>
 
 ## 可改写的起始 Prompt
 
@@ -18,13 +26,15 @@ Image 2.5 来源 6 · 本项目型号未知实图 1 · 旧版学习参考 2
 Create a landscape editorial illustration of a librarian delivering a book to a tiny rooftop garden. Put the librarian on the right and a waiting child on the left, connected by the passing book. Use layered cut-paper shapes, visible fiber edges, a limited moss-green and coral palette, and soft overlapping shadows. Let rooftop geometry establish depth. Keep the scene legible at thumbnail size and reserve clear space in the upper left for a headline.
 ~~~
 
+<a id="sources"></a>
+
 ## Image 2.5 来源作品
 
 ### 节日主题系列
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://x.com/BlackthorneAI/status/2097447432757887207"><img src="https://pbs.twimg.com/media/HRuhTWLbsAAne5Y.jpg?name=orig" width="100%" alt="节日主题系列"/></a><br/><strong>节日主题系列</strong><br/><sub>Image 2.5 · X 作者声明 · @BlackthorneAI</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/x-2097447432757887207.md"><img src="https://pbs.twimg.com/media/HRuhTWLbsAAne5Y.jpg?name=orig" width="100%" alt="节日主题系列"/></a><br/><strong>节日主题系列</strong><br/><sub>Image 2.5 · X 作者声明 · @BlackthorneAI</sub></td>
 </tr>
 </table>
 
@@ -43,7 +53,7 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/028-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/028-imported-.png" width="100%" alt="超现实交互场景"/></a><br/><strong>超现实交互场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-028-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/028-imported-.png" width="100%" alt="超现实交互场景"/></a><br/><strong>超现实交互场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -62,7 +72,7 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/034-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/034-imported-.png" width="100%" alt="水晶球故事场景"/></a><br/><strong>水晶球故事场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-034-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/034-imported-.png" width="100%" alt="水晶球故事场景"/></a><br/><strong>水晶球故事场景</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -81,7 +91,7 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/048-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/048-imported-.png" width="100%" alt="云彩艺术"/></a><br/><strong>云彩艺术</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-048-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/048-imported-.png" width="100%" alt="云彩艺术"/></a><br/><strong>云彩艺术</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/064-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/064-imported-.png" width="100%" alt="奇幻卡通插画"/></a><br/><strong>奇幻卡通插画</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-064-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/064-imported-.png" width="100%" alt="奇幻卡通插画"/></a><br/><strong>奇幻卡通插画</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -119,7 +129,7 @@ Create a landscape editorial illustration of a librarian delivering a book to a 
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/LaplaceYoung/awesome-gpt-image-2.5/blob/9bb515b6b978a7521ae884821a847ab58c11c939/docs/cases/110-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/110-imported-.png" width="100%" alt="烹饪速写插画叙事"/></a><br/><strong>烹饪速写插画叙事</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Fangx-AI/awesome-image2.5/blob/main/docs/image25/cases/laplace-110-imported-.md"><img src="https://raw.githubusercontent.com/LaplaceYoung/awesome-gpt-image-2.5/9bb515b6b978a7521ae884821a847ab58c11c939/assets/generated/110-imported-.png" width="100%" alt="烹饪速写插画叙事"/></a><br/><strong>烹饪速写插画叙事</strong><br/><sub>Image 2.5 · 社区作者声明 · LaplaceYoung</sub></td>
 </tr>
 </table>
 
@@ -158,6 +168,8 @@ Create an original richly detailed cinematic editorial illustration in landscape
 实际观察：本次输出偏写实，未达到二维绘画要求，作为偏差案例展示。
 
 </details>
+
+<a id="legacy"></a>
 
 ## GPT Image 2 学习图谱
 
@@ -206,4 +218,6 @@ Create a landscape editorial illustration in layered paper-cut style: a tiny for
 ~~~
 
 </details>
+
+[↑ 本类写法](#writing) · [选择其他分类](gallery.md)
 

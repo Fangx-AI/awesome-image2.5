@@ -22,9 +22,12 @@
 Create a premium skincare campaign photograph in landscape 3:2. One tall frosted sea-glass serum bottle with a pale sage ceramic cap, a smaller translucent glass dropper beside it, standing on a sculptural ivory travertine plinth. Bottle label contains exactly two lines: 'SEREIN' and 'DAILY SERUM'. Macro-realistic condensation, believable translucent liquid, soft caustic light on the stone. Art direction: warm ivory background, sage and pale gold, long late-afternoon side light, restrained luxury editorial photography. Product occupies right 60 percent, left 40 percent is calm unbroken negative space for future layout, with no added text there. Camera at bottle mid-height, controlled perspective, physically plausible reflections. No extra logos, hands, flowers, watermark, invented ingredients, medical claims or tiny illegible text.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/ceramic-skincare.txt --model flare -o generated/ceramic-skincare.png --dry-run
 image25 --prompt-file assets/showcase/ceramic-skincare.txt --model flare -o generated/ceramic-skincare.png
 ~~~
 
@@ -50,9 +53,12 @@ image25 --prompt-file assets/showcase/ceramic-skincare.txt --model flare -o gene
 Create a sophisticated brand packaging presentation for a fictional coffee roaster named 'ALTITUDE'. Landscape 3:2, three upright matte paper coffee bags aligned on one warm ivory studio surface, equal shape and scale, realistic folded tops and bottom gussets. Each bag carries the same crisp ALTITUDE wordmark at the same position and a different bold minimal abstract mountain illustration. Left bag deep midnight blue with copper illustration and the readable label '01 DAWN'; middle warm burnt orange with cream illustration and '02 SUMMIT'; right muted forest green with pale sage illustration and '03 DUSK'. Consistent graphic system, disciplined hierarchy, tactile uncoated paper, delicate natural shadows, premium contemporary graphic design, photographed almost straight-on. Nothing overlaps text. No cups, beans, decorative objects, extra labels, claims or watermark. Make this a convincing coordinated packaging design, not three unrelated styles.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/coffee-packaging.txt --model flare -o generated/coffee-packaging.png --dry-run
 image25 --prompt-file assets/showcase/coffee-packaging.txt --model flare -o generated/coffee-packaging.png
 ~~~
 
@@ -78,9 +84,12 @@ image25 --prompt-file assets/showcase/coffee-packaging.txt --model flare -o gene
 Design a refined single-page summer cafe menu as a flat full-bleed graphic design, portrait 2:3, not a photographed paper mockup. Warm ivory paper texture, deep forest-green typography, small orange accent rules. At top exact title 'CITRUS CLUB', below 'SUMMER MENU'. Right bottom quadrant contains one beautifully painted watercolor illustration of a sparkling orange drink with ice and a slice of orange, with plenty of clear space around the text. Three left-aligned menu entries with right-aligned prices in a clear generous grid: 'ORANGE ESPRESSO' price '6.50', next line smaller 'Espresso / orange / ice'; 'YUZU SODA' price '5.50', next line smaller 'Yuzu / soda / mint'; 'COLD BREW' price '5.00', next line smaller 'Slow steeped / smooth / cold'. Footer exact 'TAKE A LITTLE SUNSHINE'. Sophisticated serif headline, readable sans-serif menu labels, careful spacing, editorial restraint. Reproduce only the specified English text, no extra items, no logos, no watermark.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/citrus-menu.txt --model flare -o generated/citrus-menu.png --dry-run
 image25 --prompt-file assets/showcase/citrus-menu.txt --model flare -o generated/citrus-menu.png
 ~~~
 
@@ -106,9 +115,12 @@ image25 --prompt-file assets/showcase/citrus-menu.txt --model flare -o generated
 Create a striking luxury outdoor watch advertising photograph in landscape 3:2. A single unbranded brushed-titanium analog wristwatch with dark green woven strap floats diagonally above a wet black slate rock. The face has simple baton indices, three hands and no lettering, no subdials or date. A controlled arc of crystalline water droplets sweeps behind the watch without obscuring the face. Macro product photography with extremely sharp metal bevels, believable woven fabric, dark emerald background, narrow cool rim light and warm soft key light, tasteful motion and rich contrast. Watch occupies left two-thirds; right third remains dark quiet space for later copy. Strap connects correctly to both sides of the case, watch hands share one central axis, physically plausible watch construction. No typography, brand logo, extra watches, impossible duplicate straps, watermark or decorative symbols.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/outdoor-watch.txt --model flare -o generated/outdoor-watch.png --dry-run
 image25 --prompt-file assets/showcase/outdoor-watch.txt --model flare -o generated/outdoor-watch.png
 ~~~
 
@@ -134,9 +146,12 @@ image25 --prompt-file assets/showcase/outdoor-watch.txt --model flare -o generat
 Create a finished premium vertical Chinese beverage campaign poster, aspect ratio 2:3. Original fictional tea brand 山间. A single elegant amber glass cold-brew tea bottle stands slightly right of center on a pale warm limestone block, with a small clear tea glass to the left and one fresh tea sprig resting low in the foreground. Bottle has a cream paper label with exactly two readable Chinese characters 山间 and a small blue-green square emblem. Upper left: beautifully typeset large Chinese headline exactly 慢下来，喝口茶 split into two balanced lines if needed. Under it, small subheading exactly 山间冷泡茶. No other text. Restrained palette of warm ivory, dark pine green and translucent amber. Late afternoon window light from upper left creates a geometric soft-edged shadow on the wall, authentic condensation, precise glass thickness, believable liquid refraction. Product label remains crisp and front-facing enough to read. Editorial typography with carefully controlled spacing, generous negative space, refined printed advertising aesthetic, exceptionally polished commercial art direction. Do not add certifications, statistics, tiny filler text, watermarks or unrelated objects.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/tea-campaign.txt --model flare -o generated/tea-campaign.png --dry-run
 image25 --prompt-file assets/showcase/tea-campaign.txt --model flare -o generated/tea-campaign.png
 ~~~
 
@@ -162,9 +177,16 @@ image25 --prompt-file assets/showcase/tea-campaign.txt --model flare -o generate
 Use this exact Chinese tea campaign poster as the artwork inside a realistic vertical illuminated advertising lightbox in a refined contemporary transit-station interior. Preserve the complete original poster artwork including the exact headline 慢下来，喝口茶, the subheading 山间冷泡茶, the bottle label 山间, bottle, glass, tea leaves, relative layout and colors. Do not redesign, crop or rewrite the poster. Show the entire lightbox with a thin brushed-metal frame, photographed almost straight-on with slight environmental perspective. Neutral pale stone wall, clean tiled floor, warm soft overhead lighting and subtle glass reflections that do not obscure text. The poster is the dominant focus and fully readable. No people, transit logos, station names or other text. Landscape 3:2 composition with modest surrounding context.
 ~~~
 
+**输入参考（按命令顺序）：**
+
+![参考图 1](../assets/showcase/tea-campaign.png)
+
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/tea-lightbox.txt -i assets/showcase/tea-campaign.png --model sunburst -o generated/tea-lightbox.png --dry-run
 image25 --prompt-file assets/showcase/tea-lightbox.txt -i assets/showcase/tea-campaign.png --model sunburst -o generated/tea-lightbox.png
 ~~~
 
@@ -190,9 +212,12 @@ image25 --prompt-file assets/showcase/tea-lightbox.txt -i assets/showcase/tea-ca
 Create a photorealistic editorial portrait of one fictional adult domestic cat, landscape 3:2. The cat has a distinctive asymmetrical face: mostly cream fur, a charcoal gray patch around its left eye (viewer right), both ears charcoal, pale green eyes, pink nose, cream chest and gray-striped tail curved on the cushion beside it. Sitting upright on a simple oatmeal linen cushion on a light oak window bench, front-facing head slightly angled toward the camera. Soft overcast daylight from the left, warm off-white wall behind, a gently out-of-focus green plant far in the background. Full cat ears, front paws and tail remain visible in frame. Natural fur detail, no over-sharpening, believable paws and whiskers, calm curious expression. No collar, clothing, accessories, text or watermark. This is an original fictional cat created as a reference for a subsequent controlled scarf edit; make its markings and scene clear and stable.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/pet-portrait.txt --model flare -o generated/pet-portrait.png --dry-run
 image25 --prompt-file assets/showcase/pet-portrait.txt --model flare -o generated/pet-portrait.png
 ~~~
 
@@ -218,9 +243,16 @@ image25 --prompt-file assets/showcase/pet-portrait.txt --model flare -o generate
 Edit this exact cat photograph. Add only a small mustard-yellow knitted scarf wrapped naturally around the cat's neck, with a short loose end resting on the chest. Preserve the cat's exact facial identity, asymmetrical gray face patch, eye color, ears, whiskers, body shape, front paw position and curved tail. Preserve the window, cushion, plant, background, camera angle, crop and lighting. The scarf should be physically plausible with a soft contact shadow and visible knit texture. Do not change or beautify anything else. No text, collar or other accessories.
 ~~~
 
+**输入参考（按命令顺序）：**
+
+![参考图 1](../assets/showcase/pet-portrait.png)
+
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/pet-scarf.txt -i assets/showcase/pet-portrait.png --model sunburst -o generated/pet-scarf.png --dry-run
 image25 --prompt-file assets/showcase/pet-scarf.txt -i assets/showcase/pet-portrait.png --model sunburst -o generated/pet-scarf.png
 ~~~
 
@@ -246,9 +278,12 @@ image25 --prompt-file assets/showcase/pet-scarf.txt -i assets/showcase/pet-portr
 Create an exquisite botanical field-guide plate about the rosemary plant, landscape 3:2. Ivory archival paper, natural-history watercolor combined with precise fine ink linework, elegant readable editorial typography, orderly museum-book composition. Exact title 'ROSEMARY', subtitle 'Salvia rosmarinus'. Main left illustration: one large anatomically believable rosemary branch with narrow opposite needle-like green leaves, woody stem, and small pale blue flowers. Right column: three separately framed detail studies with exact labels 'LEAF', 'FLOWER', 'STEM'; a clearly enlarged leaf pair, a small blue flower closeup, and a woody stem detail respectively. Thin understated leader lines with no crossing, a balanced generous grid, small muted sage and blue color swatches along bottom without labels. No invented measurements, medicinal claims, additional paragraphs, garbled microtext or decorative stamps. The illustration should be detailed enough to inspire an educational design while keeping each panel immediately legible.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/botanical-fieldguide.txt --model flare -o generated/botanical-fieldguide.png --dry-run
 image25 --prompt-file assets/showcase/botanical-fieldguide.txt --model flare -o generated/botanical-fieldguide.png
 ~~~
 
@@ -274,9 +309,12 @@ image25 --prompt-file assets/showcase/botanical-fieldguide.txt --model flare -o 
 Architectural visualization of a small public rooftop library at blue hour, landscape 3:2. A warm glowing timber-and-glass reading pavilion sits within a dense urban rooftop garden, with a gently curved translucent roof, fine timber ribs, floor-to-ceiling glass, visible bookshelves and several quiet reading nooks. A continuous accessible walkway connects the pavilion entrance to a sheltered terrace, shallow reflecting water along one edge, restrained native grasses and one small tree. Camera from an elevated three-quarter viewpoint, wide enough to understand the whole building and circulation. Background distant city softly recedes into a lavender sky. Warm interior lighting and cool exterior twilight, tactile stone and timber, physically credible structural members and glass reflections, refined architectural photography realism. Two small adult visitors for scale, no crowds, no words, no logos, no impossible floating columns. Clear distinction between circulation space and planting, plausible human scale, avoid generic futuristic megastructures.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/rooftop-library.txt --model flare -o generated/rooftop-library.png --dry-run
 image25 --prompt-file assets/showcase/rooftop-library.txt --model flare -o generated/rooftop-library.png
 ~~~
 
@@ -302,9 +340,12 @@ image25 --prompt-file assets/showcase/rooftop-library.txt --model flare -o gener
 Create a beautifully crafted isometric cutaway illustration of a tiny contemporary Chinese tea house, landscape 3:2 with the complete building centered and ample ivory negative space. Two visible interior sides, one open cutaway wall, consistent orthographic isometric geometry with no vanishing-point distortion. Warm oak service counter at front-left, one slim sage-green tea brewing station, precisely arranged ceramic cups, a wall of small tea tins at the rear, three intimate tables with chairs in the customer zone, one potted bamboo plant and a narrow staircase to a small reading mezzanine. A single adult tea maker behind the counter and two adult guests seated at separate tables. Soft handcrafted clay-and-paper model aesthetic, gentle warm studio lighting, miniature texture, restrained forest-green terracotta and cream palette. Windows and stairs physically coherent, chairs at table height, clear walking path from entrance to counter. No typography, labels, floating furniture, extra floors or cropped base.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/isometric-teahouse.txt --model flare -o generated/isometric-teahouse.png --dry-run
 image25 --prompt-file assets/showcase/isometric-teahouse.txt --model flare -o generated/isometric-teahouse.png
 ~~~
 
@@ -330,9 +371,12 @@ image25 --prompt-file assets/showcase/isometric-teahouse.txt --model flare -o ge
 A polished animation character model sheet, landscape 3:2, on a clean warm off-white background. Exactly three equal-scale full-body views of the same adult female bicycle courier: front view, strict side profile facing right, and back view, aligned along a single baseline and generously separated. She has a short curly dark-brown bob, a mustard yellow cropped rain jacket with dark navy elbow patches, navy cuffed trousers, white high-top sneakers with orange soles, and a small square teal delivery backpack with one centered orange reflective strip. All three views must preserve the identical jacket construction, sleeve length, trouser cuffs, shoe design, backpack proportions and colors. Relaxed neutral standing pose, hands visible at sides, no bicycle or props. Stylish hand-painted 2D animation development art, expressive but restrained proportions, clear readable silhouettes, subtle soft shading, no photorealism, no labels, no arrows, no extra views, no cropped feet.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/courier-character.txt --model flare -o generated/courier-character.png --dry-run
 image25 --prompt-file assets/showcase/courier-character.txt --model flare -o generated/courier-character.png
 ~~~
 
@@ -358,9 +402,12 @@ image25 --prompt-file assets/showcase/courier-character.txt --model flare -o gen
 Create a highly polished desktop app interface design mockup for an original reading and knowledge application named FIELD NOTES, landscape 3:2. This is a fictional UI concept, use only the exact text strings provided. Straight-on full application canvas with no device frame or perspective. Warm off-white background, ink black typography, forest green accent, thin warm gray separators, generous spacing, elegant editorial design. Three clear columns: narrow left navigation, main reading list, right reading preview. Top left wordmark FIELD NOTES. Left navigation text Library, Highlights, Collections, Archive. Main heading Your reading room with small button Add article. Three carefully designed article cards with abstract paper-texture thumbnails, headlines The art of paying attention; Building a quieter workspace; A notebook for every idea. Small category pills Design, Work, Writing. Right preview panel shows a large botanical photograph-style thumbnail then heading The art of paying attention, followed by three short readable lines exactly: Notice the small things. Make room for reflection. Keep what matters. Bottom right button Open article. At bottom left a compact user avatar with label Alex. Consistent baseline grid, crisp legible text, aligned cards and icons, thoughtful visual hierarchy, no meaningless placeholder paragraph text, no charts, fake metrics, watermarks or extraneous copy. Make it feel like an exceptionally well-crafted editorial software interface.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/field-notes-ui.txt --model flare -o generated/field-notes-ui.png --dry-run
 image25 --prompt-file assets/showcase/field-notes-ui.txt --model flare -o generated/field-notes-ui.png
 ~~~
 
@@ -386,9 +433,12 @@ image25 --prompt-file assets/showcase/field-notes-ui.txt --model flare -o genera
 Create an original richly detailed cinematic editorial illustration in landscape 3:2. A tiny independent bookshop on a quiet rainy street at blue hour. The shop occupies the right two-thirds; a single original adult character in a mustard raincoat stands on the left under an umbrella, leaning slightly toward a warm window display. Inside the window: neatly layered books, one small lamp, a cat curled on a stool, a few leafy plants. No readable signage or text anywhere. Painted 2D illustration with fine controlled linework, subtle paper grain and expressive but restrained brush edges, clearly not a photograph or generic 3D render. Strong contrast between warm amber interior and deep teal rainy exterior. Wet pavement reflects only the light sources actually present. Rain is fine and understated. Clear foreground puddle, midground person and shop, background quiet silhouettes. Carefully observed perspective, convincing umbrella grip, visible character silhouette, intimate human scale. Mood: a place to slow down and feel at home. Sophisticated art direction, excellent composition, narrative detail without visual clutter. No existing characters, logos or watermarks.
 ~~~
 
+以下命令在已克隆的仓库根目录运行，需要单独安装 CLI 并配置 API Key。只安装 Skill 时，可直接复制上方提示词到宿主生图工具；参考图需另外提供。
+
 以下是官方 API 复现用法，实际结果可能不同；本页展示由宿主内置工具生成。
 
 ~~~sh
+image25 --prompt-file assets/showcase/rainy-bookshop.txt --model flare -o generated/rainy-bookshop.png --dry-run
 image25 --prompt-file assets/showcase/rainy-bookshop.txt --model flare -o generated/rainy-bookshop.png
 ~~~
 
