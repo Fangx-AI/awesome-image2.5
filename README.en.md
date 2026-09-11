@@ -1645,6 +1645,6 @@ Create a vertical tattoo flash concept for a forearm placement, presented on off
 
 [贡献指南](CONTRIBUTING.md) · [行为准则](CODE_OF_CONDUCT.md) · [支持说明](SUPPORT.md) · [安全政策](SECURITY.md) · [第三方许可](THIRD_PARTY_NOTICES.md)
 
-[逐板块对照记录](docs/reference-study.md) · [项目结构](docs/architecture.md)
+[逐板块对照记录](docs/reference-study.md) · [项目结构](docs/architecture.md) · [自动更新机制](docs/automatic-updates.md)
 
 Community project; not affiliated with OpenAI. Original content: CC0. Third-party content retains its original license.

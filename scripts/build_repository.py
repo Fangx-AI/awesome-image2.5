@@ -33,7 +33,9 @@ overrides = {
 }
 for e in current:
     match = re.match(r'laplace-(\d+)-', e['id'])
-    slug = by_number.get(int(match[1])) if match else overrides.get(e['id'])
+    slug = e.get('category_slug') or (by_number.get(int(match[1])) if match else overrides.get(e['id']))
+    if slug and slug not in by_slug:
+        raise ValueError('Invalid category: '+slug)
     if not slug:
         raise ValueError('Unclassified source: '+e['id'])
     groups[slug].append(e)
@@ -135,7 +137,7 @@ def readme(english=False):
       '[原创概念封面 · 生成来源 / Cover provenance](assets/PROVENANCE.md)','',
       '## '+('At a glance' if english else '✨ 一眼看懂'),'',
       '| '+('Surface | Content' if english else '板块 | 内容')+' |','| --- | --- |',
-      '| Gallery | 31 categories · 146 Image 2.5 source records |',
+      f'| Gallery | {len(taxonomy)} categories · {len(current)} Image 2.5 source records |',
       '| Prompts | 31 new practice briefs · 14 original output demonstrations · 162 attributed legacy cases |',
       '| Agent Skills | image25 · image25-reverse-prompt |',
       '| CLI | Generate · Edit · Multi-reference · Mask · Batch · Dry run |','',
@@ -186,7 +188,7 @@ def readme(english=False):
       '[Wuyoscar / GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) 提供了分类展示、按需读取的 Skill 图谱和旧版案例参考。上游 MIT 版权声明及外部作者署名保留。', '',
       '[OpenAI](https://openai.com/index/introducing-chatgpt-images-2-5/) · [LaplaceYoung](https://github.com/LaplaceYoung/awesome-gpt-image-2.5) · [来源与证据](docs/research.md)','',
       '[贡献指南](CONTRIBUTING.md) · [行为准则](CODE_OF_CONDUCT.md) · [支持说明](SUPPORT.md) · [安全政策](SECURITY.md) · [第三方许可](THIRD_PARTY_NOTICES.md)','',
-      '[逐板块对照记录](docs/reference-study.md) · [项目结构](docs/architecture.md)','',
+      '[逐板块对照记录](docs/reference-study.md) · [项目结构](docs/architecture.md) · [自动更新机制](docs/automatic-updates.md)','',
       'Community project; not affiliated with OpenAI. Original content: CC0. Third-party content retains its original license.','']
     return '\n'.join(lines)
 
